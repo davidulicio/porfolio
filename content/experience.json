@@ -1,0 +1,507 @@
+[
+  {
+    "org": "Université du Québec à Montréal (UQAM)",
+    "role": {
+      "en": "Research Support Professional, Senior Technician",
+      "es": "Profesional de Apoyo a la Investigación, Técnico Senior",
+      "fr": "Professionnel de recherche, technicien principal"
+    },
+    "location": "Montreal, QC, Canada",
+    "start": "2024-04",
+    "end": "",
+    "url": "https://carbonique.ca",
+    "logo": "",
+    "summary": {
+      "en": "Lead the technical operations of CARBONIQUE, a GHG flux network studying the carbon balance of natural and disturbed wetlands in southern Quebec, with UQAM, McGill, Université de Montréal, Université Laval and UQTR.",
+      "es": "Lidero las operaciones técnicas de CARBONIQUE, una red de flujos de GEI que estudia el balance de carbono de humedales naturales y perturbados del sur de Quebec, junto a UQAM, McGill, Université de Montréal, Université Laval y UQTR.",
+      "fr": "Je dirige les opérations techniques de CARBONIQUE, un réseau de flux de GES qui étudie le bilan de carbone des milieux humides naturels et perturbés du sud du Québec, avec l'UQAM, McGill, l'Université de Montréal, l'Université Laval et l'UQTR."
+    },
+    "highlights": {
+      "en": "Co-led the installation of the network's first eddy covariance tower (UQAM_1, Lac Saint-Pierre, Quebec, Canada, July 2024) and the deployment of the following towers in bogs, marshes and drained peatlands.\nDevelop and maintain a single version-controlled CRBasic program for the Campbell Scientific CR1000X dataloggers, with per-site configuration, sensor power switching and automatic low-voltage protection.\nDesign and maintain off-grid power: solar arrays, battery banks and an EFOY methanol fuel cell read over Modbus TCP, plus ballasted solar structures for protected sites.\nPreventive and corrective maintenance and root-cause diagnosis on LI-COR gas analyzers, sonic anemometers, radiometers and precipitation gauges.\nStandardize field protocols and maintain per-site QA/QC configurations in the CANFLUX Biomet.net data pipeline.\nSupervise and mentor junior technicians and interns, manage inventory and procurement, and design 3D-printed field parts such as soil collars for GHG chambers.",
+      "es": "Codirigí la instalación de la primera torre de covarianza turbulenta de la red (UQAM_1, lago Saint-Pierre, Quebec, Canadá, julio de 2024) y el despliegue de las torres siguientes en turberas, marismas y turberas drenadas.\nDesarrollo y mantengo un único programa CRBasic con control de versiones para los dataloggers Campbell Scientific CR1000X, con configuración por sitio, encendido de sensores y protección automática por bajo voltaje.\nDiseño y mantengo sistemas de energía autónomos: paneles solares, bancos de baterías y una celda de combustible de metanol EFOY leída por Modbus TCP, además de estructuras solares lastradas para sitios protegidos.\nMantenimiento preventivo y correctivo, y diagnóstico de causa raíz en analizadores de gases LI-COR, anemómetros sónicos, radiómetros y pluviómetros.\nEstandarizo los protocolos de terreno y mantengo la configuración QA/QC de cada sitio en el flujo de datos Biomet.net de CANFLUX.\nSuperviso y formo a técnicos y practicantes, gestiono inventario y compras, y diseño piezas impresas en 3D como collares de suelo para cámaras de GEI.",
+      "fr": "Codirection de l'installation de la première tour de covariance des turbulences du réseau (UQAM_1, lac Saint-Pierre, Québec, Canada, juillet 2024), puis du déploiement des tours suivantes dans des tourbières, des marais et des tourbières drainées.\nDéveloppement et maintien d'un programme CRBasic unique, versionné, pour les enregistreurs Campbell Scientific CR1000X, avec configuration par site, commande de l'alimentation des capteurs et protection automatique contre la basse tension.\nConception et entretien de l'alimentation autonome : panneaux solaires, bancs de batteries et pile à combustible au méthanol EFOY lue par Modbus TCP, ainsi que des structures solaires lestées pour les sites protégés.\nEntretien préventif et correctif, et diagnostic des causes profondes sur les analyseurs de gaz LI-COR, les anémomètres soniques, les radiomètres et les pluviomètres.\nNormalisation des protocoles de terrain et maintien des configurations AQ/CQ de chaque site dans la chaîne de traitement Biomet.net de CANFLUX.\nSupervision et encadrement des techniciens et stagiaires, gestion de l'inventaire et des achats, et conception de pièces imprimées en 3D, comme des colliers de sol pour chambres à GES."
+    },
+    "tags": [
+      "Eddy covariance",
+      "CRBasic",
+      "Off-grid power",
+      "QA/QC",
+      "Team lead"
+    ],
+    "media": [
+      {
+        "file": "media/images/uqam-1-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "UQAM_1, Lac Saint-Pierre disturbed marsh, Quebec, Canada",
+          "es": "UQAM_1, marisma perturbada del lago Saint-Pierre, Quebec, Canadá",
+          "fr": "UQAM_1, marais perturbé du lac Saint-Pierre, Québec, Canada"
+        }
+      },
+      {
+        "file": "media/images/uqam-3-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "UQAM_3, 22 m tower above a forested bog",
+          "es": "UQAM_3, torre de 22 m sobre una turbera boscosa",
+          "fr": "UQAM_3, tour de 22 m au-dessus d'une tourbière boisée"
+        }
+      }
+    ]
+  },
+  {
+    "org": "Carbon Real",
+    "role": {
+      "en": "Carbon Fluxes Scientist",
+      "es": "Científico de Flujos de Carbono",
+      "fr": "Scientifique des flux de carbone"
+    },
+    "location": "Santiago, Chile (remote)",
+    "start": "2024-04",
+    "end": "",
+    "url": "https://carbonreal.com/en/team",
+    "logo": "",
+    "summary": {
+      "en": "Advise on the installation of eddy covariance stations and process their data to quantify ecosystem carbon exchange for a conservation model funded by carbon markets.",
+      "es": "Asesoro la instalación de estaciones de covarianza turbulenta y proceso sus datos para cuantificar el intercambio de carbono de los ecosistemas en un modelo de conservación financiado por mercados de carbono.",
+      "fr": "Je conseille l'installation de stations de covariance des turbulences et traite leurs données pour quantifier les échanges de carbone des écosystèmes dans un modèle de conservation financé par les marchés du carbone."
+    },
+    "highlights": {
+      "en": "Member of the science team behind a conservation carbon credit measured directly with eddy covariance in Patagonian forests, presented as the first of its kind in South America.\nAdvise on site design and installation so that flux data are accurate and reliable.\nProcess and analyze eddy covariance data to derive ecosystem carbon dynamics.\nTroubleshoot technical issues with colleagues and contribute to best practices for deploying flux stations in diverse environments.\nCo-author of work presented at the EGU General Assembly 2025 and published in Carbon Balance and Management (2026).",
+      "es": "Integrante del equipo científico detrás de un crédito de carbono de conservación medido directamente con covarianza turbulenta en bosques de la Patagonia, presentado como el primero de su tipo en Sudamérica.\nAsesoro el diseño de sitios y la instalación para que los datos de flujo sean precisos y confiables.\nProceso y analizo datos de covarianza turbulenta para describir la dinámica de carbono de los ecosistemas.\nResuelvo problemas técnicos con el equipo y contribuyo a buenas prácticas para desplegar estaciones de flujo en ambientes diversos.\nCoautor de trabajos presentados en la Asamblea General de la EGU 2025 y publicados en Carbon Balance and Management (2026).",
+      "fr": "Membre de l'équipe scientifique derrière un crédit carbone de conservation mesuré directement par covariance des turbulences dans des forêts de Patagonie, présenté comme le premier du genre en Amérique du Sud.\nConseils sur la conception des sites et l'installation pour garantir des données de flux exactes et fiables.\nTraitement et analyse des données de covariance des turbulences pour décrire la dynamique du carbone des écosystèmes.\nRésolution de problèmes techniques avec l'équipe et contribution aux bonnes pratiques de déploiement de stations de flux dans des milieux variés.\nCoauteur de travaux présentés à l'Assemblée générale de l'EGU 2025 et publiés dans Carbon Balance and Management (2026)."
+    },
+    "tags": [
+      "Eddy covariance",
+      "Carbon markets",
+      "Data processing"
+    ],
+    "media": []
+  },
+  {
+    "org": "Instituto de Ecología y Biodiversidad (IEB Chile)",
+    "role": {
+      "en": "Technical Specialist, Long Term Socio-Ecological Research Network (LTSER)",
+      "es": "Especialista Técnico, Red de Investigación Socio-Ecológica de Largo Plazo (LTSER)",
+      "fr": "Spécialiste technique, Réseau de recherche socio-écologique à long terme (LTSER)"
+    },
+    "location": "Chile",
+    "start": "2023-01",
+    "end": "2024-03",
+    "url": "https://www.ieb-chile.cl",
+    "logo": "",
+    "summary": {
+      "en": "Managed the meteorological and eddy covariance stations of the LTSER network and processed their data.",
+      "es": "Gestioné las estaciones meteorológicas y de covarianza turbulenta de la red LTSER y procesé sus datos.",
+      "fr": "Gestion des stations météorologiques et de covariance des turbulences du réseau LTSER et traitement de leurs données."
+    },
+    "highlights": {
+      "en": "",
+      "es": "",
+      "fr": ""
+    },
+    "tags": [
+      "LTSER",
+      "Meteorology",
+      "Eddy covariance"
+    ],
+    "media": []
+  },
+  {
+    "org": "INIA Intihuasi (Agricultural Research Institute)",
+    "role": {
+      "en": "Consultant",
+      "es": "Consultor",
+      "fr": "Consultant"
+    },
+    "location": "Coquimbo Region, Chile",
+    "start": "2023-04",
+    "end": "2023-04",
+    "url": "",
+    "logo": "",
+    "summary": {
+      "en": "Programmed and deployed a surface renewal station to measure the energy fluxes of an agricultural ecosystem and study its evapotranspiration.",
+      "es": "Programé e instalé una estación de renovación superficial para medir los flujos de energía de un agroecosistema y estudiar su evapotranspiración.",
+      "fr": "Programmation et installation d'une station de renouvellement de surface pour mesurer les flux d'énergie d'un agroécosystème et étudier son évapotranspiration."
+    },
+    "highlights": {
+      "en": "Wrote the CR1000X datalogger program and installed the sensors in the field.",
+      "es": "Escribí el programa del datalogger CR1000X e instalé los sensores en terreno.",
+      "fr": "Écriture du programme de l'enregistreur CR1000X et installation des capteurs sur le terrain."
+    },
+    "tags": [
+      "Surface renewal",
+      "CRBasic",
+      "Evapotranspiration"
+    ],
+    "media": []
+  },
+  {
+    "org": "Universidad de Magallanes, Cape Horn International Center (CHIC)",
+    "role": {
+      "en": "Technical Specialist",
+      "es": "Especialista Técnico",
+      "fr": "Spécialiste technique"
+    },
+    "location": "Magallanes Region, Chile",
+    "start": "2022-04",
+    "end": "2024-03",
+    "url": "https://www.chic.cl",
+    "logo": "",
+    "summary": {
+      "en": "Managed and processed eddy covariance and soil respiration data for the Cape Horn International Center (ANID/BASAL FB210018) and acted as meteorological consultant.",
+      "es": "Gestioné y procesé datos de covarianza turbulenta y respiración de suelo para el Centro Internacional Cabo de Hornos (ANID/BASAL FB210018) y actué como consultor meteorológico.",
+      "fr": "Gestion et traitement des données de covariance des turbulences et de respiration du sol pour le Centre international du cap Horn (ANID/BASAL FB210018), et rôle de consultant en météorologie."
+    },
+    "highlights": {
+      "en": "Supported the Omora Park Peatland station (AmeriFlux CL-OPP) in Puerto Williams, one of the southernmost flux towers in the world.",
+      "es": "Apoyé la estación de la turbera del Parque Omora (AmeriFlux CL-OPP) en Puerto Williams, una de las torres de flujo más australes del mundo.",
+      "fr": "Soutien à la station de la tourbière du parc Omora (AmeriFlux CL-OPP) à Puerto Williams, l'une des tours de flux les plus australes du monde."
+    },
+    "tags": [
+      "Soil respiration",
+      "Eddy covariance",
+      "Sub-Antarctic"
+    ],
+    "media": []
+  },
+  {
+    "org": "Instituto de Ecología y Biodiversidad (IEB Chile)",
+    "role": {
+      "en": "Consultant, Data Infrastructure",
+      "es": "Consultor, Infraestructura de Datos",
+      "fr": "Consultant, infrastructure de données"
+    },
+    "location": "Chile",
+    "start": "2022-06",
+    "end": "2022-12",
+    "url": "https://www.ieb-chile.cl",
+    "logo": "",
+    "summary": {
+      "en": "Defined the requirements of a data warehouse server receiving high-volume station data and built a visualization web app to detect instrument anomalies.",
+      "es": "Definí los requisitos de un servidor de almacenamiento para recibir grandes volúmenes de datos de estaciones y construí una aplicación web de visualización para detectar anomalías en los instrumentos.",
+      "fr": "Définition des exigences d'un serveur d'entrepôt de données recevant de gros volumes de données de stations, et création d'une application web de visualisation pour détecter les anomalies des instruments."
+    },
+    "highlights": {
+      "en": "The dashboard was built in Python with Plotly Dash (see the Data_visualization_CHIC project).",
+      "es": "El panel se construyó en Python con Plotly Dash (ver el proyecto Data_visualization_CHIC).",
+      "fr": "Le tableau de bord a été construit en Python avec Plotly Dash (voir le projet Data_visualization_CHIC)."
+    },
+    "tags": [
+      "Python",
+      "Dash",
+      "Data infrastructure"
+    ],
+    "media": []
+  },
+  {
+    "org": "Instituto de Ecología y Biodiversidad and Cape Horn International Center",
+    "role": {
+      "en": "Field Technician",
+      "es": "Técnico de Terreno",
+      "fr": "Technicien de terrain"
+    },
+    "location": "Puerto Williams, Chile",
+    "start": "2022-05",
+    "end": "2022-05",
+    "url": "",
+    "logo": "",
+    "summary": {
+      "en": "Installed eddy covariance flux towers and automated soil respiration systems at Parque Omora, Puerto Williams.",
+      "es": "Instalé torres de covarianza turbulenta y sistemas automáticos de respiración de suelo en el Parque Omora, Puerto Williams.",
+      "fr": "Installation de tours de covariance des turbulences et de systèmes automatisés de respiration du sol au parc Omora, à Puerto Williams."
+    },
+    "highlights": {
+      "en": "Part of FONDEQUIP project EQM200198, a network monitoring carbon, methane and other greenhouse gases in the southernmost forests and peatlands of the world, awarded to IEB and CHIC (ANID/BASAL FB210018).",
+      "es": "Parte del proyecto FONDEQUIP EQM200198, \"Red de monitoreo de carbono, metano y otros gases de efecto invernadero en los bosques y turberas más australes del mundo\", adjudicado al IEB y al CHIC (ANID/BASAL FB210018).",
+      "fr": "Dans le cadre du projet FONDEQUIP EQM200198, un réseau de suivi du carbone, du méthane et d'autres gaz à effet de serre dans les forêts et tourbières les plus australes du monde, attribué à l'IEB et au CHIC (ANID/BASAL FB210018)."
+    },
+    "tags": [
+      "Installation",
+      "Eddy covariance",
+      "Soil respiration"
+    ],
+    "media": []
+  },
+  {
+    "org": "Instituto de Ecología y Biodiversidad (IEB Chile)",
+    "role": {
+      "en": "Meteorological Consultant",
+      "es": "Consultor Meteorológico",
+      "fr": "Consultant en météorologie"
+    },
+    "location": "Chiloé, Los Lagos Region, Chile",
+    "start": "2022-01",
+    "end": "2022-02",
+    "url": "",
+    "logo": "",
+    "summary": {
+      "en": "Advised on meteorological instruments and data collection, and installed an R.M. Young 03002 Wind Sentry anemometer.",
+      "es": "Asesoré sobre instrumentos meteorológicos y recolección de datos, e instalé un anemómetro R.M. Young 03002 Wind Sentry.",
+      "fr": "Conseils sur les instruments météorologiques et la collecte de données, et installation d'un anémomètre R.M. Young 03002 Wind Sentry."
+    },
+    "highlights": {
+      "en": "",
+      "es": "",
+      "fr": ""
+    },
+    "tags": [
+      "Meteorology"
+    ],
+    "media": []
+  },
+  {
+    "org": "Universidad de Chile, Ecosystem Ecology Laboratory (LECS)",
+    "role": {
+      "en": "Data Manager, Field and Laboratory Technician",
+      "es": "Administrador de Datos, Técnico de Terreno y Laboratorio",
+      "fr": "Gestionnaire de données, technicien de terrain et de laboratoire"
+    },
+    "location": "Santiago, Chile",
+    "start": "2021-07",
+    "end": "2024-03",
+    "url": "https://www.lecs.uchile.cl/proyectos-2/",
+    "logo": "",
+    "summary": {
+      "en": "Acquired, processed and managed soil respiration, biometeorological and eddy covariance data from high-frequency towers within FONDECYT 1211652, on the effects of climate change on the productivity and evapotranspiration of Chile's temperate forests.",
+      "es": "Adquirí, procesé y gestioné datos de respiración de suelo, biometeorología y covarianza turbulenta de torres de alta frecuencia en el FONDECYT 1211652, sobre los efectos del cambio climático en la productividad y evapotranspiración de los bosques templados de Chile.",
+      "fr": "Acquisition, traitement et gestion des données de respiration du sol, de biométéorologie et de covariance des turbulences de tours à haute fréquence dans le cadre du FONDECYT 1211652, sur les effets des changements climatiques sur la productivité et l'évapotranspiration des forêts tempérées du Chili."
+    },
+    "highlights": {
+      "en": "Grew to manage six eddy covariance stations, including the Senda Darwin forest and peatland in Chiloé and the Alerce Costero station.\nFirst in Chile to submit station data to AmeriFlux and the PhenoCam Network.\nBuilt statistical and machine learning models of ecosystem fluxes, leading to a Biogeosciences (2024) article as second author.\nCalibrated and repaired field instruments, including IRGASON calibrations and bringing a lightning-struck tower back online.\nContributed to ChileFlux, the network of Chilean flux stations.",
+      "es": "Llegué a gestionar seis estaciones de covarianza turbulenta, entre ellas el bosque y la turbera de Senda Darwin en Chiloé y la estación Alerce Costero.\nPrimero en Chile en enviar datos de estaciones a AmeriFlux y a la red PhenoCam.\nConstruí modelos estadísticos y de aprendizaje automático de flujos ecosistémicos, que llevaron a un artículo en Biogeosciences (2024) como segundo autor.\nCalibré y reparé instrumentos de terreno, incluidas calibraciones de IRGASON y la recuperación de una torre alcanzada por un rayo.\nContribuí a ChileFlux, la red de estaciones de flujo de Chile.",
+      "fr": "Responsabilité étendue à six stations de covariance des turbulences, dont la forêt et la tourbière de Senda Darwin à Chiloé et la station Alerce Costero.\nPremier au Chili à soumettre des données de stations à AmeriFlux et au réseau PhenoCam.\nModèles statistiques et d'apprentissage automatique des flux écosystémiques, menant à un article dans Biogeosciences (2024) comme deuxième auteur.\nÉtalonnage et réparation d'instruments de terrain, dont des étalonnages d'IRGASON et la remise en service d'une tour frappée par la foudre.\nContribution à ChileFlux, le réseau chilien de stations de flux."
+    },
+    "tags": [
+      "AmeriFlux",
+      "PhenoCam",
+      "Machine learning",
+      "Soil respiration"
+    ],
+    "media": []
+  },
+  {
+    "org": "Universidad de Chile, Department of Geophysics",
+    "role": {
+      "en": "Research Assistant",
+      "es": "Asistente de Investigación",
+      "fr": "Assistant de recherche"
+    },
+    "location": "Santiago, Chile",
+    "start": "2021-01",
+    "end": "2021-06",
+    "url": "",
+    "logo": "",
+    "summary": {
+      "en": "Investigated the mechanisms driving precipitation variability in western Patagonia with statistics and clustering (machine learning) in FONDECYT project 11190952, led by Dr. Juan P. Boisier.",
+      "es": "Investigué los mecanismos que controlan la variabilidad de la precipitación en la Patagonia occidental con estadística y clustering (aprendizaje automático) en el proyecto FONDECYT 11190952, dirigido por el Dr. Juan P. Boisier.",
+      "fr": "Étude des mécanismes qui contrôlent la variabilité des précipitations dans l'ouest de la Patagonie par statistiques et classification (apprentissage automatique), projet FONDECYT 11190952 dirigé par Juan P. Boisier."
+    },
+    "highlights": {
+      "en": "Results presented at the AGU Fall Meeting 2022 (poster) and as an oral presentation at the 2023 SICyR international symposium.",
+      "es": "Resultados presentados en el AGU Fall Meeting 2022 (póster) y en una presentación oral en el simposio internacional SICyR 2023.",
+      "fr": "Résultats présentés à l'AGU Fall Meeting 2022 (affiche) et lors d'une présentation orale au symposium international SICyR 2023."
+    },
+    "tags": [
+      "Climate",
+      "Patagonia",
+      "Clustering",
+      "ERA5"
+    ],
+    "media": []
+  },
+  {
+    "org": "Center for Climate and Resilience Research (CR)2",
+    "role": {
+      "en": "Research Assistant",
+      "es": "Asistente de Investigación",
+      "fr": "Assistant de recherche"
+    },
+    "location": "Santiago, Chile",
+    "start": "2020-09",
+    "end": "2020-12",
+    "url": "https://www.cr2.cl",
+    "logo": "",
+    "summary": {
+      "en": "Researched the dynamical and thermodynamical mechanisms that drive precipitation in western Patagonia using station data and ERA5 reanalysis (FONDAP 15110009).",
+      "es": "Investigué los mecanismos dinámicos y termodinámicos que controlan la precipitación en la Patagonia occidental usando datos de estaciones y el reanálisis ERA5 (FONDAP 15110009).",
+      "fr": "Étude des mécanismes dynamiques et thermodynamiques qui contrôlent les précipitations dans l'ouest de la Patagonie à partir de données de stations et de la réanalyse ERA5 (FONDAP 15110009)."
+    },
+    "highlights": {
+      "en": "",
+      "es": "",
+      "fr": ""
+    },
+    "tags": [
+      "Climate",
+      "Patagonia",
+      "ERA5"
+    ],
+    "media": []
+  },
+  {
+    "org": "Universidad de Chile, Department of Geophysics",
+    "role": {
+      "en": "Research Assistant, field campaign",
+      "es": "Asistente de Investigación, campaña de terreno",
+      "fr": "Assistant de recherche, campagne de terrain"
+    },
+    "location": "Atacama Desert, Chile",
+    "start": "2020-03",
+    "end": "2020-10",
+    "url": "",
+    "logo": "",
+    "summary": {
+      "en": "Prepared the logistics and installed two meteorological stations and two CARAGA dust collectors at the Cerro Dominador solar complex and the ALMA observatory (FONDECYT 1181139, Dr. Nicolás Huneeus).",
+      "es": "Preparé la logística e instalé dos estaciones meteorológicas y dos colectores de polvo CARAGA en el complejo solar Cerro Dominador y el observatorio ALMA (FONDECYT 1181139, Dr. Nicolás Huneeus).",
+      "fr": "Préparation de la logistique et installation de deux stations météorologiques et de deux collecteurs de poussière CARAGA au complexe solaire Cerro Dominador et à l'observatoire ALMA (FONDECYT 1181139, Nicolás Huneeus)."
+    },
+    "highlights": {
+      "en": "The project studies the transport of mineral dust in northern Chile and its deposition on the Andean cryosphere, including its effect on solar energy production.",
+      "es": "El proyecto estudia el transporte de polvo mineral en el norte de Chile y su depósito en la criósfera andina, incluido su efecto en la producción de energía solar.",
+      "fr": "Le projet étudie le transport des poussières minérales dans le nord du Chili et leur dépôt sur la cryosphère andine, y compris leur effet sur la production d'énergie solaire."
+    },
+    "tags": [
+      "Installation",
+      "Meteorology",
+      "Dust"
+    ],
+    "media": []
+  },
+  {
+    "org": "Universidad de Chile, Montessus de Ballore Library",
+    "role": {
+      "en": "Library Supervisor",
+      "es": "Supervisor de Biblioteca",
+      "fr": "Superviseur de bibliothèque"
+    },
+    "location": "Santiago, Chile",
+    "start": "2019-03",
+    "end": "2019-10",
+    "url": "",
+    "logo": "",
+    "summary": {
+      "en": "Supervised the F. Montessus de Ballore library of the Department of Geophysics.",
+      "es": "Supervisé la biblioteca F. Montessus de Ballore del Departamento de Geofísica.",
+      "fr": "Supervision de la bibliothèque F. Montessus de Ballore du département de géophysique."
+    },
+    "highlights": {
+      "en": "",
+      "es": "",
+      "fr": ""
+    },
+    "tags": [],
+    "media": []
+  },
+  {
+    "org": "Center for Climate and Resilience Research (CR)2",
+    "role": {
+      "en": "Research Intern",
+      "es": "Practicante de Investigación",
+      "fr": "Stagiaire de recherche"
+    },
+    "location": "Santiago, Chile",
+    "start": "2018-01",
+    "end": "2019-03",
+    "url": "https://www.cr2.cl",
+    "logo": "",
+    "summary": {
+      "en": "Statistical analysis of chemical traces on Rapa Nui (Easter Island) to interpret ozone soundings, with Drs. Laura Gallardo and Zoë Fleming.",
+      "es": "Análisis estadístico de trazas químicas en Rapa Nui (Isla de Pascua) para interpretar sondeos de ozono, con las Dras. Laura Gallardo y Zoë Fleming.",
+      "fr": "Analyse statistique de traces chimiques à Rapa Nui (île de Pâques) pour interpréter des sondages d'ozone, avec Laura Gallardo et Zoë Fleming."
+    },
+    "highlights": {
+      "en": "Linked volatile organic compounds to increases in tropospheric ozone (code in the Rapa-Nui-s-soundings-analysis repository).",
+      "es": "Relacioné los compuestos orgánicos volátiles con el aumento del ozono troposférico (código en el repositorio Rapa-Nui-s-soundings-analysis).",
+      "fr": "Lien établi entre les composés organiques volatils et l'augmentation de l'ozone troposphérique (code dans le dépôt Rapa-Nui-s-soundings-analysis)."
+    },
+    "tags": [
+      "Atmospheric chemistry",
+      "Python"
+    ],
+    "media": []
+  },
+  {
+    "org": "Enseña Chile",
+    "role": {
+      "en": "Volunteer Academic Tutor",
+      "es": "Tutor Académico Voluntario",
+      "fr": "Tuteur bénévole"
+    },
+    "location": "Santiago, Chile",
+    "start": "2016-03",
+    "end": "2016-12",
+    "url": "",
+    "logo": "",
+    "summary": {
+      "en": "Tutored university students in classical mechanics, electromagnetism, calculus and linear algebra (PAES program).",
+      "es": "Fui tutor de estudiantes universitarios en mecánica clásica, electromagnetismo, cálculo y álgebra lineal (programa PAES).",
+      "fr": "Tutorat d'étudiants universitaires en mécanique classique, électromagnétisme, calcul et algèbre linéaire (programme PAES)."
+    },
+    "highlights": {
+      "en": "",
+      "es": "",
+      "fr": ""
+    },
+    "tags": [
+      "Volunteering"
+    ],
+    "media": []
+  },
+  {
+    "org": "Independent consulting",
+    "role": {
+      "en": "Eddy covariance installation consultant",
+      "es": "Consultor en instalación de covarianza turbulenta",
+      "fr": "Consultant en installation de covariance des turbulences"
+    },
+    "location": "Chile",
+    "start": "2023-01",
+    "end": "2024-03",
+    "url": "",
+    "logo": "",
+    "summary": {
+      "en": "Installed eddy covariance stations for research groups and companies across Chile.",
+      "es": "Instalé estaciones de covarianza turbulenta para grupos de investigación y empresas en todo Chile.",
+      "fr": "Installation de stations de covariance des turbulences pour des groupes de recherche et des entreprises partout au Chili."
+    },
+    "highlights": {
+      "en": "A LI-COR station in a remote Patagonian forest for The Real Eco State, reached by plane, 4x4 and boat.\nA Campbell Scientific station in a high-Andean wetland (vega) for CEA, Centro de Ecología Aplicada.\nAn urban station in Santiago for a PhD project at the Pontificia Universidad Católica de Chile.\nA station over a vineyard, and a surface renewal station for INIA Intihuasi.",
+      "es": "Una estación LI-COR en un bosque remoto de la Patagonia para The Real Eco State, con acceso en avión, 4x4 y bote.\nUna estación Campbell Scientific en una vega altoandina para el CEA, Centro de Ecología Aplicada.\nUna estación urbana en Santiago para un doctorado de la Pontificia Universidad Católica de Chile.\nUna estación sobre un viñedo y una estación de renovación superficial para INIA Intihuasi.",
+      "fr": "Une station LI-COR dans une forêt isolée de Patagonie pour The Real Eco State, accessible en avion, en 4x4 et en bateau.\nUne station Campbell Scientific dans une vega des hautes Andes pour le CEA, Centro de Ecología Aplicada.\nUne station urbaine à Santiago pour un doctorat de la Pontificia Universidad Católica de Chile.\nUne station au-dessus d'un vignoble et une station de renouvellement de surface pour INIA Intihuasi."
+    },
+    "tags": [
+      "Installation",
+      "LI-COR",
+      "Campbell Scientific"
+    ],
+    "media": []
+  },
+  {
+    "org": "Universidad de Chile",
+    "role": {
+      "en": "Assistant Teacher, Postgraduate Summer School: Biosphere-Atmosphere Interactions",
+      "es": "Profesor Ayudante, Escuela de Verano de Postgrado: Interacciones Biósfera-Atmósfera",
+      "fr": "Assistant d'enseignement, école d'été des cycles supérieurs : interactions biosphère-atmosphère"
+    },
+    "location": "Santiago, Chile",
+    "start": "2023-01",
+    "end": "2023-01",
+    "url": "",
+    "logo": "",
+    "summary": {
+      "en": "Taught the classes on instrumentation, biometeorological variables and data analysis.",
+      "es": "Impartí las clases de instrumentación, variables biometeorológicas y análisis de datos.",
+      "fr": "Enseignement des cours sur l'instrumentation, les variables biométéorologiques et l'analyse de données."
+    },
+    "highlights": {
+      "en": "",
+      "es": "",
+      "fr": ""
+    },
+    "tags": [
+      "Teaching"
+    ],
+    "media": []
+  }
+]

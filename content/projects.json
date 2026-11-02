@@ -1,0 +1,107 @@
+[
+  {
+    "title": "Carbonique Field Log",
+    "description": {
+      "en": "Field log web app for the CARBONIQUE towers: per-site tasks, notes and visit history, with admin-managed sites and team members.",
+      "es": "Aplicación web de bitácora de terreno para las torres CARBONIQUE: tareas, notas e historial de visitas por sitio, con sitios y equipo gestionados por un administrador.",
+      "fr": "Application web de journal de terrain pour les tours CARBONIQUE : tâches, notes et historique des visites par site, avec sites et équipe gérés par un administrateur."
+    },
+    "repo": "https://github.com/davidulicio/carbonique-field-log",
+    "live": "https://davidulicio.github.io/carbonique-field-log",
+    "year": 2026,
+    "tags": [
+      "JavaScript",
+      "Firebase",
+      "GitHub Pages"
+    ],
+    "cover": "",
+    "media": []
+  },
+  {
+    "title": "EC Monitor",
+    "description": {
+      "en": "Android app to check eddy covariance stations from a phone. It speaks the LI-COR configuration grammar on TCP port 7200 and talks directly to the LI-7550 or LI-7500DS at each tower.",
+      "es": "Aplicación Android para revisar estaciones de covarianza turbulenta desde el teléfono. Usa la gramática de configuración de LI-COR en el puerto TCP 7200 y se comunica directamente con el LI-7550 o LI-7500DS de cada torre.",
+      "fr": "Application Android pour vérifier les stations de covariance depuis un téléphone. Elle parle la grammaire de configuration LI-COR sur le port TCP 7200 et dialogue directement avec le LI-7550 ou le LI-7500DS de chaque tour."
+    },
+    "repo": "https://github.com/davidulicio/EC-Monitor",
+    "live": "",
+    "year": 2026,
+    "tags": [
+      "Java",
+      "Android",
+      "LI-COR",
+      "GitHub Actions"
+    ],
+    "cover": "",
+    "media": []
+  },
+  {
+    "title": "EcoFlux Tower Maintenance Reference",
+    "description": {
+      "en": "Every field note from the CARBONIQUE flux towers, classified as routine maintenance, major work or fault, with per-site instrument diagrams and data-pipeline caveats.",
+      "es": "Todas las notas de terreno de las torres CARBONIQUE, clasificadas como mantenimiento rutinario, trabajo mayor o falla, con diagramas de instrumentos por sitio y advertencias del flujo de datos.",
+      "fr": "Toutes les notes de terrain des tours CARBONIQUE, classées en entretien courant, travaux majeurs ou pannes, avec schémas des instruments par site et mises en garde sur la chaîne de données."
+    },
+    "repo": "https://github.com/davidulicio/carbonique_fieldnotes",
+    "live": "https://davidulicio.github.io/carbonique_fieldnotes/",
+    "year": 2026,
+    "tags": [
+      "HTML",
+      "Data quality"
+    ],
+    "cover": "media/images/uqam-3-1.jpg",
+    "media": []
+  },
+  {
+    "title": "CARBONIQUE R Shiny app",
+    "description": {
+      "en": "New version of the CARBONIQUE data visualization app: faster, in English and French, with the project's visual identity.",
+      "es": "Nueva versión de la aplicación de visualización de datos de CARBONIQUE: más rápida, en inglés y francés, con la identidad visual del proyecto.",
+      "fr": "Nouvelle version de l'application de visualisation des données CARBONIQUE : plus rapide, en anglais et en français, avec l'identité visuelle du projet."
+    },
+    "repo": "https://github.com/davidulicio/carbonique_RShiny_app",
+    "live": "",
+    "year": 2026,
+    "tags": [
+      "R",
+      "Shiny"
+    ],
+    "cover": "",
+    "media": []
+  },
+  {
+    "title": "Eddy covariance tools",
+    "description": {
+      "en": "Python tools for eddy covariance post-processing and analysis.",
+      "es": "Herramientas en Python para el post-procesamiento y análisis de covarianza turbulenta.",
+      "fr": "Outils Python pour le post-traitement et l'analyse de la covariance des turbulences."
+    },
+    "repo": "https://github.com/davidulicio/eddycovariance_tools",
+    "live": "",
+    "year": 2026,
+    "tags": [
+      "Python"
+    ],
+    "cover": "",
+    "media": []
+  },
+  {
+    "title": "CHIC station dashboard",
+    "description": {
+      "en": "Data visualization web app built with Dash to follow station data and spot instrument anomalies.",
+      "es": "Aplicación web de visualización construida con Dash para seguir los datos de las estaciones y detectar anomalías en los instrumentos.",
+      "fr": "Application web de visualisation construite avec Dash pour suivre les données des stations et repérer les anomalies des instruments."
+    },
+    "repo": "https://github.com/davidulicio/Data_visualization_CHIC",
+    "live": "",
+    "year": 2022,
+    "tags": [
+      "Python",
+      "Dash",
+      "Plotly"
+    ],
+    "cover": "",
+    "media": []
+  }
+]

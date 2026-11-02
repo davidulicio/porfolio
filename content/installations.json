@@ -1,0 +1,893 @@
+[
+  {
+    "slug": "uqam-5-saint-francois-2026",
+    "title": {
+      "en": "Saint-François-du-Lac natural marsh tower",
+      "es": "Torre de la marisma natural de Saint-François-du-Lac",
+      "fr": "Tour du marais naturel de Saint-François-du-Lac"
+    },
+    "date": "2026-08",
+    "site": "UQAM_5",
+    "region": "Saint-François-du-Lac, Quebec, Canada",
+    "lat": 46.0886,
+    "lon": -72.9174,
+    "approximate": false,
+    "types": [
+      "eddy-covariance",
+      "meteorology",
+      "radiation",
+      "power"
+    ],
+    "involvement": {
+      "en": "Installation and operation (CARBONIQUE technical lead)",
+      "es": "Instalación y operación (responsable técnico de CARBONIQUE)",
+      "fr": "Installation et exploitation (responsable technique de CARBONIQUE)"
+    },
+    "network_id": "AmeriFlux CA-CQ5",
+    "summary": {
+      "en": "A flux station on two wooden platforms on certified screw piles 3 m above a marsh that floods every spring.",
+      "es": "Una estación de flujo sobre dos plataformas de madera en pilotes helicoidales certificados, a 3 m sobre una marisma que se inunda cada primavera.",
+      "fr": "Une station de flux sur deux plateformes de bois sur pieux vissés certifiés, à 3 m au-dessus d'un marais inondé chaque printemps."
+    },
+    "description": {
+      "en": "Natural marsh near Saint-François-du-Lac where water can reach 3 m during extreme floods. One platform carries the solar panels and battery bank, the other the scaffolding tower and instruments. Access can require a boat during floods and a couple of kilometres on foot in winter. Platforms were built in fall 2025 and the EC system was installed between 20 July and 11 August 2026. It is the network's natural reference marsh: the disturbed and restored marshes can now be read against one that was never altered.",
+      "es": "Marisma natural cerca de Saint-François-du-Lac donde el agua puede llegar a 3 m en crecidas extremas. Una plataforma lleva los paneles solares y el banco de baterías; la otra, la torre de andamio y los instrumentos. El acceso puede requerir bote durante las crecidas y un par de kilómetros a pie en invierno. Las plataformas se construyeron en otoño de 2025 y el sistema de covarianza turbulenta se instaló entre el 20 de julio y el 11 de agosto de 2026. Es la marisma natural de referencia de la red: las marismas perturbadas y restauradas ahora pueden compararse con una que nunca fue alterada.",
+      "fr": "Marais naturel près de Saint-François-du-Lac, où l'eau peut atteindre 3 m lors de crues extrêmes. Une plateforme porte les panneaux solaires et le banc de batteries, l'autre la tour d'échafaudage et les instruments. L'accès peut exiger un bateau en crue et quelques kilomètres à pied l'hiver. Les plateformes ont été construites à l'automne 2025 et le système de covariance a été installé entre le 20 juillet et le 11 août 2026. C'est le marais naturel de référence du réseau : les marais perturbés et restaurés peuvent désormais être comparés à un marais jamais modifié."
+    },
+    "equipment": [
+      "Campbell Scientific CSAT3B sonic anemometer",
+      "LI-COR LI-7200RS CO2/H2O analyzer",
+      "LI-COR LI-7700 CH4 analyzer",
+      "LI-COR SmartFlux 2",
+      "Campbell Scientific CR1000X datalogger",
+      "Kipp & Zonen CNR4 + CNF4 net radiometer",
+      "Apogee SQ-521 quantum sensors",
+      "HygroVue10 temperature/RH",
+      "RM Young 05103 wind monitor",
+      "BaroVue10 barometer",
+      "TE525WS rain gauge",
+      "SnowVue10 snow depth",
+      "Off-grid solar and battery bank"
+    ],
+    "links": [
+      {
+        "label": "PhenoCam",
+        "url": "https://phenocam.nau.edu/webcam/sites/lspnaturalmarsh"
+      },
+      {
+        "label": "LinkedIn post (drone footage)",
+        "url": "https://www.linkedin.com/feed/update/urn:li:activity:7494102331588771842/"
+      }
+    ],
+    "cover": "media/images/uqam-5-1.jpg",
+    "featured": true,
+    "media": [
+      {
+        "file": "media/images/uqam-5-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "UQAM_5 station on its raised platform",
+          "es": "Estación UQAM_5 sobre su plataforma elevada",
+          "fr": "La station UQAM_5 sur sa plateforme surélevée"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "uqam-4-saint-remi-2026",
+    "title": {
+      "en": "Saint-Rémi drained forested peatland station",
+      "es": "Estación de la turbera boscosa drenada de Saint-Rémi",
+      "fr": "Station de la tourbière boisée drainée de Saint-Rémi"
+    },
+    "date": "2026-01",
+    "site": "UQAM_4",
+    "region": "Saint-Rémi, Quebec, Canada",
+    "lat": 45.2459,
+    "lon": -73.6823,
+    "approximate": false,
+    "types": [
+      "eddy-covariance",
+      "meteorology",
+      "radiation",
+      "power"
+    ],
+    "involvement": {
+      "en": "Installation and operation (CARBONIQUE technical lead)",
+      "es": "Instalación y operación (responsable técnico de CARBONIQUE)",
+      "fr": "Installation et exploitation (responsable technique de CARBONIQUE)"
+    },
+    "network_id": "AmeriFlux CA-CQ4",
+    "summary": {
+      "en": "A two-part station on a peatland converted to farmland: a fixed EC tower on the berm and a solar-powered rover tripod on a trailer.",
+      "es": "Una estación en dos partes sobre una turbera convertida en cultivo: una torre fija en el borde del campo y un trípode móvil solar sobre un remolque.",
+      "fr": "Une station en deux parties sur une tourbière convertie en terre agricole : une tour fixe sur la berge et un trépied mobile solaire sur remorque."
+    },
+    "description": {
+      "en": "The fixed tower on the field edge runs on AC and carries the eddy covariance system and part of the meteorological sensors. The rover tripod inside the field carries the radiation, snow and soil sensors on its own CR1000X and is towed out for planting and harvest.",
+      "es": "La torre fija en el borde del campo funciona con red eléctrica y lleva el sistema de covarianza turbulenta y parte de los sensores meteorológicos. El trípode móvil dentro del campo lleva los sensores de radiación, nieve y suelo con su propio CR1000X, y se retira para la siembra y la cosecha.",
+      "fr": "La tour fixe en bordure du champ est alimentée par le réseau et porte le système de covariance et une partie des capteurs météo. Le trépied mobile dans le champ porte les capteurs de rayonnement, de neige et de sol avec son propre CR1000X, et il est sorti du champ pour les semis et la récolte."
+    },
+    "equipment": [
+      "Campbell Scientific CSAT3B sonic anemometer",
+      "LI-COR LI-7200RS CO2/H2O analyzer",
+      "LI-COR LI-7700 CH4 analyzer",
+      "LI-COR SmartFlux 2",
+      "Campbell Scientific CR1000X datalogger",
+      "Kipp & Zonen CNR4 + CNF4 net radiometer",
+      "Apogee SQ-521 quantum sensors",
+      "HygroVue10 temperature/RH",
+      "RM Young 05103 wind monitor",
+      "BaroVue10 barometer",
+      "TE525WS rain gauge",
+      "SnowVue10 snow depth",
+      "Hukseflux HFP01 soil heat flux plates",
+      "CS650 soil moisture/temperature profile",
+      "CS456 water table sensor",
+      "Second CR1000X on the rover tripod"
+    ],
+    "links": [
+      {
+        "label": "PhenoCam",
+        "url": "https://phenocam.nau.edu/webcam/sites/strdisturbedforestedpeatland"
+      },
+      {
+        "label": "LinkedIn post",
+        "url": "https://www.linkedin.com/feed/update/urn:li:activity:7417778478470721536/"
+      }
+    ],
+    "cover": "media/images/uqam-4-2.jpg",
+    "featured": false,
+    "media": [
+      {
+        "file": "media/images/uqam-4-2.jpg",
+        "url": "",
+        "caption": {
+          "en": "Fixed tower on the berm",
+          "es": "Torre fija en el borde del campo",
+          "fr": "Tour fixe sur la berge"
+        }
+      },
+      {
+        "file": "media/images/uqam-4-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "Solar-powered rover tripod on its trailer",
+          "es": "Trípode móvil solar sobre su remolque",
+          "fr": "Trépied mobile solaire sur sa remorque"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "mcgill-1-restored-marsh-2025",
+    "title": {
+      "en": "Lac Saint-Pierre restored marsh, floating tower",
+      "es": "Marisma restaurada del lago Saint-Pierre, torre flotante",
+      "fr": "Marais restauré du lac Saint-Pierre, tour flottante"
+    },
+    "date": "2025-07",
+    "site": "MCGILL_1",
+    "region": "Baie-du-Febvre, Quebec, Canada",
+    "lat": 46.1488,
+    "lon": -72.7268,
+    "approximate": false,
+    "types": [
+      "eddy-covariance",
+      "meteorology",
+      "radiation",
+      "power"
+    ],
+    "involvement": {
+      "en": "Installation with Sara Knox's McGill EcoFlux team; operation, maintenance and solar power structure",
+      "es": "Instalación con el equipo EcoFlux de Sara Knox (McGill); operación, mantenimiento y estructura solar",
+      "fr": "Installation avec l'équipe EcoFlux de Sara Knox (McGill); exploitation, entretien et structure solaire"
+    },
+    "network_id": "AmeriFlux CA-CQ9",
+    "summary": {
+      "en": "A scaffolding tower on a floating platform in a restored marsh, reached by boat or over the ice.",
+      "es": "Una torre de andamio sobre una plataforma flotante en una marisma restaurada, a la que se llega en bote o sobre el hielo.",
+      "fr": "Une tour d'échafaudage sur une plateforme flottante dans un marais restauré, accessible en bateau ou sur la glace."
+    },
+    "description": {
+      "en": "Restored marsh about 3.7 km southwest of UQAM_1, on National Defence land where every visit needs an access permit. The platform is re-levelled after the ice melt. The station runs on solar power only, and I designed a new ballasted solar structure that needs no digging, driving or concrete. The tower was brought to CARBONIQUE by Sara Knox (McGill) and stands in a marsh restored by Ducks Unlimited Canada near Baie-du-Febvre; it lets us compare a restored marsh with a farmed one and a natural one around Lac Saint-Pierre, Quebec, Canada.",
+      "es": "Marisma restaurada a unos 3,7 km al suroeste de UQAM_1, en terrenos de Defensa Nacional donde cada visita requiere un permiso. La plataforma se nivela de nuevo tras el deshielo. La estación funciona solo con energía solar, y diseñé una nueva estructura solar lastrada que no requiere excavar, clavar ni usar hormigón. La torre la aportó a CARBONIQUE Sara Knox (McGill) y está en una marisma restaurada por Ducks Unlimited Canada cerca de Baie-du-Febvre; permite comparar una marisma restaurada con una cultivada y una natural en torno al lago Saint-Pierre, Quebec, Canadá.",
+      "fr": "Marais restauré à environ 3,7 km au sud-ouest d'UQAM_1, sur un terrain de la Défense nationale où chaque visite exige un permis. La plateforme est remise à niveau après la fonte des glaces. La station fonctionne uniquement à l'énergie solaire, et j'ai conçu une nouvelle structure solaire lestée qui ne demande ni creusage, ni pieux, ni béton. La tour a été apportée à CARBONIQUE par Sara Knox (McGill) et se trouve dans un marais restauré par Canards Illimités Canada près de Baie-du-Febvre; elle permet de comparer un marais restauré à un marais cultivé et à un marais naturel autour du lac Saint-Pierre, au Québec (Canada)."
+    },
+    "equipment": [
+      "Campbell Scientific CSAT3B sonic anemometer",
+      "LI-COR LI-7200RS CO2/H2O analyzer",
+      "LI-COR LI-7700 CH4 analyzer",
+      "LI-COR SmartFlux 2",
+      "Campbell Scientific CR1000X datalogger",
+      "Kipp & Zonen CNR4 + CNF4 net radiometer",
+      "Apogee SQ-521 quantum sensors",
+      "HygroVue10 temperature/RH",
+      "RM Young 05103 wind monitor",
+      "BaroVue10 barometer",
+      "TE525WS rain gauge",
+      "SnowVue10 snow depth",
+      "Off-grid solar and battery bank"
+    ],
+    "links": [
+      {
+        "label": "LinkedIn post",
+        "url": "https://www.linkedin.com/feed/update/urn:li:activity:7366567698262024192/"
+      }
+    ],
+    "cover": "media/images/mcgill-1-1.jpg",
+    "featured": false,
+    "media": [
+      {
+        "file": "media/images/mcgill-1-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "MCGILL_1 on its floating platform",
+          "es": "MCGILL_1 sobre su plataforma flotante",
+          "fr": "MCGILL_1 sur sa plateforme flottante"
+        }
+      },
+      {
+        "file": "",
+        "url": "https://youtu.be/z37eCc8C8bw",
+        "caption": {
+          "en": "Video: installing the floating tower in the restored marsh (C-Paleo lab)",
+          "es": "Video: instalación de la torre flotante en la marisma restaurada (laboratorio C-Paleo)",
+          "fr": "Vidéo : installation de la tour flottante dans le marais restauré (laboratoire C-Paleo)"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "uqam-2-open-bog-2025",
+    "title": {
+      "en": "Lac-à-la-Tortue natural open bog",
+      "es": "Turbera abierta natural de Lac-à-la-Tortue",
+      "fr": "Tourbière ouverte naturelle de Lac-à-la-Tortue"
+    },
+    "date": "2025-04",
+    "site": "UQAM_2",
+    "region": "Notre-Dame-du-Mont-Carmel, Quebec, Canada",
+    "lat": 46.5316,
+    "lon": -72.645,
+    "approximate": false,
+    "types": [
+      "eddy-covariance",
+      "meteorology",
+      "radiation",
+      "power"
+    ],
+    "involvement": {
+      "en": "Installation with Olaf Kolle and the CARBONIQUE team; operation since",
+      "es": "Instalación con Olaf Kolle y el equipo CARBONIQUE; operación desde entonces",
+      "fr": "Installation avec Olaf Kolle et l'équipe CARBONIQUE, puis exploitation"
+    },
+    "network_id": "AmeriFlux CA-CQ2",
+    "summary": {
+      "en": "A solar-powered station on a Sphagnum bog, reached on foot over the peat, with an EC boom that pulls in for maintenance.",
+      "es": "Una estación solar sobre una turbera de Sphagnum, a la que se llega a pie sobre la turba, con un brazo de covarianza que se recoge para el mantenimiento.",
+      "fr": "Une station solaire sur une tourbière à sphaignes, accessible à pied sur la tourbe, avec un bras de covariance rétractable pour l'entretien."
+    },
+    "description": {
+      "en": "Natural open bog dominated by Sphagnum mosses with leatherleaf, tufted bulrush and Labrador tea, about 400 m north of UQAM_3. Running since April 2025, with the EC sensors reinstalled in July 2025 and a water table sensor added in April 2026.",
+      "es": "Turbera abierta natural dominada por musgos Sphagnum con Chamaedaphne, Trichophorum y té del Labrador, a unos 400 m al norte de UQAM_3. Funciona desde abril de 2025; los sensores de covarianza se reinstalaron en julio de 2025 y en abril de 2026 se agregó un sensor de nivel freático.",
+      "fr": "Tourbière ouverte naturelle dominée par les sphaignes avec cassandre, scirpe cespiteux et thé du Labrador, à environ 400 m au nord d'UQAM_3. En service depuis avril 2025; capteurs de covariance réinstallés en juillet 2025 et sonde de nappe phréatique ajoutée en avril 2026."
+    },
+    "equipment": [
+      "Campbell Scientific CSAT3B sonic anemometer",
+      "LI-COR LI-7200RS CO2/H2O analyzer",
+      "LI-COR LI-7700 CH4 analyzer",
+      "LI-COR SmartFlux 2",
+      "Campbell Scientific CR1000X datalogger",
+      "Kipp & Zonen CNR4 + CNF4 net radiometer",
+      "Apogee SQ-521 quantum sensors",
+      "HygroVue10 temperature/RH",
+      "RM Young 05103 wind monitor",
+      "BaroVue10 barometer",
+      "TE525WS rain gauge",
+      "SnowVue10 snow depth",
+      "Hukseflux HFP01 soil heat flux plates",
+      "CS650 soil moisture/temperature profile",
+      "CS456 water table sensor",
+      "Off-grid solar and battery bank"
+    ],
+    "links": [
+      {
+        "label": "LinkedIn post",
+        "url": "https://www.linkedin.com/feed/update/urn:li:activity:7323144895827746816/"
+      }
+    ],
+    "cover": "media/images/uqam-2-1.jpg",
+    "featured": true,
+    "media": [
+      {
+        "file": "media/images/uqam-2-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "UQAM_2 across the open bog",
+          "es": "UQAM_2 en la turbera abierta",
+          "fr": "UQAM_2 au milieu de la tourbière ouverte"
+        }
+      },
+      {
+        "file": "",
+        "url": "https://youtu.be/H0BmmfVAthQ",
+        "caption": {
+          "en": "Video: installing the Lac-à-la-Tortue towers (by Léonie Perrier)",
+          "es": "Video: instalación de las torres de Lac-à-la-Tortue (por Léonie Perrier)",
+          "fr": "Vidéo : installation des tours de Lac-à-la-Tortue (par Léonie Perrier)"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "uqam-3-forested-bog-2025",
+    "title": {
+      "en": "Lac-à-la-Tortue forested bog, 22 m tower",
+      "es": "Turbera boscosa de Lac-à-la-Tortue, torre de 22 m",
+      "fr": "Tourbière boisée de Lac-à-la-Tortue, tour de 22 m"
+    },
+    "date": "2025-04",
+    "site": "UQAM_3",
+    "region": "Notre-Dame-du-Mont-Carmel, Quebec, Canada",
+    "lat": 46.528,
+    "lon": -72.6462,
+    "approximate": false,
+    "types": [
+      "eddy-covariance",
+      "meteorology",
+      "radiation",
+      "power"
+    ],
+    "involvement": {
+      "en": "Installation with Olaf Kolle and the CARBONIQUE team; operation since",
+      "es": "Instalación con Olaf Kolle y el equipo CARBONIQUE; operación desde entonces",
+      "fr": "Installation avec Olaf Kolle et l'équipe CARBONIQUE, puis exploitation"
+    },
+    "network_id": "AmeriFlux CA-CQ3",
+    "summary": {
+      "en": "An off-grid tall tower above a forested bog, powered by a methanol fuel cell and solar hybrid, with a 4-level gas profile.",
+      "es": "Una torre alta autónoma sobre una turbera boscosa, alimentada por un sistema híbrido de celda de combustible de metanol y paneles solares, con un perfil de gases de 4 niveles.",
+      "fr": "Une grande tour autonome au-dessus d'une tourbière boisée, alimentée par un système hybride pile à combustible au méthanol et solaire, avec un profil de gaz sur 4 niveaux."
+    },
+    "description": {
+      "en": "The EC system sits at 21.9 m above a 12.6 m canopy, with air temperature and gas intakes at 2, 9, 16 and 22 m. Power comes from an SFC EFOY 2800 fuel cell read over Modbus TCP plus solar panels. The tower is certified every year by a structural engineer.",
+      "es": "El sistema de covarianza está a 21,9 m sobre un dosel de 12,6 m, con temperatura del aire y tomas de gases a 2, 9, 16 y 22 m. La energía proviene de una celda de combustible SFC EFOY 2800 leída por Modbus TCP más paneles solares. Un ingeniero estructural certifica la torre cada año.",
+      "fr": "Le système de covariance est à 21,9 m au-dessus d'un couvert de 12,6 m, avec température de l'air et prises de gaz à 2, 9, 16 et 22 m. L'alimentation vient d'une pile à combustible SFC EFOY 2800 lue par Modbus TCP et de panneaux solaires. Un ingénieur en structure certifie la tour chaque année."
+    },
+    "equipment": [
+      "Campbell Scientific CSAT3B sonic anemometer",
+      "LI-COR LI-7200RS CO2/H2O analyzer",
+      "LI-COR LI-7700 CH4 analyzer",
+      "LI-COR SmartFlux 2",
+      "Campbell Scientific CR1000X datalogger",
+      "Kipp & Zonen CNR4 + CNF4 net radiometer",
+      "Apogee SQ-521 quantum sensors",
+      "HygroVue10 temperature/RH",
+      "RM Young 05103 wind monitor",
+      "BaroVue10 barometer",
+      "TE525WS rain gauge",
+      "SnowVue10 snow depth",
+      "Hukseflux HFP01 soil heat flux plates",
+      "CS650 soil moisture/temperature profile",
+      "CS456 water table sensor",
+      "4-level gas and temperature profile",
+      "SFC EFOY 2800 methanol fuel cell + solar"
+    ],
+    "links": [
+      {
+        "label": "LinkedIn post",
+        "url": "https://www.linkedin.com/feed/update/urn:li:activity:7323144895827746816/"
+      }
+    ],
+    "cover": "media/images/uqam-3-1.jpg",
+    "featured": true,
+    "media": [
+      {
+        "file": "media/images/uqam-3-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "Looking up the UQAM_3 tower",
+          "es": "Mirando hacia arriba la torre UQAM_3",
+          "fr": "Vue vers le haut de la tour UQAM_3"
+        }
+      },
+      {
+        "file": "",
+        "url": "https://youtu.be/H0BmmfVAthQ",
+        "caption": {
+          "en": "Video: installing the Lac-à-la-Tortue towers (by Léonie Perrier)",
+          "es": "Video: instalación de las torres de Lac-à-la-Tortue (por Léonie Perrier)",
+          "fr": "Vidéo : installation des tours de Lac-à-la-Tortue (par Léonie Perrier)"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "uqam-1-lac-saint-pierre-2024",
+    "title": {
+      "en": "Lac Saint-Pierre disturbed marsh, first CARBONIQUE tower",
+      "es": "Marisma perturbada del lago Saint-Pierre, primera torre CARBONIQUE",
+      "fr": "Marais perturbé du lac Saint-Pierre, première tour CARBONIQUE"
+    },
+    "date": "2024-07",
+    "site": "UQAM_1",
+    "region": "Baie-du-Febvre, Quebec, Canada",
+    "lat": 46.1645,
+    "lon": -72.6851,
+    "approximate": false,
+    "types": [
+      "eddy-covariance",
+      "meteorology",
+      "radiation"
+    ],
+    "involvement": {
+      "en": "Co-led the installation with Olaf Kolle; operation since",
+      "es": "Codirigí la instalación con Olaf Kolle; operación desde entonces",
+      "fr": "Codirection de l'installation avec Olaf Kolle, puis exploitation"
+    },
+    "network_id": "AmeriFlux CA-CQ1",
+    "summary": {
+      "en": "The network's first eddy covariance tower, on a former marsh now farmed in a soybean and corn rotation.",
+      "es": "La primera torre de covarianza turbulenta de la red, en una antigua marisma hoy cultivada con rotación de soya y maíz.",
+      "fr": "La première tour de covariance du réseau, sur un ancien marais aujourd'hui cultivé en rotation soya et maïs."
+    },
+    "description": {
+      "en": "Installed from 8 to 16 July 2024 on a platform built in June. A scaffolding tower with the EC sensors on a retractable outrigger, powered by AC on a circuit separate from the farm pumps. Later additions include a weighing precipitation gauge on its own solar structure (2026) and a water table sensor.",
+      "es": "Instalada del 8 al 16 de julio de 2024 sobre una plataforma construida en junio. Torre de andamio con los sensores de covarianza en un brazo retráctil, alimentada por red eléctrica en un circuito separado de las bombas agrícolas. Luego se agregaron un pluviómetro de pesada con su propia estructura solar (2026) y un sensor de nivel freático.",
+      "fr": "Installée du 8 au 16 juillet 2024 sur une plateforme bâtie en juin. Tour d'échafaudage avec les capteurs de covariance sur un bras rétractable, alimentée par le réseau sur un circuit séparé des pompes agricoles. Ajouts ultérieurs : un pluviomètre à pesée sur sa propre structure solaire (2026) et une sonde de nappe phréatique."
+    },
+    "equipment": [
+      "Campbell Scientific CSAT3B sonic anemometer",
+      "LI-COR LI-7200RS CO2/H2O analyzer",
+      "LI-COR LI-7700 CH4 analyzer",
+      "LI-COR SmartFlux 2",
+      "Campbell Scientific CR1000X datalogger",
+      "Kipp & Zonen CNR4 + CNF4 net radiometer",
+      "Apogee SQ-521 quantum sensors",
+      "HygroVue10 temperature/RH",
+      "RM Young 05103 wind monitor",
+      "BaroVue10 barometer",
+      "TE525WS rain gauge",
+      "SnowVue10 snow depth",
+      "Hukseflux HFP01 soil heat flux plates",
+      "CS650 soil moisture/temperature profile",
+      "CS456 water table sensor",
+      "OTT Pluvio2 L 400 weighing gauge"
+    ],
+    "links": [
+      {
+        "label": "CARBONIQUE news",
+        "url": "https://carbonique.ca/en/news.html"
+      },
+      {
+        "label": "PhenoCam",
+        "url": "https://phenocam.nau.edu/webcam/sites/lspdisturbedmarsh"
+      }
+    ],
+    "cover": "media/images/uqam-1-1.jpg",
+    "featured": true,
+    "media": [
+      {
+        "file": "media/images/uqam-1-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "UQAM_1 above the soybean field",
+          "es": "UQAM_1 sobre el campo de soya",
+          "fr": "UQAM_1 au-dessus du champ de soya"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "inia-surface-renewal-2023",
+    "title": {
+      "en": "Surface renewal station, INIA Intihuasi",
+      "es": "Estación de renovación superficial, INIA Intihuasi",
+      "fr": "Station de renouvellement de surface, INIA Intihuasi"
+    },
+    "date": "2023-04",
+    "site": "INIA Intihuasi",
+    "region": "Coquimbo Region, Chile",
+    "approximate": false,
+    "types": [
+      "surface-renewal",
+      "meteorology"
+    ],
+    "involvement": {
+      "en": "Programming and installation",
+      "es": "Programación e instalación",
+      "fr": "Programmation et installation"
+    },
+    "network_id": "",
+    "summary": {
+      "en": "A surface renewal station measuring sensible heat over a clementine orchard to estimate evapotranspiration from the energy balance.",
+      "es": "Una estación de renovación superficial que mide el calor sensible sobre un huerto de clementinas para estimar la evapotranspiración a partir del balance de energía.",
+      "fr": "Une station de renouvellement de surface qui mesure la chaleur sensible au-dessus d'un verger de clémentiniers pour estimer l'évapotranspiration à partir du bilan d'énergie."
+    },
+    "description": {
+      "en": "",
+      "es": "",
+      "fr": ""
+    },
+    "equipment": [
+      "Campbell Scientific CR1000X"
+    ],
+    "links": [],
+    "cover": "",
+    "featured": false,
+    "media": []
+  },
+  {
+    "slug": "omora-peatland-2022",
+    "title": {
+      "en": "Omora Park peatland, Puerto Williams",
+      "es": "Turbera del Parque Omora, Puerto Williams",
+      "fr": "Tourbière du parc Omora, Puerto Williams"
+    },
+    "date": "2022-05",
+    "site": "Parque Omora",
+    "region": "Puerto Williams, Magallanes, Chile",
+    "lat": -54.9394,
+    "lon": -67.6418,
+    "approximate": false,
+    "types": [
+      "eddy-covariance",
+      "soil-respiration",
+      "meteorology"
+    ],
+    "involvement": {
+      "en": "Installation (field technician)",
+      "es": "Instalación (técnico de terreno)",
+      "fr": "Installation (technicien de terrain)"
+    },
+    "network_id": "AmeriFlux CL-OPP",
+    "summary": {
+      "en": "Eddy covariance and automated soil respiration systems in one of the southernmost peatlands monitored in the world.",
+      "es": "Sistemas de covarianza turbulenta y respiración de suelo automatizada en una de las turberas monitoreadas más australes del mundo.",
+      "fr": "Systèmes de covariance des turbulences et de respiration du sol automatisée dans l'une des tourbières suivies les plus australes du monde."
+    },
+    "description": {
+      "en": "Installed within FONDEQUIP project EQM200198, a monitoring network for carbon, methane and other greenhouse gases in the southernmost forests and peatlands of the world, awarded to IEB and the Cape Horn International Center (ANID/BASAL FB210018).",
+      "es": "Instalado en el marco del proyecto FONDEQUIP EQM200198, una red de monitoreo de carbono, metano y otros gases de efecto invernadero en los bosques y turberas más australes del mundo, adjudicado al IEB y al Centro Internacional Cabo de Hornos (ANID/BASAL FB210018).",
+      "fr": "Installé dans le cadre du projet FONDEQUIP EQM200198, un réseau de suivi du carbone, du méthane et d'autres GES dans les forêts et tourbières les plus australes du monde, attribué à l'IEB et au Centre international du cap Horn (ANID/BASAL FB210018)."
+    },
+    "equipment": [
+      "Eddy covariance system",
+      "Automated soil respiration chambers"
+    ],
+    "links": [
+      {
+        "label": "AmeriFlux CL-OPP",
+        "url": "https://ameriflux.lbl.gov/sites/siteinfo/CL-OPP"
+      }
+    ],
+    "cover": "",
+    "featured": true,
+    "media": []
+  },
+  {
+    "slug": "chiloe-wind-sentry-2022",
+    "title": {
+      "en": "Wind Sentry anemometer, Chiloé",
+      "es": "Anemómetro Wind Sentry, Chiloé",
+      "fr": "Anémomètre Wind Sentry, Chiloé"
+    },
+    "date": "2022-01",
+    "site": "Chiloé",
+    "region": "Chiloé Province, Los Lagos, Chile",
+    "approximate": false,
+    "types": [
+      "meteorology"
+    ],
+    "involvement": {
+      "en": "Consulting and installation",
+      "es": "Asesoría e instalación",
+      "fr": "Conseil et installation"
+    },
+    "network_id": "",
+    "summary": {
+      "en": "Advisory on meteorological instruments and installation of an R.M. Young 03002 Wind Sentry.",
+      "es": "Asesoría en instrumentos meteorológicos e instalación de un R.M. Young 03002 Wind Sentry.",
+      "fr": "Conseils sur les instruments météorologiques et installation d'un R.M. Young 03002 Wind Sentry."
+    },
+    "description": {
+      "en": "",
+      "es": "",
+      "fr": ""
+    },
+    "equipment": [
+      "R.M. Young 03002 Wind Sentry"
+    ],
+    "links": [],
+    "cover": "",
+    "featured": false,
+    "media": []
+  },
+  {
+    "slug": "alma-dust-station-2020",
+    "title": {
+      "en": "Weather station and dust collector at ALMA",
+      "es": "Estación meteorológica y colector de polvo en ALMA",
+      "fr": "Station météo et collecteur de poussière à ALMA"
+    },
+    "date": "2020-10",
+    "site": "ALMA observatory",
+    "region": "Antofagasta Region, Chile",
+    "lat": -23.03,
+    "lon": -67.75,
+    "approximate": true,
+    "types": [
+      "meteorology",
+      "aerosol"
+    ],
+    "involvement": {
+      "en": "Installation",
+      "es": "Instalación",
+      "fr": "Installation"
+    },
+    "network_id": "",
+    "summary": {
+      "en": "A weather station and a CARAGA dust collector on the Andean slope to measure mineral dust deposition.",
+      "es": "Una estación meteorológica y un colector de polvo CARAGA en la vertiente andina para medir el depósito de polvo mineral.",
+      "fr": "Une station météo et un collecteur de poussière CARAGA sur le versant andin pour mesurer le dépôt de poussières minérales."
+    },
+    "description": {
+      "en": "Part of FONDECYT 1181139 (Dr. Nicolás Huneeus), which studies the transport of mineral dust in northern Chile and its deposition on the Andean cryosphere.",
+      "es": "Parte del FONDECYT 1181139 (Dr. Nicolás Huneeus), que estudia el transporte de polvo mineral en el norte de Chile y su depósito en la criósfera andina.",
+      "fr": "Dans le cadre du FONDECYT 1181139 (Nicolás Huneeus), qui étudie le transport des poussières minérales dans le nord du Chili et leur dépôt sur la cryosphère andine."
+    },
+    "equipment": [
+      "Weather station (wind, temperature, pressure, humidity, solar radiation)",
+      "CARAGA dust collector"
+    ],
+    "links": [],
+    "cover": "",
+    "featured": false,
+    "media": []
+  },
+  {
+    "slug": "cerro-dominador-dust-station-2020",
+    "title": {
+      "en": "Weather station and dust collector at Cerro Dominador",
+      "es": "Estación meteorológica y colector de polvo en Cerro Dominador",
+      "fr": "Station météo et collecteur de poussière à Cerro Dominador"
+    },
+    "date": "2020-10",
+    "site": "Cerro Dominador solar complex",
+    "region": "Antofagasta Region, Chile",
+    "lat": -22.78,
+    "lon": -69.48,
+    "approximate": true,
+    "types": [
+      "meteorology",
+      "aerosol"
+    ],
+    "involvement": {
+      "en": "Installation",
+      "es": "Instalación",
+      "fr": "Installation"
+    },
+    "network_id": "",
+    "summary": {
+      "en": "A weather station and a CARAGA dust collector at a large solar plant, in an area where dust may be emitted.",
+      "es": "Una estación meteorológica y un colector de polvo CARAGA en una gran planta solar, en una zona donde puede emitirse polvo.",
+      "fr": "Une station météo et un collecteur de poussière CARAGA dans une grande centrale solaire, dans une zone d'émission possible de poussières."
+    },
+    "description": {
+      "en": "Part of FONDECYT 1181139 (Dr. Nicolás Huneeus). The data help assess how desert dust affects air quality and solar energy production.",
+      "es": "Parte del FONDECYT 1181139 (Dr. Nicolás Huneeus). Los datos ayudan a evaluar cómo afecta el polvo del desierto a la calidad del aire y a la producción de energía solar.",
+      "fr": "Dans le cadre du FONDECYT 1181139 (Nicolás Huneeus). Les données aident à évaluer l'effet des poussières du désert sur la qualité de l'air et la production d'énergie solaire."
+    },
+    "equipment": [
+      "Weather station (wind, temperature, pressure, humidity, solar radiation)",
+      "CARAGA dust collector"
+    ],
+    "links": [],
+    "cover": "",
+    "featured": false,
+    "media": []
+  },
+  {
+    "slug": "patagonia-forest-ec-2024",
+    "title": {
+      "en": "Eddy covariance station in a remote Patagonian forest",
+      "es": "Estación de covarianza turbulenta en un bosque remoto de la Patagonia",
+      "fr": "Station de covariance des turbulences dans une forêt isolée de Patagonie"
+    },
+    "date": "2024",
+    "site": "Puerto Cisnes area, Aysén",
+    "region": "Aysén Region, Chile",
+    "lat": -44.73,
+    "lon": -72.68,
+    "approximate": true,
+    "types": [
+      "eddy-covariance",
+      "meteorology"
+    ],
+    "involvement": {
+      "en": "Installation",
+      "es": "Instalación",
+      "fr": "Installation"
+    },
+    "network_id": "",
+    "summary": {
+      "en": "A LI-COR eddy covariance station for The Real Eco State in an old-growth forest reached by plane, 4x4 and boat.",
+      "es": "Una estación de covarianza turbulenta LI-COR para The Real Eco State en un bosque antiguo al que se llega en avión, 4x4 y bote.",
+      "fr": "Une station de covariance LI-COR pour The Real Eco State dans une forêt ancienne accessible en avion, en 4x4 puis en bateau."
+    },
+    "description": {
+      "en": "Flight to Balmaceda, 4x4 trucks to Puerto Cisnes, then a boat to a remote forest. Installed with Aarón Grau Neira, Eduardo Morales Santana and Franco Cereceda Espinoza. The Real Eco State invests in wildland conservation, and these measurements feed the Carbon Real approach to carbon credits based on direct flux measurements.",
+      "es": "Vuelo a Balmaceda, camionetas 4x4 hasta Puerto Cisnes y luego un bote hasta un bosque remoto. Instalada junto a Aarón Grau Neira, Eduardo Morales Santana y Franco Cereceda Espinoza. The Real Eco State invierte en la conservación de tierras silvestres, y estas mediciones alimentan el enfoque de Carbon Real de créditos de carbono basados en mediciones directas de flujos.",
+      "fr": "Vol jusqu'à Balmaceda, camionnettes 4x4 jusqu'à Puerto Cisnes, puis bateau jusqu'à une forêt isolée. Installée avec Aarón Grau Neira, Eduardo Morales Santana et Franco Cereceda Espinoza. The Real Eco State investit dans la conservation de terres sauvages, et ces mesures alimentent l'approche de Carbon Real fondée sur la mesure directe des flux."
+    },
+    "equipment": [
+      "LI-COR eddy covariance system"
+    ],
+    "links": [
+      {
+        "label": "Carbon Real",
+        "url": "https://carbonreal.com/en/"
+      }
+    ],
+    "cover": "",
+    "featured": true,
+    "media": []
+  },
+  {
+    "slug": "santiago-urban-ec-2024",
+    "title": {
+      "en": "Urban eddy covariance station in Santiago",
+      "es": "Estación urbana de covarianza turbulenta en Santiago",
+      "fr": "Station urbaine de covariance des turbulences à Santiago"
+    },
+    "date": "2024",
+    "site": "Santiago",
+    "region": "Santiago, Chile",
+    "lat": -33.45,
+    "lon": -70.66,
+    "approximate": true,
+    "types": [
+      "eddy-covariance"
+    ],
+    "involvement": {
+      "en": "Installation and analysis support",
+      "es": "Instalación y apoyo al análisis",
+      "fr": "Installation et soutien à l'analyse"
+    },
+    "network_id": "",
+    "summary": {
+      "en": "An eddy covariance station to model sensible heat flux in the city, for a PhD project at the Pontificia Universidad Católica de Chile.",
+      "es": "Una estación de covarianza turbulenta para modelar el flujo de calor sensible en la ciudad, para un doctorado de la Pontificia Universidad Católica de Chile.",
+      "fr": "Une station de covariance pour modéliser le flux de chaleur sensible en ville, pour un doctorat de la Pontificia Universidad Católica de Chile."
+    },
+    "description": {
+      "en": "Installed for PhD student Guillermo Moncada Morales to study the urban energy balance closure and the residuals left by the city, such as heat storage.",
+      "es": "Instalada para el doctorando Guillermo Moncada Morales, para estudiar el cierre del balance de energía urbano y los residuos que deja la ciudad, como el almacenamiento de calor.",
+      "fr": "Installée pour le doctorant Guillermo Moncada Morales afin d'étudier la fermeture du bilan d'énergie urbain et les résidus laissés par la ville, comme le stockage de chaleur."
+    },
+    "equipment": [
+      "Eddy covariance system"
+    ],
+    "links": [],
+    "cover": "",
+    "featured": false,
+    "media": []
+  },
+  {
+    "slug": "andes-vega-ec-2023",
+    "title": {
+      "en": "High-Andean wetland (vega) eddy covariance station",
+      "es": "Estación de covarianza turbulenta en una vega altoandina",
+      "fr": "Station de covariance dans une vega des hautes Andes"
+    },
+    "date": "2023",
+    "site": "Andes",
+    "region": "Andes, Chile",
+    "types": [
+      "eddy-covariance"
+    ],
+    "approximate": false,
+    "involvement": {
+      "en": "Installation for CEA (Centro de Ecología Aplicada)",
+      "es": "Instalación para el CEA (Centro de Ecología Aplicada)",
+      "fr": "Installation pour le CEA (Centro de Ecología Aplicada)"
+    },
+    "network_id": "",
+    "summary": {
+      "en": "A Campbell Scientific eddy covariance station monitoring CO2 and H2O fluxes in a high-altitude wetland of the Andes.",
+      "es": "Una estación de covarianza turbulenta Campbell Scientific que mide flujos de CO2 y H2O en un humedal de altura de los Andes.",
+      "fr": "Une station de covariance Campbell Scientific qui mesure les flux de CO2 et de H2O dans un milieu humide d'altitude des Andes."
+    },
+    "description": {
+      "en": "Vegas store carbon, shelter many species, feed native and domestic herbivores and supply fresh water to nearby communities.",
+      "es": "Las vegas almacenan carbono, albergan muchas especies, alimentan a herbívoros nativos y domésticos y abastecen de agua dulce a las comunidades cercanas.",
+      "fr": "Les vegas stockent du carbone, abritent de nombreuses espèces, nourrissent des herbivores indigènes et domestiques et fournissent de l'eau douce aux communautés voisines."
+    },
+    "equipment": [
+      "Campbell Scientific eddy covariance system"
+    ],
+    "links": [],
+    "cover": "",
+    "featured": false,
+    "media": []
+  },
+  {
+    "slug": "vineyard-ec-2023",
+    "title": {
+      "en": "Eddy covariance station over a vineyard",
+      "es": "Estación de covarianza turbulenta sobre un viñedo",
+      "fr": "Station de covariance au-dessus d'un vignoble"
+    },
+    "date": "2023",
+    "site": "Vineyard",
+    "region": "Chile",
+    "types": [
+      "eddy-covariance",
+      "meteorology"
+    ],
+    "approximate": false,
+    "involvement": {
+      "en": "Installation",
+      "es": "Instalación",
+      "fr": "Installation"
+    },
+    "network_id": "",
+    "summary": {
+      "en": "CO2 and H2O fluxes plus soil and weather variables over a vineyard, to study productivity, respiration and evapotranspiration for better water management.",
+      "es": "Flujos de CO2 y H2O, más variables de suelo y clima, sobre un viñedo, para estudiar productividad, respiración y evapotranspiración y mejorar el manejo del agua.",
+      "fr": "Flux de CO2 et de H2O, ainsi que variables du sol et météo, au-dessus d'un vignoble, pour étudier la productivité, la respiration et l'évapotranspiration et mieux gérer l'eau."
+    },
+    "description": {
+      "en": "",
+      "es": "",
+      "fr": ""
+    },
+    "equipment": [
+      "LI-COR and Campbell Scientific eddy covariance system"
+    ],
+    "links": [],
+    "cover": "",
+    "featured": false,
+    "media": []
+  },
+  {
+    "slug": "chiloe-forest-profile-2023",
+    "title": {
+      "en": "CO2 and H2O profile system in a Chiloé temperate forest",
+      "es": "Sistema de perfil de CO2 y H2O en un bosque templado de Chiloé",
+      "fr": "Système de profil CO2/H2O dans une forêt tempérée de Chiloé"
+    },
+    "date": "2023",
+    "site": "Chiloé",
+    "region": "Chiloé, Los Lagos, Chile",
+    "types": [
+      "eddy-covariance",
+      "meteorology"
+    ],
+    "approximate": false,
+    "involvement": {
+      "en": "Design and installation",
+      "es": "Diseño e instalación",
+      "fr": "Conception et installation"
+    },
+    "network_id": "",
+    "summary": {
+      "en": "A simple profile system for temperature and gas concentrations to account for CO2 and H2O storage below a tall canopy.",
+      "es": "Un sistema de perfil simple de temperatura y concentración de gases para considerar el almacenamiento de CO2 y H2O bajo un dosel alto.",
+      "fr": "Un système de profil simple de température et de concentrations de gaz pour tenir compte du stockage de CO2 et de H2O sous un couvert élevé."
+    },
+    "description": {
+      "en": "When the canopy is tall and turbulence is weak, part of the flux is stored in the air below the sensors. Measuring profiles lets that storage term be added to the eddy covariance flux.",
+      "es": "Cuando el dosel es alto y la turbulencia débil, parte del flujo queda almacenado en el aire bajo los sensores. Medir perfiles permite sumar ese término de almacenamiento al flujo de covarianza turbulenta.",
+      "fr": "Quand le couvert est haut et la turbulence faible, une partie du flux reste stockée dans l'air sous les capteurs. Mesurer des profils permet d'ajouter ce terme de stockage au flux de covariance."
+    },
+    "equipment": [
+      "Gas and temperature profile"
+    ],
+    "links": [],
+    "cover": "",
+    "featured": false,
+    "media": []
+  }
+]

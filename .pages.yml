@@ -1,0 +1,385 @@
+# Pages CMS configuration (https://pagescms.org)
+# Sign in at https://app.pagescms.org with your GitHub account (protected by GitHub 2FA)
+# and open this repository to edit the content below.
+#
+# Every text that visitors read has three boxes: en (English), es (Español), fr (Français).
+# Leave es or fr empty and the site falls back to English.
+
+media:
+  input: media
+  output: media
+  rename: safe
+
+components:
+  i18nString:
+    type: object
+    fields:
+      - name: en
+        label: English
+        type: string
+      - name: es
+        label: Español
+        type: string
+      - name: fr
+        label: Français
+        type: string
+
+  i18nText:
+    type: object
+    fields:
+      - name: en
+        label: English
+        type: text
+      - name: es
+        label: Español
+        type: text
+      - name: fr
+        label: Français
+        type: text
+
+  mediaItem:
+    type: object
+    label: Media
+    description: "Upload a photo, short video (MP4 under 25 MB) or PDF, OR paste a YouTube/Vimeo link. Fill one of the two."
+    list:
+      collapsible:
+        collapsed: true
+        summary: "Media {index}"
+    fields:
+      - name: file
+        label: Upload (photo, video or PDF)
+        type: file
+        options:
+          categories: [image, video, document]
+      - name: url
+        label: Or a YouTube / Vimeo / external link
+        type: string
+      - name: caption
+        label: Caption
+        component: i18nString
+
+content:
+  - name: site
+    label: Profile and About
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: name
+        label: Full name
+        type: string
+      - name: headline
+        label: Headline (under your name)
+        component: i18nString
+      - name: tagline
+        label: Short tagline
+        component: i18nText
+      - name: location
+        label: Location
+        type: string
+      - name: email
+        label: Contact email
+        type: string
+      - name: photo
+        label: Portrait photo
+        type: image
+      - name: hero_image
+        label: Hero background photo (optional)
+        type: image
+      - name: cv_file
+        label: CV (PDF)
+        type: file
+        options:
+          extensions: [pdf]
+      - name: about
+        label: About me (leave an empty line between paragraphs)
+        component: i18nText
+      - name: stats
+        label: Highlight numbers
+        type: object
+        list: true
+        fields:
+          - name: value
+            type: string
+          - name: label
+            component: i18nString
+      - name: skills
+        label: Skill groups
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "Skill group {index}"
+        fields:
+          - name: group
+            label: Group name
+            component: i18nString
+          - name: items
+            label: Skills (one per line)
+            component: i18nText
+      - name: languages
+        label: Languages I speak
+        type: object
+        list: true
+        fields:
+          - name: name
+            component: i18nString
+          - name: level
+            component: i18nString
+      - name: links
+        label: Profile links
+        type: object
+        list: true
+        fields:
+          - name: label
+            type: string
+          - name: url
+            type: string
+      - name: github_user
+        label: GitHub username
+        type: string
+      - name: show_github_repos
+        label: Also list my other public GitHub repositories
+        type: boolean
+      - name: github_exclude
+        label: Repositories to hide from the automatic list
+        type: string
+        list: true
+
+  - name: experience
+    label: Experience
+    type: file
+    path: content/experience.json
+    format: json
+    list: true
+    fields:
+      - name: org
+        label: Organization
+        type: string
+        required: true
+      - name: role
+        label: Role
+        component: i18nString
+      - name: location
+        type: string
+      - name: start
+        label: Start (YYYY-MM)
+        type: string
+        pattern: "^\\d{4}-\\d{2}$"
+      - name: end
+        label: End (YYYY-MM, leave empty if current)
+        type: string
+      - name: url
+        label: Organization website
+        type: string
+      - name: logo
+        type: image
+      - name: summary
+        label: One-line summary (always visible)
+        component: i18nText
+      - name: highlights
+        label: Details (shown when expanded)
+        component: i18nText
+        description: "One item per line."
+      - name: tags
+        type: string
+        list: true
+      - name: media
+        component: mediaItem
+
+  - name: installations
+    label: Installations
+    type: file
+    path: content/installations.json
+    format: json
+    list: true
+    fields:
+      - name: slug
+        label: Short id (used in links, e.g. omora-2022)
+        type: string
+        required: true
+        pattern: "^[a-z0-9-]+$"
+      - name: title
+        component: i18nString
+      - name: date
+        label: Date (YYYY-MM)
+        type: string
+      - name: site
+        label: Site name
+        type: string
+      - name: region
+        label: Region / country
+        type: string
+      - name: lat
+        label: Latitude (decimal, optional)
+        type: number
+      - name: lon
+        label: Longitude (decimal, optional)
+        type: number
+      - name: approximate
+        label: Coordinates are approximate
+        type: boolean
+      - name: types
+        label: Kind of installation
+        type: select
+        options:
+          multiple: true
+          values:
+            - name: eddy-covariance
+              label: Eddy covariance
+            - name: meteorology
+              label: Meteorological station
+            - name: soil-respiration
+              label: Soil respiration / chambers
+            - name: power
+              label: Power system
+            - name: radiation
+              label: Radiation
+            - name: aerosol
+              label: Dust / aerosol sampling
+            - name: surface-renewal
+              label: Surface renewal
+            - name: other
+              label: Other
+      - name: involvement
+        label: My role at this installation
+        component: i18nString
+      - name: network_id
+        label: Network id (e.g. AmeriFlux CA-CQ1)
+        type: string
+      - name: summary
+        label: One-line summary
+        component: i18nText
+      - name: description
+        label: Full description
+        component: i18nText
+      - name: equipment
+        type: string
+        list: true
+      - name: links
+        type: object
+        list: true
+        fields:
+          - name: label
+            type: string
+          - name: url
+            type: string
+      - name: cover
+        label: Cover photo
+        type: image
+      - name: featured
+        type: boolean
+      - name: media
+        component: mediaItem
+
+  - name: academic
+    label: Academic contributions
+    type: file
+    path: content/academic.json
+    format: json
+    list: true
+    fields:
+      - name: kind
+        type: select
+        options:
+          values:
+            - name: article
+              label: Peer-reviewed article
+            - name: dataset
+              label: Dataset
+            - name: conference
+              label: Conference contribution
+            - name: thesis
+              label: Thesis
+            - name: other
+              label: Other
+      - name: format
+        label: Format (conferences)
+        type: select
+        options:
+          values:
+            - name: ""
+              label: "-"
+            - name: oral
+              label: Oral presentation
+            - name: poster
+              label: Poster
+      - name: presenter
+        label: I presented it
+        type: boolean
+      - name: year
+        type: number
+      - name: month
+        label: Month (1-12, optional, for sorting)
+        type: number
+      - name: authors
+        type: string
+      - name: title
+        type: string
+      - name: venue
+        label: Journal / conference / repository
+        type: string
+      - name: details
+        label: Volume, pages, abstract id...
+        type: string
+      - name: doi
+        label: DOI (e.g. 10.5194/bg-21-1371-2024)
+        type: string
+      - name: url
+        label: Other link
+        type: string
+      - name: note
+        label: Short note (optional)
+        component: i18nText
+      - name: media
+        component: mediaItem
+
+  - name: news
+    label: Updates (posts and news)
+    type: file
+    path: content/news.json
+    format: json
+    list: true
+    fields:
+      - name: date
+        label: Date (YYYY-MM)
+        type: string
+      - name: title
+        component: i18nString
+      - name: summary
+        component: i18nText
+      - name: url
+        label: Link to the post or article
+        type: string
+      - name: related
+        label: Related installation id (optional, e.g. uqam-5-saint-francois-2026)
+        type: string
+      - name: media
+        component: mediaItem
+
+  - name: projects
+    label: Projects
+    type: file
+    path: content/projects.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        type: string
+      - name: description
+        component: i18nText
+      - name: repo
+        label: GitHub repository URL
+        type: string
+      - name: live
+        label: Live site URL
+        type: string
+      - name: year
+        type: number
+      - name: tags
+        type: string
+        list: true
+      - name: cover
+        type: image
+      - name: media
+        component: mediaItem

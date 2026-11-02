@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>David Ulises Trejo Cancino · Environmental monitoring and eddy covariance</title>
+  <meta name="description" content="Portfolio of David Ulises Trejo Cancino: eddy covariance flux towers, environmental instrumentation, off-grid power systems and ecosystem carbon research in Canada and Chile.">
+  <meta name="theme-color" content="#3e5a3a">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="David Ulises Trejo Cancino · Portfolio">
+  <meta property="og:description" content="Eddy covariance flux towers, environmental instrumentation and ecosystem carbon research in Canada and Chile.">
+  <meta property="og:image" content="media/images/uqam-2-1.jpg">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap">
+  <link rel="preload" as="image" href="media/images/uqam-2-1.jpg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>
+    // Apply the saved theme before first paint to avoid a flash.
+    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "David Ulises Trejo Cancino",
+    "jobTitle": "Research Support Professional, Senior Technician",
+    "worksFor": { "@type": "Organization", "name": "Université du Québec à Montréal (UQAM)" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Montreal", "addressRegion": "QC", "addressCountry": "CA" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Universidad de Chile" },
+    "knowsAbout": ["Eddy covariance", "Greenhouse gas fluxes", "Environmental monitoring", "Campbell Scientific dataloggers", "CRBasic", "Off-grid power systems", "Wetland carbon"],
+    "sameAs": [
+      "https://www.linkedin.com/in/david-ulises-trejo-cancino",
+      "https://github.com/davidulicio",
+      "https://orcid.org/0000-0002-9118-6570",
+      "https://www.researchgate.net/profile/David-Trejo-Cancino"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+  <header class="nav" id="nav">
+    <a class="brand" href="#top" aria-label="Home"><span class="brand-mark">DT</span><span class="brand-name">David Trejo</span></a>
+    <nav class="nav-links" id="navLinks" aria-label="Sections">
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#experience" data-i18n="nav.experience">Experience</a>
+      <a href="#installations" data-i18n="nav.installations">Installations</a>
+      <a href="#updates" data-i18n="nav.news">Updates</a>
+      <a href="#projects" data-i18n="nav.projects">Projects</a>
+      <a href="#academic" data-i18n="nav.academic">Academic</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="nav-tools">
+      <div class="lang" role="group" aria-label="Language">
+        <button data-lang="en">EN</button><button data-lang="es">ES</button><button data-lang="fr">FR</button>
+      </div>
+      <button class="icon-btn" id="themeBtn" aria-label="Toggle dark mode">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path class="sun" d="M12 4V2m0 20v-2m8-8h2M2 12h2m13.66-5.66 1.41-1.41M4.93 19.07l1.41-1.41m0-11.32L4.93 4.93m14.14 14.14-1.41-1.41M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Z"/><path class="moon" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="hero-bg" id="heroBg"></div>
+    <div class="hero-inner">
+      <p class="eyebrow" id="heroLocation"></p>
+      <h1 id="heroName">David Ulises Trejo Cancino</h1>
+      <p class="hero-headline" id="heroHeadline"></p>
+      <p class="hero-tagline" id="heroTagline"></p>
+      <div class="hero-cta">
+        <a class="btn primary" href="#installations" data-i18n="hero.explore">Explore installations</a>
+        <a class="btn ghost" id="cvBtn" href="#" target="_blank" rel="noopener" data-i18n="hero.cv">Download CV</a>
+      </div>
+    </div>
+    <a class="scroll-cue" href="#about" aria-label="Scroll"><span></span></a>
+  </section>
+
+  <main id="main">
+    <section class="section" id="about">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="kicker">01</p>
+          <h2 data-i18n="nav.about">About</h2>
+        </header>
+        <div class="about-grid">
+          <div class="about-text reveal" id="aboutText"></div>
+          <aside class="about-side reveal">
+            <div class="portrait" id="portrait"></div>
+            <div class="stats" id="stats"></div>
+          </aside>
+        </div>
+        <div class="skills reveal" id="skills"></div>
+        <div class="langs reveal" id="langs"></div>
+      </div>
+    </section>
+
+    <section class="section alt" id="experience">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="kicker">02</p>
+          <h2 data-i18n="nav.experience">Experience</h2>
+          <p class="section-sub" data-i18n="exp.sub">Every role, newest first. Open any card for the details.</p>
+        </header>
+        <ol class="timeline" id="timeline"></ol>
+        <div class="center"><button class="btn ghost" id="moreRoles" hidden></button></div>
+      </div>
+    </section>
+
+    <section class="section" id="installations">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="kicker">03</p>
+          <h2 data-i18n="nav.installations">Installations</h2>
+          <p class="section-sub" data-i18n="inst.sub">Flux towers, weather stations and power systems I have built or run, from Chile's Atacama Desert and Cape Horn region to southern Quebec, Canada.</p>
+        </header>
+        <div class="filters reveal" id="instFilters" role="toolbar"></div>
+        <div class="map-wrap reveal">
+          <div class="map" id="map" role="region" aria-label="Map"></div>
+          <div class="map-hint" id="mapHint"></div>
+        </div>
+        <div class="cards" id="instCards"></div>
+      </div>
+    </section>
+
+    <section class="section alt" id="updates">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="kicker">04</p>
+          <h2 data-i18n="nav.news">Updates</h2>
+          <p class="section-sub" data-i18n="news.sub">Field news and posts, newest first.</p>
+        </header>
+        <ol class="news" id="news"></ol>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="kicker">05</p>
+          <h2 data-i18n="nav.projects">Projects</h2>
+          <p class="section-sub" data-i18n="proj.sub">Software I build to make field work faster, safer and better documented.</p>
+        </header>
+        <div class="cards projects" id="projCards"></div>
+        <div id="ghBlock" hidden>
+          <h3 class="minor" data-i18n="proj.more">More on GitHub</h3>
+          <ul class="repo-list" id="repoList"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="academic">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="kicker">06</p>
+          <h2 data-i18n="nav.academic">Academic contributions</h2>
+        </header>
+        <div class="tabs reveal" id="acadTabs" role="tablist"></div>
+        <ol class="pubs" id="pubs"></ol>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="wrap reveal">
+        <p class="kicker">07</p>
+        <h2 data-i18n="contact.title">Let's talk</h2>
+        <p class="section-sub" data-i18n="contact.sub">Open to collaborations in environmental monitoring, flux networks and climate data.</p>
+        <a class="email" id="email" href="#"></a>
+        <div class="contact-links" id="contactLinks"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span id="copy"></span>
+      <a class="edit" href="https://app.pagescms.org" target="_blank" rel="noopener" data-i18n="footer.edit">Edit content</a>
+    </div>
+  </footer>
+
+  <dialog class="modal" id="modal" aria-labelledby="modalTitle">
+    <button class="modal-close icon-btn" data-close aria-label="Close">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+    <div class="modal-body" id="modalBody"></div>
+  </dialog>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Media viewer">
+    <button class="lb-close icon-btn" data-close aria-label="Close">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+    <button class="lb-nav prev icon-btn" id="lbPrev" aria-label="Previous">
+      <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <figure class="lb-stage"><div id="lbMedia"></div><figcaption id="lbCaption"></figcaption></figure>
+    <button class="lb-nav next icon-btn" id="lbNext" aria-label="Next">
+      <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+  </dialog>
+
+  <noscript><p class="noscript">This portfolio needs JavaScript to load its content.</p></noscript>
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

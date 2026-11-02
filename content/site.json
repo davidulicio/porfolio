@@ -1,0 +1,186 @@
+{
+  "name": "David Ulises Trejo Cancino",
+  "headline": {
+    "en": "Environmental monitoring and eddy covariance specialist",
+    "es": "Especialista en monitoreo ambiental y covarianza turbulenta",
+    "fr": "Spécialiste en suivi environnemental et en covariance des turbulences"
+  },
+  "tagline": {
+    "en": "I build, power and keep alive the flux towers that measure how wetlands and forests breathe carbon, from the peatlands of Cape Horn, Chile, to the marshes of Lac Saint-Pierre in Quebec, Canada.",
+    "es": "Construyo, energizo y mantengo vivas las torres de flujo que miden cómo respiran carbono los humedales y bosques, desde las turberas del Cabo de Hornos, Chile, hasta las marismas del lago Saint-Pierre en Quebec, Canadá.",
+    "fr": "Je construis, alimente et maintiens en vie les tours de flux qui mesurent comment les milieux humides et les forêts échangent le carbone, des tourbières du cap Horn, au Chili, aux marais du lac Saint-Pierre, au Québec (Canada)."
+  },
+  "location": "Montreal, QC, Canada",
+  "email": "trejo_cancino.david_ulises@uqam.ca",
+  "photo": "",
+  "hero_image": "media/images/uqam-2-1.jpg",
+  "cv_file": "media/docs/David_Trejo_Cancino_CV.pdf",
+  "about": {
+    "en": "I am a geophysicist from the Universidad de Chile working at the intersection of field instrumentation, data and ecosystem science. Today I lead the technical operations of CARBONIQUE, a multi-institutional program measuring the carbon balance of southern Quebec wetlands, as a Research Support Professional at UQAM (C-PALEO lab, GEOTOP).\n\nMy work covers the full measurement chain: designing and installing eddy covariance towers, writing the datalogger programs that run them, building off-grid power systems that survive Quebec winters, diagnosing failing sensors, and turning raw 20 Hz data into clean, documented fluxes for networks such as AmeriFlux and the PhenoCam Network.\n\nBefore Canada, I spent years in Chile managing eddy covariance, soil respiration and meteorological stations from Chiloé to Cape Horn, and researching what drives precipitation in western Patagonia. I enjoy problems that mix hardware, code and ecology, and I build small tools whenever they make field work faster or safer.",
+    "es": "Soy geofísico de la Universidad de Chile y trabajo en la intersección entre instrumentación de terreno, datos y ciencia de ecosistemas. Hoy lidero las operaciones técnicas de CARBONIQUE, un programa interinstitucional que mide el balance de carbono de los humedales del sur de Quebec, como Profesional de Apoyo a la Investigación en la UQAM (laboratorio C-PALEO, GEOTOP).\n\nMi trabajo abarca toda la cadena de medición: diseñar e instalar torres de covarianza turbulenta, escribir los programas de los dataloggers que las controlan, construir sistemas de energía autónomos que resistan el invierno quebequense, diagnosticar sensores con fallas y convertir datos crudos a 20 Hz en flujos limpios y documentados para redes como AmeriFlux y PhenoCam.\n\nAntes de Canadá trabajé varios años en Chile gestionando estaciones de covarianza turbulenta, respiración de suelo y meteorología desde Chiloé hasta el Cabo de Hornos, e investigando qué controla la precipitación en la Patagonia occidental. Disfruto los problemas que mezclan hardware, código y ecología, y construyo pequeñas herramientas cada vez que hacen el trabajo de terreno más rápido o más seguro.",
+    "fr": "Je suis géophysicien formé à l'Universidad de Chile et je travaille à la croisée de l'instrumentation de terrain, des données et de l'écologie des écosystèmes. Je dirige aujourd'hui les opérations techniques de CARBONIQUE, un programme interinstitutionnel qui mesure le bilan de carbone des milieux humides du sud du Québec, à titre de professionnel de recherche à l'UQAM (laboratoire C-PALEO, GEOTOP).\n\nMon travail couvre toute la chaîne de mesure : concevoir et installer des tours de covariance des turbulences, écrire les programmes des enregistreurs qui les pilotent, bâtir des systèmes d'alimentation autonomes qui résistent à l'hiver québécois, diagnostiquer les capteurs défaillants et transformer des données brutes à 20 Hz en flux propres et documentés pour des réseaux comme AmeriFlux et PhenoCam.\n\nAvant le Canada, j'ai passé plusieurs années au Chili à gérer des stations de covariance des turbulences, de respiration du sol et de météorologie, de Chiloé au cap Horn, et à étudier ce qui contrôle les précipitations dans l'ouest de la Patagonie. J'aime les problèmes qui mêlent matériel, code et écologie, et je crée de petits outils chaque fois qu'ils rendent le terrain plus rapide ou plus sûr."
+  },
+  "stats": [
+    {
+      "value": "6+",
+      "label": {
+        "en": "years in the field",
+        "es": "años en terreno",
+        "fr": "années sur le terrain"
+      }
+    },
+    {
+      "value": "2",
+      "label": {
+        "en": "countries, 45° of latitude apart",
+        "es": "países, a 45° de latitud",
+        "fr": "pays, à 45° de latitude"
+      }
+    },
+    {
+      "value": "6",
+      "label": {
+        "en": "CARBONIQUE towers running",
+        "es": "torres CARBONIQUE operando",
+        "fr": "tours CARBONIQUE en service"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "group": {
+        "en": "Environmental instrumentation",
+        "es": "Instrumentación ambiental",
+        "fr": "Instrumentation environnementale"
+      },
+      "items": {
+        "en": "Eddy covariance (LI-COR LI-7200RS, LI-7700, SmartFlux; Campbell CSAT3B)\nMeteorological stations\nRadiation (Kipp & Zonen CNR4)\nPrecipitation gauges (OTT Pluvio2)\nSoil respiration and GHG chambers\nWater table sensors",
+        "es": "Covarianza turbulenta (LI-COR LI-7200RS, LI-7700, SmartFlux; Campbell CSAT3B)\nEstaciones meteorológicas\nRadiación (Kipp & Zonen CNR4)\nPluviómetros (OTT Pluvio2)\nRespiración de suelo y cámaras de GEI\nSensores de nivel freático",
+        "fr": "Covariance des turbulences (LI-COR LI-7200RS, LI-7700, SmartFlux; Campbell CSAT3B)\nStations météorologiques\nRayonnement (Kipp & Zonen CNR4)\nPluviomètres (OTT Pluvio2)\nRespiration du sol et chambres à GES\nSondes de nappe phréatique"
+      }
+    },
+    {
+      "group": {
+        "en": "Data acquisition and control",
+        "es": "Adquisición de datos y control",
+        "fr": "Acquisition de données et contrôle"
+      },
+      "items": {
+        "en": "Campbell Scientific CR1000X\nCRBasic\nModbus TCP\nRelay and power control\nRemote station access",
+        "es": "Campbell Scientific CR1000X\nCRBasic\nModbus TCP\nControl de relés y energía\nAcceso remoto a estaciones",
+        "fr": "Campbell Scientific CR1000X\nCRBasic\nModbus TCP\nCommande de relais et d'alimentation\nAccès à distance aux stations"
+      }
+    },
+    {
+      "group": {
+        "en": "Power systems",
+        "es": "Sistemas de energía",
+        "fr": "Systèmes d'alimentation"
+      },
+      "items": {
+        "en": "Off-grid solar PV\nBattery banks\nMethanol fuel cells (SFC EFOY)\nLow-voltage protection\nBallasted structures",
+        "es": "Fotovoltaica autónoma\nBancos de baterías\nCeldas de combustible de metanol (SFC EFOY)\nProtección por bajo voltaje\nEstructuras lastradas",
+        "fr": "Solaire photovoltaïque autonome\nBancs de batteries\nPiles à combustible au méthanol (SFC EFOY)\nProtection contre la basse tension\nStructures lestées"
+      }
+    },
+    {
+      "group": {
+        "en": "Flux data and QA/QC",
+        "es": "Datos de flujo y QA/QC",
+        "fr": "Données de flux et AQ/CQ"
+      },
+      "items": {
+        "en": "EddyPro\nBiomet.net\nGap-filling\nTime-series diagnostics\nAmeriFlux and PhenoCam submission",
+        "es": "EddyPro\nBiomet.net\nRelleno de vacíos\nDiagnóstico de series de tiempo\nEnvío de datos a AmeriFlux y PhenoCam",
+        "fr": "EddyPro\nBiomet.net\nComblement des lacunes\nDiagnostic de séries temporelles\nSoumission à AmeriFlux et PhenoCam"
+      }
+    },
+    {
+      "group": {
+        "en": "Programming",
+        "es": "Programación",
+        "fr": "Programmation"
+      },
+      "items": {
+        "en": "Python (NumPy, pandas, SciPy, scikit-learn, TensorFlow)\nPlotly / Dash\nMATLAB\nBash / Linux\nGit and GitHub Actions\nHPC (SLURM)\nGenerative AI tools",
+        "es": "Python (NumPy, pandas, SciPy, scikit-learn, TensorFlow)\nPlotly / Dash\nMATLAB\nBash / Linux\nGit y GitHub Actions\nHPC (SLURM)\nHerramientas de IA generativa",
+        "fr": "Python (NumPy, pandas, SciPy, scikit-learn, TensorFlow)\nPlotly / Dash\nMATLAB\nBash / Linux\nGit et GitHub Actions\nHPC (SLURM)\nOutils d'IA générative"
+      }
+    },
+    {
+      "group": {
+        "en": "Field operations",
+        "es": "Operaciones de terreno",
+        "fr": "Opérations de terrain"
+      },
+      "items": {
+        "en": "Multi-site logistics\nInventory and procurement\nTeam supervision\nWork at heights\n3D design and printing of field parts",
+        "es": "Logística multisitio\nInventario y compras\nSupervisión de equipos\nTrabajo en altura\nDiseño e impresión 3D de piezas de terreno",
+        "fr": "Logistique multisite\nInventaire et achats\nSupervision d'équipe\nTravail en hauteur\nConception et impression 3D de pièces de terrain"
+      }
+    }
+  ],
+  "languages": [
+    {
+      "name": {
+        "en": "Spanish",
+        "es": "Español",
+        "fr": "Espagnol"
+      },
+      "level": {
+        "en": "Native",
+        "es": "Nativo",
+        "fr": "Langue maternelle"
+      }
+    },
+    {
+      "name": {
+        "en": "Portuguese",
+        "es": "Portugués",
+        "fr": "Portugais"
+      },
+      "level": {
+        "en": "Bilingual",
+        "es": "Bilingüe",
+        "fr": "Bilingue"
+      }
+    },
+    {
+      "name": {
+        "en": "English",
+        "es": "Inglés",
+        "fr": "Anglais"
+      },
+      "level": {
+        "en": "Professional (EF SET C2)",
+        "es": "Profesional (EF SET C2)",
+        "fr": "Professionnel (EF SET C2)"
+      }
+    }
+  ],
+  "links": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/david-ulises-trejo-cancino"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/davidulicio"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0002-9118-6570"
+    },
+    {
+      "label": "ResearchGate",
+      "url": "https://www.researchgate.net/profile/David-Trejo-Cancino"
+    }
+  ],
+  "github_user": "davidulicio",
+  "show_github_repos": true,
+  "github_exclude": [
+    "davidulicio.github.io",
+    "retro-games-free",
+    "Stocks-Porfolio"
+  ]
+}
