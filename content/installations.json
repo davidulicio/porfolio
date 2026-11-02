@@ -317,6 +317,15 @@
           "es": "Video: instalación de las torres de Lac-à-la-Tortue (por Léonie Perrier)",
           "fr": "Vidéo : installation des tours de Lac-à-la-Tortue (par Léonie Perrier)"
         }
+      },
+      {
+        "file": "media/images/me-6.jpg",
+        "url": "",
+        "caption": {
+          "en": "With the CARBONIQUE team at Lac-à-la-Tortue",
+          "es": "Con el equipo de CARBONIQUE en Lac-à-la-Tortue",
+          "fr": "Avec l'équipe CARBONIQUE à Lac-à-la-Tortue"
+        }
       }
     ]
   },
@@ -390,6 +399,15 @@
           "en": "Looking up the UQAM_3 tower",
           "es": "Mirando hacia arriba la torre UQAM_3",
           "fr": "Vue vers le haut de la tour UQAM_3"
+        }
+      },
+      {
+        "file": "media/images/me-5.jpg",
+        "url": "",
+        "caption": {
+          "en": "At the top of the 22 m tower",
+          "es": "En lo alto de la torre de 22 m",
+          "fr": "Au sommet de la tour de 22 m"
         }
       },
       {
@@ -476,6 +494,15 @@
           "es": "UQAM_1 sobre el campo de soya",
           "fr": "UQAM_1 au-dessus du champ de soya"
         }
+      },
+      {
+        "file": "media/images/me-4.jpg",
+        "url": "",
+        "caption": {
+          "en": "With Olaf Kolle at UQAM_1 during the installation",
+          "es": "Con Olaf Kolle en UQAM_1 durante la instalación",
+          "fr": "Avec Olaf Kolle à UQAM_1 pendant l'installation"
+        }
       }
     ]
   },
@@ -506,9 +533,9 @@
       "fr": "Une station de renouvellement de surface qui mesure la chaleur sensible au-dessus d'un verger de clémentiniers pour estimer l'évapotranspiration à partir du bilan d'énergie."
     },
     "description": {
-      "en": "",
-      "es": "",
-      "fr": ""
+      "en": "Sensible heat is measured directly and latent heat (evapotranspiration) is closed from the energy balance. In July 2023 I also installed an eddy covariance station for INIA.",
+      "es": "El calor sensible se mide directamente y el calor latente (evapotranspiración) se obtiene cerrando el balance de energía. En julio de 2023 también instalé una estación de covarianza turbulenta para INIA.",
+      "fr": "La chaleur sensible est mesurée directement et la chaleur latente (évapotranspiration) est déduite du bilan d'énergie. En juillet 2023, j'ai aussi installé une station de covariance pour l'INIA."
     },
     "equipment": [
       "Campbell Scientific CR1000X"
@@ -516,54 +543,6 @@
     "links": [],
     "cover": "",
     "featured": false,
-    "media": []
-  },
-  {
-    "slug": "omora-peatland-2022",
-    "title": {
-      "en": "Omora Park peatland, Puerto Williams",
-      "es": "Turbera del Parque Omora, Puerto Williams",
-      "fr": "Tourbière du parc Omora, Puerto Williams"
-    },
-    "date": "2022-05",
-    "site": "Parque Omora",
-    "region": "Puerto Williams, Magallanes, Chile",
-    "lat": -54.9394,
-    "lon": -67.6418,
-    "approximate": false,
-    "types": [
-      "eddy-covariance",
-      "soil-respiration",
-      "meteorology"
-    ],
-    "involvement": {
-      "en": "Installation (field technician)",
-      "es": "Instalación (técnico de terreno)",
-      "fr": "Installation (technicien de terrain)"
-    },
-    "network_id": "AmeriFlux CL-OPP",
-    "summary": {
-      "en": "Eddy covariance and automated soil respiration systems in one of the southernmost peatlands monitored in the world.",
-      "es": "Sistemas de covarianza turbulenta y respiración de suelo automatizada en una de las turberas monitoreadas más australes del mundo.",
-      "fr": "Systèmes de covariance des turbulences et de respiration du sol automatisée dans l'une des tourbières suivies les plus australes du monde."
-    },
-    "description": {
-      "en": "Installed within FONDEQUIP project EQM200198, a monitoring network for carbon, methane and other greenhouse gases in the southernmost forests and peatlands of the world, awarded to IEB and the Cape Horn International Center (ANID/BASAL FB210018).",
-      "es": "Instalado en el marco del proyecto FONDEQUIP EQM200198, una red de monitoreo de carbono, metano y otros gases de efecto invernadero en los bosques y turberas más australes del mundo, adjudicado al IEB y al Centro Internacional Cabo de Hornos (ANID/BASAL FB210018).",
-      "fr": "Installé dans le cadre du projet FONDEQUIP EQM200198, un réseau de suivi du carbone, du méthane et d'autres GES dans les forêts et tourbières les plus australes du monde, attribué à l'IEB et au Centre international du cap Horn (ANID/BASAL FB210018)."
-    },
-    "equipment": [
-      "Eddy covariance system",
-      "Automated soil respiration chambers"
-    ],
-    "links": [
-      {
-        "label": "AmeriFlux CL-OPP",
-        "url": "https://ameriflux.lbl.gov/sites/siteinfo/CL-OPP"
-      }
-    ],
-    "cover": "",
-    "featured": true,
     "media": []
   },
   {
@@ -622,15 +601,15 @@
       "aerosol"
     ],
     "involvement": {
-      "en": "Installation",
-      "es": "Instalación",
-      "fr": "Installation"
+      "en": "Research assistant, supporting Dr. Nicolás Huneeus' team",
+      "es": "Asistente de investigación, apoyando al equipo del Dr. Nicolás Huneeus",
+      "fr": "Assistant de recherche, en soutien à l'équipe de Nicolás Huneeus"
     },
     "network_id": "",
     "summary": {
-      "en": "A weather station and a CARAGA dust collector on the Andean slope to measure mineral dust deposition.",
-      "es": "Una estación meteorológica y un colector de polvo CARAGA en la vertiente andina para medir el depósito de polvo mineral.",
-      "fr": "Une station météo et un collecteur de poussière CARAGA sur le versant andin pour mesurer le dépôt de poussières minérales."
+      "en": "Helped install a weather station and a CARAGA dust collector on the Andean slope to measure mineral dust deposition.",
+      "es": "Ayudé a instalar una estación meteorológica y un colector de polvo CARAGA en la vertiente andina para medir el depósito de polvo mineral.",
+      "fr": "Participation à l'installation d'une station météo et d'un collecteur de poussière CARAGA sur le versant andin pour mesurer le dépôt de poussières minérales."
     },
     "description": {
       "en": "Part of FONDECYT 1181139 (Dr. Nicolás Huneeus), which studies the transport of mineral dust in northern Chile and its deposition on the Andean cryosphere.",
@@ -642,9 +621,28 @@
       "CARAGA dust collector"
     ],
     "links": [],
-    "cover": "",
+    "cover": "media/images/alma-1.jpg",
     "featured": false,
-    "media": []
+    "media": [
+      {
+        "file": "media/images/alma-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "Weather station and CARAGA dust collector",
+          "es": "Estación meteorológica y colector de polvo CARAGA",
+          "fr": "Station météo et collecteur de poussière CARAGA"
+        }
+      },
+      {
+        "file": "media/images/alma-2.jpg",
+        "url": "",
+        "caption": {
+          "en": "Weather station and CARAGA dust collector",
+          "es": "Estación meteorológica y colector de polvo CARAGA",
+          "fr": "Station météo et collecteur de poussière CARAGA"
+        }
+      }
+    ]
   },
   {
     "slug": "cerro-dominador-dust-station-2020",
@@ -664,15 +662,15 @@
       "aerosol"
     ],
     "involvement": {
-      "en": "Installation",
-      "es": "Instalación",
-      "fr": "Installation"
+      "en": "Research assistant, supporting Dr. Nicolás Huneeus' team",
+      "es": "Asistente de investigación, apoyando al equipo del Dr. Nicolás Huneeus",
+      "fr": "Assistant de recherche, en soutien à l'équipe de Nicolás Huneeus"
     },
     "network_id": "",
     "summary": {
-      "en": "A weather station and a CARAGA dust collector at a large solar plant, in an area where dust may be emitted.",
-      "es": "Una estación meteorológica y un colector de polvo CARAGA en una gran planta solar, en una zona donde puede emitirse polvo.",
-      "fr": "Une station météo et un collecteur de poussière CARAGA dans une grande centrale solaire, dans une zone d'émission possible de poussières."
+      "en": "Helped install a weather station and a CARAGA dust collector at a large solar plant, in an area where dust may be emitted.",
+      "es": "Ayudé a instalar una estación meteorológica y un colector de polvo CARAGA en una gran planta solar, en una zona donde puede emitirse polvo.",
+      "fr": "Participation à l'installation d'une station météo et d'un collecteur de poussière CARAGA dans une grande centrale solaire, dans une zone d'émission possible de poussières."
     },
     "description": {
       "en": "Part of FONDECYT 1181139 (Dr. Nicolás Huneeus). The data help assess how desert dust affects air quality and solar energy production.",
@@ -684,55 +682,28 @@
       "CARAGA dust collector"
     ],
     "links": [],
-    "cover": "",
+    "cover": "media/images/cerro-dominador-1.jpg",
     "featured": false,
-    "media": []
-  },
-  {
-    "slug": "patagonia-forest-ec-2024",
-    "title": {
-      "en": "Eddy covariance station in a remote Patagonian forest",
-      "es": "Estación de covarianza turbulenta en un bosque remoto de la Patagonia",
-      "fr": "Station de covariance des turbulences dans une forêt isolée de Patagonie"
-    },
-    "date": "2024",
-    "site": "Puerto Cisnes area, Aysén",
-    "region": "Aysén Region, Chile",
-    "lat": -44.73,
-    "lon": -72.68,
-    "approximate": true,
-    "types": [
-      "eddy-covariance",
-      "meteorology"
-    ],
-    "involvement": {
-      "en": "Installation",
-      "es": "Instalación",
-      "fr": "Installation"
-    },
-    "network_id": "",
-    "summary": {
-      "en": "A LI-COR eddy covariance station for The Real Eco State in an old-growth forest reached by plane, 4x4 and boat.",
-      "es": "Una estación de covarianza turbulenta LI-COR para The Real Eco State en un bosque antiguo al que se llega en avión, 4x4 y bote.",
-      "fr": "Une station de covariance LI-COR pour The Real Eco State dans une forêt ancienne accessible en avion, en 4x4 puis en bateau."
-    },
-    "description": {
-      "en": "Flight to Balmaceda, 4x4 trucks to Puerto Cisnes, then a boat to a remote forest. Installed with Aarón Grau Neira, Eduardo Morales Santana and Franco Cereceda Espinoza. The Real Eco State invests in wildland conservation, and these measurements feed the Carbon Real approach to carbon credits based on direct flux measurements.",
-      "es": "Vuelo a Balmaceda, camionetas 4x4 hasta Puerto Cisnes y luego un bote hasta un bosque remoto. Instalada junto a Aarón Grau Neira, Eduardo Morales Santana y Franco Cereceda Espinoza. The Real Eco State invierte en la conservación de tierras silvestres, y estas mediciones alimentan el enfoque de Carbon Real de créditos de carbono basados en mediciones directas de flujos.",
-      "fr": "Vol jusqu'à Balmaceda, camionnettes 4x4 jusqu'à Puerto Cisnes, puis bateau jusqu'à une forêt isolée. Installée avec Aarón Grau Neira, Eduardo Morales Santana et Franco Cereceda Espinoza. The Real Eco State investit dans la conservation de terres sauvages, et ces mesures alimentent l'approche de Carbon Real fondée sur la mesure directe des flux."
-    },
-    "equipment": [
-      "LI-COR eddy covariance system"
-    ],
-    "links": [
+    "media": [
       {
-        "label": "Carbon Real",
-        "url": "https://carbonreal.com/en/"
+        "file": "media/images/cerro-dominador-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "Weather station and CARAGA dust collector",
+          "es": "Estación meteorológica y colector de polvo CARAGA",
+          "fr": "Station météo et collecteur de poussière CARAGA"
+        }
+      },
+      {
+        "file": "media/images/cerro-dominador-2.jpg",
+        "url": "",
+        "caption": {
+          "en": "Weather station and CARAGA dust collector",
+          "es": "Estación meteorológica y colector de polvo CARAGA",
+          "fr": "Station météo et collecteur de poussière CARAGA"
+        }
       }
-    ],
-    "cover": "",
-    "featured": true,
-    "media": []
+    ]
   },
   {
     "slug": "santiago-urban-ec-2024",
@@ -781,7 +752,7 @@
       "es": "Estación de covarianza turbulenta en una vega altoandina",
       "fr": "Station de covariance dans une vega des hautes Andes"
     },
-    "date": "2023",
+    "date": "2023-11",
     "site": "Andes",
     "region": "Andes, Chile",
     "types": [
@@ -808,19 +779,153 @@
       "Campbell Scientific eddy covariance system"
     ],
     "links": [],
-    "cover": "",
+    "cover": "media/images/cea-vega-6.jpg",
     "featured": false,
-    "media": []
+    "media": [
+      {
+        "file": "media/images/cea-vega-6.jpg",
+        "url": "",
+        "caption": {
+          "en": "The station in the vega, with the Andes behind",
+          "es": "La estación en la vega, con los Andes de fondo",
+          "fr": "La station dans la vega, avec les Andes derrière"
+        }
+      },
+      {
+        "file": "media/images/cea-vega-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "Installing the station",
+          "es": "Instalando la estación",
+          "fr": "Installation de la station"
+        }
+      },
+      {
+        "file": "media/images/cea-vega-5.jpg",
+        "url": "",
+        "caption": {
+          "en": "CEA station enclosure",
+          "es": "Gabinete de la estación del CEA",
+          "fr": "Boîtier de la station du CEA"
+        }
+      },
+      {
+        "file": "media/images/cea-vega-2.jpg",
+        "url": "",
+        "caption": {
+          "en": "Datalogger wiring",
+          "es": "Cableado del datalogger",
+          "fr": "Câblage de l'enregistreur"
+        }
+      },
+      {
+        "file": "media/images/cea-vega-8.jpg",
+        "url": "",
+        "caption": {
+          "en": "The valley around the site",
+          "es": "El valle alrededor del sitio",
+          "fr": "La vallée autour du site"
+        }
+      }
+    ]
   },
   {
-    "slug": "vineyard-ec-2023",
+    "slug": "puyuhuapi-forest-2024",
     "title": {
-      "en": "Eddy covariance station over a vineyard",
-      "es": "Estación de covarianza turbulenta sobre un viñedo",
-      "fr": "Station de covariance au-dessus d'un vignoble"
+      "en": "Evergreen Forest Puyuhuapi 1, Carbon Real tower",
+      "es": "Bosque Siempreverde Puyuhuapi 1, torre de Carbon Real",
+      "fr": "Forêt sempervirente Puyuhuapi 1, tour de Carbon Real"
     },
-    "date": "2023",
-    "site": "Vineyard",
+    "date": "2024-01",
+    "site": "Evergreen Forest Puyuhuapi 1",
+    "region": "Puyuhuapi, Aysén Region, Chile",
+    "lat": -44.8002,
+    "lon": -72.8256,
+    "approximate": false,
+    "types": [
+      "eddy-covariance",
+      "meteorology"
+    ],
+    "involvement": {
+      "en": "Installation",
+      "es": "Instalación",
+      "fr": "Installation"
+    },
+    "network_id": "",
+    "summary": {
+      "en": "A LI-COR eddy covariance tower in a remote evergreen forest near Puyuhuapi, measuring the carbon that backs Carbon Real's conservation credits.",
+      "es": "Una torre de covarianza turbulenta LI-COR en un bosque siempreverde remoto cerca de Puyuhuapi, que mide el carbono que respalda los créditos de conservación de Carbon Real.",
+      "fr": "Une tour de covariance LI-COR dans une forêt sempervirente isolée près de Puyuhuapi, qui mesure le carbone à la base des crédits de conservation de Carbon Real."
+    },
+    "description": {
+      "en": "Installed in January 2024 at 53 m above sea level. Getting there meant a flight to Balmaceda, 4x4 trucks to Puerto Cisnes and a boat to the forest. Installed with Aarón Grau Neira, Eduardo Morales Santana and Franco Cereceda Espinoza for Carbon Real and The Real Eco State. Carbon Real's monitoring in Patagonia is behind the high-resolution carbon study published in Carbon Balance and Management (2026).",
+      "es": "Instalada en enero de 2024 a 53 m sobre el nivel del mar. Llegar implicó un vuelo a Balmaceda, camionetas 4x4 hasta Puerto Cisnes y un bote hasta el bosque. Instalada junto a Aarón Grau Neira, Eduardo Morales Santana y Franco Cereceda Espinoza para Carbon Real y The Real Eco State. El monitoreo de Carbon Real en la Patagonia está detrás del estudio de carbono de alta resolución publicado en Carbon Balance and Management (2026).",
+      "fr": "Installée en janvier 2024 à 53 m d'altitude. Pour y arriver : un vol jusqu'à Balmaceda, des camionnettes 4x4 jusqu'à Puerto Cisnes, puis un bateau jusqu'à la forêt. Installée avec Aarón Grau Neira, Eduardo Morales Santana et Franco Cereceda Espinoza pour Carbon Real et The Real Eco State. Le suivi de Carbon Real en Patagonie est à la base de l'étude du carbone à haute résolution publiée dans Carbon Balance and Management (2026)."
+    },
+    "equipment": [
+      "LI-COR eddy covariance system",
+      "Biomet sensors"
+    ],
+    "links": [
+      {
+        "label": "Carbon Real",
+        "url": "https://carbonreal.com/en/"
+      },
+      {
+        "label": "Related paper (Carbon Balance and Management)",
+        "url": "https://doi.org/10.1186/s13021-025-00381-6"
+      }
+    ],
+    "cover": "media/images/me-7.jpg",
+    "featured": true,
+    "media": [
+      {
+        "file": "media/images/me-7.jpg",
+        "url": "",
+        "caption": {
+          "en": "At the top of the new tower",
+          "es": "En lo alto de la nueva torre",
+          "fr": "Au sommet de la nouvelle tour"
+        }
+      },
+      {
+        "file": "media/images/puyuhuapi-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "Wiring the station enclosure",
+          "es": "Cableado del gabinete de la estación",
+          "fr": "Câblage du boîtier de la station"
+        }
+      },
+      {
+        "file": "media/images/puyuhuapi-2.jpg",
+        "url": "",
+        "caption": {
+          "en": "Datalogger and network enclosure",
+          "es": "Gabinete del datalogger y la red",
+          "fr": "Boîtier de l'enregistreur et du réseau"
+        }
+      },
+      {
+        "file": "media/images/puyuhuapi-7.jpg",
+        "url": "",
+        "caption": {
+          "en": "Finished enclosure at the tower base",
+          "es": "Gabinete terminado en la base de la torre",
+          "fr": "Boîtier terminé au pied de la tour"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "inia-ec-vineyard-2023",
+    "title": {
+      "en": "Eddy covariance station over a vineyard, INIA Intihuasi",
+      "es": "Estación de covarianza turbulenta sobre un viñedo, INIA Intihuasi",
+      "fr": "Station de covariance au-dessus d'un vignoble, INIA Intihuasi"
+    },
+    "date": "2023-07",
+    "site": "INIA Intihuasi",
     "region": "Chile",
     "types": [
       "eddy-covariance",
@@ -839,55 +944,582 @@
       "fr": "Flux de CO2 et de H2O, ainsi que variables du sol et météo, au-dessus d'un vignoble, pour étudier la productivité, la respiration et l'évapotranspiration et mieux gérer l'eau."
     },
     "description": {
-      "en": "",
-      "es": "",
-      "fr": ""
+      "en": "Installed in July 2023 on a scaffolding tower, separate from the surface renewal station I set up for INIA in April 2023.",
+      "es": "Instalada en julio de 2023 sobre una torre de andamio, aparte de la estación de renovación superficial que instalé para INIA en abril de 2023.",
+      "fr": "Installée en juillet 2023 sur une tour d'échafaudage, en plus de la station de renouvellement de surface installée pour l'INIA en avril 2023."
     },
     "equipment": [
-      "LI-COR and Campbell Scientific eddy covariance system"
+      "LI-COR and Campbell Scientific eddy covariance system",
+      "Soil and meteorological sensors"
     ],
     "links": [],
-    "cover": "",
+    "cover": "media/images/inia-ec-5.jpg",
     "featured": false,
-    "media": []
+    "media": [
+      {
+        "file": "media/images/inia-ec-5.jpg",
+        "url": "",
+        "caption": {
+          "en": "The finished tower over the vineyard",
+          "es": "La torre terminada sobre el viñedo",
+          "fr": "La tour terminée au-dessus du vignoble"
+        }
+      },
+      {
+        "file": "media/images/inia-ec-4.jpg",
+        "url": "",
+        "caption": {
+          "en": "Sensors on the scaffolding",
+          "es": "Sensores en el andamio",
+          "fr": "Capteurs sur l'échafaudage"
+        }
+      },
+      {
+        "file": "media/images/inia-ec-9.jpg",
+        "url": "",
+        "caption": {
+          "en": "On the tower during installation",
+          "es": "En la torre durante la instalación",
+          "fr": "Sur la tour pendant l'installation"
+        }
+      },
+      {
+        "file": "media/images/inia-ec-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "Building the scaffolding",
+          "es": "Armando el andamio",
+          "fr": "Montage de l'échafaudage"
+        }
+      },
+      {
+        "file": "media/images/inia-ec-2.jpg",
+        "url": "",
+        "caption": {
+          "en": "Unpacking the instruments",
+          "es": "Desempacando los instrumentos",
+          "fr": "Déballage des instruments"
+        }
+      },
+      {
+        "file": "media/images/inia-ec-8.jpg",
+        "url": "",
+        "caption": {
+          "en": "Instrument boom",
+          "es": "Brazo de instrumentos",
+          "fr": "Bras d'instruments"
+        }
+      }
+    ]
   },
   {
-    "slug": "chiloe-forest-profile-2023",
+    "slug": "omora-peatland-2022",
     "title": {
-      "en": "CO2 and H2O profile system in a Chiloé temperate forest",
-      "es": "Sistema de perfil de CO2 y H2O en un bosque templado de Chiloé",
-      "fr": "Système de profil CO2/H2O dans une forêt tempérée de Chiloé"
+      "en": "Omora Park peatland, Puerto Williams",
+      "es": "Turbera del Parque Omora, Puerto Williams",
+      "fr": "Tourbière du parc Omora, Puerto Williams"
     },
-    "date": "2023",
-    "site": "Chiloé",
-    "region": "Chiloé, Los Lagos, Chile",
+    "date": "2022-05",
+    "site": "Parque Omora",
+    "region": "Puerto Williams, Magallanes, Chile",
+    "lat": -54.9394,
+    "lon": -67.6418,
+    "approximate": false,
     "types": [
       "eddy-covariance",
-      "meteorology"
+      "soil-respiration",
+      "meteorology",
+      "radiation"
     ],
-    "approximate": false,
     "involvement": {
-      "en": "Design and installation",
-      "es": "Diseño e instalación",
-      "fr": "Conception et installation"
+      "en": "Installation (field technician), then data management",
+      "es": "Instalación (técnico de terreno) y luego gestión de datos",
+      "fr": "Installation (technicien de terrain), puis gestion des données"
     },
-    "network_id": "",
+    "network_id": "AmeriFlux CL-OPP",
     "summary": {
-      "en": "A simple profile system for temperature and gas concentrations to account for CO2 and H2O storage below a tall canopy.",
-      "es": "Un sistema de perfil simple de temperatura y concentración de gases para considerar el almacenamiento de CO2 y H2O bajo un dosel alto.",
-      "fr": "Un système de profil simple de température et de concentrations de gaz pour tenir compte du stockage de CO2 et de H2O sous un couvert élevé."
+      "en": "Eddy covariance (CO2, H2O and CH4) and automated soil respiration chambers in one of the southernmost peatlands monitored in the world.",
+      "es": "Covarianza turbulenta (CO2, H2O y CH4) y cámaras automáticas de respiración de suelo en una de las turberas monitoreadas más australes del mundo.",
+      "fr": "Covariance des turbulences (CO2, H2O et CH4) et chambres automatisées de respiration du sol dans l'une des tourbières suivies les plus australes du monde."
     },
     "description": {
-      "en": "When the canopy is tall and turbulence is weak, part of the flux is stored in the air below the sensors. Measuring profiles lets that storage term be added to the eddy covariance flux.",
-      "es": "Cuando el dosel es alto y la turbulencia débil, parte del flujo queda almacenado en el aire bajo los sensores. Medir perfiles permite sumar ese término de almacenamiento al flujo de covarianza turbulenta.",
-      "fr": "Quand le couvert est haut et la turbulence faible, une partie du flux reste stockée dans l'air sous les capteurs. Mesurer des profils permet d'ajouter ce terme de stockage au flux de covariance."
+      "en": "Installed in May 2022 within FONDEQUIP project EQM200198, a monitoring network for carbon, methane and other greenhouse gases in the southernmost forests and peatlands of the world, awarded to IEB and the Cape Horn International Center (ANID/BASAL FB210018).",
+      "es": "Instalada en mayo de 2022 en el marco del proyecto FONDEQUIP EQM200198, una red de monitoreo de carbono, metano y otros gases de efecto invernadero en los bosques y turberas más australes del mundo, adjudicado al IEB y al Centro Internacional Cabo de Hornos (ANID/BASAL FB210018).",
+      "fr": "Installée en mai 2022 dans le cadre du projet FONDEQUIP EQM200198, un réseau de suivi du carbone, du méthane et d'autres GES dans les forêts et tourbières les plus australes du monde, attribué à l'IEB et au Centre international du cap Horn (ANID/BASAL FB210018)."
     },
     "equipment": [
-      "Gas and temperature profile"
+      "LI-COR LI-7200RS CO2/H2O analyzer",
+      "LI-COR LI-7700 CH4 analyzer",
+      "Gill WindMaster sonic anemometer",
+      "Kipp & Zonen CNR4 net radiometer",
+      "Automated soil respiration chambers",
+      "Vaisala HMP155A, Stevens HydraProbe II, HFP01, LI-190R"
+    ],
+    "links": [
+      {
+        "label": "AmeriFlux CL-OPP",
+        "url": "https://ameriflux.lbl.gov/sites/siteinfo/CL-OPP"
+      }
+    ],
+    "cover": "media/images/omora-peatland-2.jpg",
+    "featured": true,
+    "media": [
+      {
+        "file": "media/images/omora-peatland-2.jpg",
+        "url": "",
+        "caption": {
+          "en": "The peatland station on its boardwalk",
+          "es": "La estación de la turbera sobre su pasarela",
+          "fr": "La station de la tourbière sur sa passerelle"
+        }
+      },
+      {
+        "file": "media/videos/omora-peatland-video.mp4",
+        "url": "",
+        "caption": {
+          "en": "The station and the peatland",
+          "es": "La estación y la turbera",
+          "fr": "La station et la tourbière"
+        }
+      },
+      {
+        "file": "media/images/omora-peatland-4.jpg",
+        "url": "",
+        "caption": {
+          "en": "Soil respiration chambers in the peatland",
+          "es": "Cámaras de respiración de suelo en la turbera",
+          "fr": "Chambres de respiration du sol dans la tourbière"
+        }
+      },
+      {
+        "file": "media/images/omora-peatland-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "Sonic anemometer and gas analyzers",
+          "es": "Anemómetro sónico y analizadores de gases",
+          "fr": "Anémomètre sonique et analyseurs de gaz"
+        }
+      },
+      {
+        "file": "media/images/omora-peatland-3.jpg",
+        "url": "",
+        "caption": {
+          "en": "Configuring the system at night",
+          "es": "Configurando el sistema de noche",
+          "fr": "Configuration du système la nuit"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "omora-forest-2022",
+    "title": {
+      "en": "Omora Park forest tower, Puerto Williams",
+      "es": "Torre del bosque del Parque Omora, Puerto Williams",
+      "fr": "Tour de la forêt du parc Omora, Puerto Williams"
+    },
+    "date": "2022-05",
+    "site": "Parque Omora",
+    "region": "Puerto Williams, Magallanes, Chile",
+    "lat": -54.9446,
+    "lon": -67.6521,
+    "approximate": false,
+    "types": [
+      "eddy-covariance",
+      "soil-respiration",
+      "meteorology",
+      "radiation"
+    ],
+    "involvement": {
+      "en": "Installation (field technician), then data management",
+      "es": "Instalación (técnico de terreno) y luego gestión de datos",
+      "fr": "Installation (technicien de terrain), puis gestion des données"
+    },
+    "network_id": "ChileFlux CL-PWF",
+    "summary": {
+      "en": "A tall eddy covariance tower and soil respiration chambers in the sub-Antarctic forest of the Omora Ethnobotanical Park.",
+      "es": "Una torre alta de covarianza turbulenta y cámaras de respiración de suelo en el bosque subantártico del Parque Etnobotánico Omora.",
+      "fr": "Une grande tour de covariance et des chambres de respiration du sol dans la forêt subantarctique du parc ethnobotanique Omora."
+    },
+    "description": {
+      "en": "Installed in May 2022 with the IEB and CHIC team, within FONDEQUIP project EQM200198. Climbing work at the top of the tower and a lot of cabling in the forest.",
+      "es": "Instalada en mayo de 2022 con el equipo del IEB y el CHIC, en el marco del proyecto FONDEQUIP EQM200198. Trabajo en altura en lo alto de la torre y mucho cableado en el bosque.",
+      "fr": "Installée en mai 2022 avec l'équipe de l'IEB et du CHIC, dans le cadre du projet FONDEQUIP EQM200198. Travail en hauteur au sommet de la tour et beaucoup de câblage en forêt."
+    },
+    "equipment": [
+      "LI-COR LI-7200RS CO2/H2O analyzer",
+      "Gill WindMaster sonic anemometer",
+      "Kipp & Zonen CNR4 net radiometer",
+      "Automated soil respiration chambers",
+      "Vaisala HMP155A, Stevens HydraProbe II, HFP01, LI-190R, TE525 rain gauge"
     ],
     "links": [],
-    "cover": "",
+    "cover": "media/images/omora-forest-1.jpg",
+    "featured": true,
+    "media": [
+      {
+        "file": "media/images/omora-forest-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "View from the tower over the Omora forest",
+          "es": "Vista desde la torre sobre el bosque de Omora",
+          "fr": "Vue de la tour sur la forêt d'Omora"
+        }
+      },
+      {
+        "file": "media/images/omora-forest-4.jpg",
+        "url": "",
+        "caption": {
+          "en": "At the top of the tower",
+          "es": "En lo alto de la torre",
+          "fr": "Au sommet de la tour"
+        }
+      },
+      {
+        "file": "media/images/omora-forest-3.jpg",
+        "url": "",
+        "caption": {
+          "en": "The forest tower",
+          "es": "La torre del bosque",
+          "fr": "La tour en forêt"
+        }
+      },
+      {
+        "file": "media/images/omora-forest-2.jpg",
+        "url": "",
+        "caption": {
+          "en": "Wiring the electronics on the tower",
+          "es": "Cableando la electrónica en la torre",
+          "fr": "Câblage de l'électronique sur la tour"
+        }
+      },
+      {
+        "file": "media/images/omora-forest-5.jpg",
+        "url": "",
+        "caption": {
+          "en": "Unpacking with the installation team",
+          "es": "Desempacando con el equipo de instalación",
+          "fr": "Déballage avec l'équipe d'installation"
+        }
+      },
+      {
+        "file": "media/images/omora-forest-6.jpg",
+        "url": "",
+        "caption": {
+          "en": "Miniature forests of Cape Horn",
+          "es": "Bosques en miniatura del Cabo de Hornos",
+          "fr": "Forêts miniatures du cap Horn"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "fray-jorge-shrubland",
+    "title": {
+      "en": "Fray Jorge shrubland station",
+      "es": "Estación del matorral de Fray Jorge",
+      "fr": "Station de la brousse de Fray Jorge"
+    },
+    "date": "2023-06",
+    "site": "Fray Jorge National Park",
+    "region": "Coquimbo Region, Chile",
+    "lat": -30.657,
+    "lon": -71.665,
+    "approximate": false,
+    "types": [
+      "eddy-covariance",
+      "meteorology",
+      "radiation"
+    ],
+    "involvement": {
+      "en": "Maintenance",
+      "es": "Mantenimiento",
+      "fr": "Entretien"
+    },
+    "network_id": "AmeriFlux CL-FJS",
+    "summary": {
+      "en": "An eddy covariance station in a semi-arid shrubland inside Fray Jorge National Park, at 541 m.",
+      "es": "Una estación de covarianza turbulenta en un matorral semiárido dentro del Parque Nacional Fray Jorge, a 541 m.",
+      "fr": "Une station de covariance dans une brousse semi-aride du parc national Fray Jorge, à 541 m."
+    },
+    "description": {
+      "en": "Run by the Universidad de La Serena and the Universidad de Chile. I took care of the station's maintenance.",
+      "es": "Operada por la Universidad de La Serena y la Universidad de Chile. Me encargué del mantenimiento de la estación.",
+      "fr": "Exploitée par l'Universidad de La Serena et l'Universidad de Chile. Je me suis occupé de l'entretien de la station."
+    },
+    "equipment": [
+      "LI-COR LI-7500DS CO2/H2O analyzer",
+      "Gill WindMaster sonic anemometer",
+      "Kipp & Zonen CNR4 net radiometer",
+      "Vaisala HMP155A, Stevens HydraProbe II, HFP01, LI-190R"
+    ],
+    "links": [
+      {
+        "label": "AmeriFlux CL-FJS",
+        "url": "https://ameriflux.lbl.gov/sites/siteinfo/CL-FJS"
+      }
+    ],
+    "cover": "media/images/fray-jorge-1.jpg",
     "featured": false,
-    "media": []
+    "media": [
+      {
+        "file": "media/images/fray-jorge-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "Maintenance at the Fray Jorge tower",
+          "es": "Mantenimiento en la torre de Fray Jorge",
+          "fr": "Entretien à la tour de Fray Jorge"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "senda-darwin-forest",
+    "title": {
+      "en": "Senda Darwin forest station, Chiloé",
+      "es": "Estación del bosque de Senda Darwin, Chiloé",
+      "fr": "Station de la forêt de Senda Darwin, Chiloé"
+    },
+    "date": "2021-07",
+    "site": "Senda Darwin Biological Station",
+    "region": "Chiloé, Los Lagos, Chile",
+    "lat": -41.883,
+    "lon": -73.676,
+    "approximate": false,
+    "types": [
+      "eddy-covariance",
+      "soil-respiration",
+      "meteorology",
+      "radiation"
+    ],
+    "involvement": {
+      "en": "Station management: data, maintenance and soil respiration chambers (LECS, Universidad de Chile)",
+      "es": "Gestión de la estación: datos, mantenimiento y cámaras de respiración de suelo (LECS, Universidad de Chile)",
+      "fr": "Gestion de la station : données, entretien et chambres de respiration du sol (LECS, Universidad de Chile)"
+    },
+    "network_id": "AmeriFlux CL-SDF",
+    "summary": {
+      "en": "An old-growth North Patagonian rainforest with an eddy covariance tower, a CO2/H2O profile system and soil respiration chambers.",
+      "es": "Un bosque lluvioso nordpatagónico antiguo con una torre de covarianza turbulenta, un sistema de perfil de CO2/H2O y cámaras de respiración de suelo.",
+      "fr": "Une forêt pluviale nord-patagonienne ancienne avec une tour de covariance, un système de profil CO2/H2O et des chambres de respiration du sol."
+    },
+    "description": {
+      "en": "Evergreen forest with a 25 m canopy and about 2100 mm of rain a year. I managed the station's data, maintenance and soil chambers, and added a simple CO2 and H2O profile system to account for storage below the canopy. Its data went to AmeriFlux and to the Biogeosciences (2024) water use efficiency paper.",
+      "es": "Bosque siempreverde con un dosel de 25 m y unos 2100 mm de lluvia al año. Gestioné los datos, el mantenimiento y las cámaras de suelo de la estación, y agregué un sistema simple de perfil de CO2 y H2O para considerar el almacenamiento bajo el dosel. Sus datos se enviaron a AmeriFlux y al artículo de Biogeosciences (2024) sobre eficiencia en el uso del agua.",
+      "fr": "Forêt sempervirente au couvert de 25 m, avec environ 2100 mm de pluie par an. J'ai géré les données, l'entretien et les chambres de sol de la station, et ajouté un système simple de profil CO2/H2O pour tenir compte du stockage sous le couvert. Ses données ont été soumises à AmeriFlux et ont servi à l'article de Biogeosciences (2024) sur l'efficacité d'utilisation de l'eau."
+    },
+    "equipment": [
+      "Campbell Scientific EC155 + CSAT3A",
+      "CR1000X datalogger",
+      "Kipp & Zonen NR01 net radiometer",
+      "Soil respiration chambers",
+      "CO2/H2O profile system",
+      "HMP155A, CS616, CS451, HFP01, LI-190"
+    ],
+    "links": [
+      {
+        "label": "AmeriFlux CL-SDF",
+        "url": "https://ameriflux.lbl.gov/sites/siteinfo/CL-SDF"
+      }
+    ],
+    "cover": "media/images/senda-darwin-forest-3.jpg",
+    "featured": false,
+    "media": [
+      {
+        "file": "media/images/senda-darwin-forest-3.jpg",
+        "url": "",
+        "caption": {
+          "en": "At the base of the Senda Darwin tower",
+          "es": "En la base de la torre de Senda Darwin",
+          "fr": "Au pied de la tour de Senda Darwin"
+        }
+      },
+      {
+        "file": "media/videos/senda-darwin-forest-video-1.mp4",
+        "url": "",
+        "caption": {
+          "en": "The forest station",
+          "es": "La estación del bosque",
+          "fr": "La station en forêt"
+        }
+      },
+      {
+        "file": "media/images/senda-darwin-forest-2.jpg",
+        "url": "",
+        "caption": {
+          "en": "Soil respiration chambers in the forest",
+          "es": "Cámaras de respiración de suelo en el bosque",
+          "fr": "Chambres de respiration du sol en forêt"
+        }
+      },
+      {
+        "file": "media/images/senda-darwin-forest-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "A soil chamber on its collar",
+          "es": "Una cámara de suelo sobre su collar",
+          "fr": "Une chambre de sol sur son collier"
+        }
+      },
+      {
+        "file": "media/videos/senda-darwin-forest-video-2.mp4",
+        "url": "",
+        "caption": {
+          "en": "Chamber closing",
+          "es": "Cierre de una cámara",
+          "fr": "Fermeture d'une chambre"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "senda-darwin-peatland",
+    "title": {
+      "en": "Senda Darwin peatland station, Chiloé",
+      "es": "Estación de la turbera de Senda Darwin, Chiloé",
+      "fr": "Station de la tourbière de Senda Darwin, Chiloé"
+    },
+    "date": "2021-07",
+    "site": "Senda Darwin Biological Station",
+    "region": "Chiloé, Los Lagos, Chile",
+    "lat": -41.879,
+    "lon": -73.666,
+    "approximate": false,
+    "types": [
+      "eddy-covariance",
+      "soil-respiration",
+      "meteorology",
+      "radiation"
+    ],
+    "involvement": {
+      "en": "Station management: data, maintenance and soil respiration chambers (LECS, Universidad de Chile)",
+      "es": "Gestión de la estación: datos, mantenimiento y cámaras de respiración de suelo (LECS, Universidad de Chile)",
+      "fr": "Gestion de la station : données, entretien et chambres de respiration du sol (LECS, Universidad de Chile)"
+    },
+    "network_id": "ChileFlux CL-SDP",
+    "summary": {
+      "en": "A Sphagnum peatland next to the Senda Darwin forest, with CO2, H2O and CH4 eddy covariance and soil respiration chambers.",
+      "es": "Una turbera de Sphagnum junto al bosque de Senda Darwin, con covarianza turbulenta de CO2, H2O y CH4 y cámaras de respiración de suelo.",
+      "fr": "Une tourbière à sphaignes près de la forêt de Senda Darwin, avec covariance CO2, H2O et CH4 et chambres de respiration du sol."
+    },
+    "description": {
+      "en": "Paired with the forest site to compare how a peatland and a rainforest exchange carbon and water under the same climate.",
+      "es": "Emparejada con el sitio del bosque para comparar cómo intercambian carbono y agua una turbera y un bosque lluvioso bajo el mismo clima.",
+      "fr": "Jumelée avec le site forestier pour comparer les échanges de carbone et d'eau d'une tourbière et d'une forêt pluviale sous le même climat."
+    },
+    "equipment": [
+      "Campbell Scientific EC155 + CSAT3A",
+      "LI-COR LI-7700 CH4 analyzer",
+      "CR3000 datalogger",
+      "Kipp & Zonen NR01 and BF5 radiometers",
+      "Soil respiration chambers"
+    ],
+    "links": [],
+    "cover": "media/images/senda-darwin-peatland-1.jpg",
+    "featured": false,
+    "media": [
+      {
+        "file": "media/images/senda-darwin-peatland-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "Eddy covariance sensors over the peatland",
+          "es": "Sensores de covarianza turbulenta sobre la turbera",
+          "fr": "Capteurs de covariance au-dessus de la tourbière"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "alerce-costero-forest",
+    "title": {
+      "en": "Alerce Costero forest station",
+      "es": "Estación del bosque de Alerce Costero",
+      "fr": "Station de la forêt d'Alerce Costero"
+    },
+    "date": "2021-07",
+    "site": "Alerce Costero National Park",
+    "region": "Los Ríos Region, Chile",
+    "lat": -40.1726,
+    "lon": -73.4439,
+    "approximate": false,
+    "types": [
+      "eddy-covariance",
+      "soil-respiration",
+      "meteorology",
+      "radiation"
+    ],
+    "involvement": {
+      "en": "Station management: data, maintenance and soil respiration chambers (LECS, Universidad de Chile)",
+      "es": "Gestión de la estación: datos, mantenimiento y cámaras de respiración de suelo (LECS, Universidad de Chile)",
+      "fr": "Gestion de la station : données, entretien et chambres de respiration du sol (LECS, Universidad de Chile)"
+    },
+    "network_id": "ChileFlux CL-ACF",
+    "summary": {
+      "en": "A Fitzroya cupressoides (alerce) forest at 822 m, one of the longest-lived tree species on Earth, with eddy covariance and soil respiration chambers.",
+      "es": "Un bosque de Fitzroya cupressoides (alerce) a 822 m, una de las especies de árboles más longevas del planeta, con covarianza turbulenta y cámaras de respiración de suelo.",
+      "fr": "Une forêt de Fitzroya cupressoides (alerce) à 822 m, l'une des essences les plus longévives de la planète, avec covariance et chambres de respiration du sol."
+    },
+    "description": {
+      "en": "IEB station led by Antonio Lara, in a coastal forest of this endangered conifer.",
+      "es": "Estación del IEB liderada por Antonio Lara, en un bosque costero de esta conífera amenazada.",
+      "fr": "Station de l'IEB dirigée par Antonio Lara, dans une forêt côtière de ce conifère menacé."
+    },
+    "equipment": [
+      "Campbell Scientific EC155 + CSAT3A",
+      "CR3000 datalogger",
+      "NR01 Lite2 and BF5 radiometers",
+      "Soil respiration chambers",
+      "HMP155A, CS616, CS451, HFP01, LI-190"
+    ],
+    "links": [],
+    "cover": "media/images/alerce-costero-5.jpg",
+    "featured": false,
+    "media": [
+      {
+        "file": "media/images/alerce-costero-5.jpg",
+        "url": "",
+        "caption": {
+          "en": "View over the alerce forest from the tower",
+          "es": "Vista sobre el bosque de alerce desde la torre",
+          "fr": "Vue sur la forêt d'alerces depuis la tour"
+        }
+      },
+      {
+        "file": "media/images/alerce-costero-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "Working at height on the tower",
+          "es": "Trabajo en altura en la torre",
+          "fr": "Travail en hauteur sur la tour"
+        }
+      },
+      {
+        "file": "media/images/alerce-costero-3.jpg",
+        "url": "",
+        "caption": {
+          "en": "Sensors above the canopy",
+          "es": "Sensores sobre el dosel",
+          "fr": "Capteurs au-dessus du couvert"
+        }
+      },
+      {
+        "file": "media/images/alerce-costero-4.jpg",
+        "url": "",
+        "caption": {
+          "en": "Station enclosure",
+          "es": "Gabinete de la estación",
+          "fr": "Boîtier de la station"
+        }
+      },
+      {
+        "file": "media/images/alerce-costero-2.jpg",
+        "url": "",
+        "caption": {
+          "en": "EC155 gas analyzer and sonic anemometer",
+          "es": "Analizador EC155 y anemómetro sónico",
+          "fr": "Analyseur EC155 et anémomètre sonique"
+        }
+      }
+    ]
   }
 ]

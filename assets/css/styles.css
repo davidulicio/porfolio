@@ -138,9 +138,12 @@ p { margin: 0 0 1em; }
   transform: scale(1.04); transition: opacity 1.2s var(--ease); opacity: 0; will-change: transform;
 }
 .hero-bg.loaded { opacity: 1; }
+/* Wide screens: widen the photo to the right so the tower sits right of the name */
+@media (min-width: 861px) { .hero-bg { inset: -4% -38% -4% -4%; background-position: center 62%; } }
 .hero::after {
   content: ""; position: absolute; inset: 0; z-index: -1;
   background:
+    linear-gradient(90deg, rgba(18, 24, 16, .55) 0%, rgba(18, 24, 16, .2) 45%, transparent 70%),
     linear-gradient(180deg, rgba(18, 24, 16, .55) 0%, rgba(18, 24, 16, .05) 30%, rgba(18, 24, 16, .25) 58%, rgba(18, 24, 16, .88) 100%),
     radial-gradient(120% 80% at 0% 100%, rgba(62, 90, 58, .55), transparent 60%);
 }

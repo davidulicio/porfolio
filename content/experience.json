@@ -30,6 +30,15 @@
     ],
     "media": [
       {
+        "file": "media/images/me-5.jpg",
+        "url": "",
+        "caption": {
+          "en": "At the top of the UQAM_3 tower",
+          "es": "En lo alto de la torre UQAM_3",
+          "fr": "Au sommet de la tour UQAM_3"
+        }
+      },
+      {
         "file": "media/images/uqam-1-1.jpg",
         "url": "",
         "caption": {
@@ -45,6 +54,15 @@
           "en": "UQAM_3, 22 m tower above a forested bog",
           "es": "UQAM_3, torre de 22 m sobre una turbera boscosa",
           "fr": "UQAM_3, tour de 22 m au-dessus d'une tourbière boisée"
+        }
+      },
+      {
+        "file": "media/images/me-6.jpg",
+        "url": "",
+        "caption": {
+          "en": "With the CARBONIQUE team",
+          "es": "Con el equipo de CARBONIQUE",
+          "fr": "Avec l'équipe CARBONIQUE"
         }
       }
     ]
@@ -76,7 +94,17 @@
       "Carbon markets",
       "Data processing"
     ],
-    "media": []
+    "media": [
+      {
+        "file": "media/images/me-7.jpg",
+        "url": "",
+        "caption": {
+          "en": "The Puyuhuapi tower",
+          "es": "La torre de Puyuhuapi",
+          "fr": "La tour de Puyuhuapi"
+        }
+      }
+    ]
   },
   {
     "org": "Instituto de Ecología y Biodiversidad (IEB Chile)",
@@ -116,25 +144,44 @@
     },
     "location": "Coquimbo Region, Chile",
     "start": "2023-04",
-    "end": "2023-04",
+    "end": "2023-07",
     "url": "",
     "logo": "",
     "summary": {
-      "en": "Programmed and deployed a surface renewal station to measure the energy fluxes of an agricultural ecosystem and study its evapotranspiration.",
-      "es": "Programé e instalé una estación de renovación superficial para medir los flujos de energía de un agroecosistema y estudiar su evapotranspiración.",
-      "fr": "Programmation et installation d'une station de renouvellement de surface pour mesurer les flux d'énergie d'un agroécosystème et étudier son évapotranspiration."
+      "en": "Installed a surface renewal station (April 2023) and an eddy covariance station over a vineyard (July 2023) to study evapotranspiration and carbon exchange in agriculture.",
+      "es": "Instalé una estación de renovación superficial (abril de 2023) y una estación de covarianza turbulenta sobre un viñedo (julio de 2023) para estudiar la evapotranspiración y el intercambio de carbono en la agricultura.",
+      "fr": "Installation d'une station de renouvellement de surface (avril 2023) et d'une station de covariance au-dessus d'un vignoble (juillet 2023) pour étudier l'évapotranspiration et les échanges de carbone en agriculture."
     },
     "highlights": {
-      "en": "Wrote the CR1000X datalogger program and installed the sensors in the field.",
-      "es": "Escribí el programa del datalogger CR1000X e instalé los sensores en terreno.",
-      "fr": "Écriture du programme de l'enregistreur CR1000X et installation des capteurs sur le terrain."
+      "en": "Wrote the CR1000X datalogger programs and installed the sensors in the field.",
+      "es": "Escribí los programas de los dataloggers CR1000X e instalé los sensores en terreno.",
+      "fr": "Écriture des programmes des enregistreurs CR1000X et installation des capteurs sur le terrain."
     },
     "tags": [
       "Surface renewal",
       "CRBasic",
       "Evapotranspiration"
     ],
-    "media": []
+    "media": [
+      {
+        "file": "media/images/inia-ec-9.jpg",
+        "url": "",
+        "caption": {
+          "en": "On the INIA vineyard tower",
+          "es": "En la torre del viñedo de INIA",
+          "fr": "Sur la tour du vignoble de l'INIA"
+        }
+      },
+      {
+        "file": "media/images/inia-ec-5.jpg",
+        "url": "",
+        "caption": {
+          "en": "The finished tower",
+          "es": "La torre terminada",
+          "fr": "La tour terminée"
+        }
+      }
+    ]
   },
   {
     "org": "Universidad de Magallanes, Cape Horn International Center (CHIC)",
@@ -154,16 +201,35 @@
       "fr": "Gestion et traitement des données de covariance des turbulences et de respiration du sol pour le Centre international du cap Horn (ANID/BASAL FB210018), et rôle de consultant en météorologie."
     },
     "highlights": {
-      "en": "Supported the Omora Park Peatland station (AmeriFlux CL-OPP) in Puerto Williams, one of the southernmost flux towers in the world.",
-      "es": "Apoyé la estación de la turbera del Parque Omora (AmeriFlux CL-OPP) en Puerto Williams, una de las torres de flujo más australes del mundo.",
-      "fr": "Soutien à la station de la tourbière du parc Omora (AmeriFlux CL-OPP) à Puerto Williams, l'une des tours de flux les plus australes du monde."
+      "en": "Installed and then managed the Omora Park forest and peatland stations in Puerto Williams (eddy covariance and soil respiration chambers), among the southernmost flux sites in the world.",
+      "es": "Instalé y luego gestioné las estaciones del bosque y la turbera del Parque Omora en Puerto Williams (covarianza turbulenta y cámaras de respiración de suelo), entre los sitios de flujo más australes del mundo.",
+      "fr": "Installation puis gestion des stations de la forêt et de la tourbière du parc Omora à Puerto Williams (covariance et chambres de respiration du sol), parmi les sites de flux les plus australs du monde."
     },
     "tags": [
       "Soil respiration",
       "Eddy covariance",
       "Sub-Antarctic"
     ],
-    "media": []
+    "media": [
+      {
+        "file": "media/images/omora-forest-4.jpg",
+        "url": "",
+        "caption": {
+          "en": "Omora forest tower",
+          "es": "Torre del bosque de Omora",
+          "fr": "Tour de la forêt d'Omora"
+        }
+      },
+      {
+        "file": "media/images/omora-peatland-2.jpg",
+        "url": "",
+        "caption": {
+          "en": "Omora peatland station",
+          "es": "Estación de la turbera de Omora",
+          "fr": "Station de la tourbière d'Omora"
+        }
+      }
+    ]
   },
   {
     "org": "Instituto de Ecología y Biodiversidad (IEB Chile)",
@@ -221,7 +287,26 @@
       "Eddy covariance",
       "Soil respiration"
     ],
-    "media": []
+    "media": [
+      {
+        "file": "media/images/omora-forest-5.jpg",
+        "url": "",
+        "caption": {
+          "en": "With the installation team",
+          "es": "Con el equipo de instalación",
+          "fr": "Avec l'équipe d'installation"
+        }
+      },
+      {
+        "file": "media/images/omora-peatland-4.jpg",
+        "url": "",
+        "caption": {
+          "en": "Soil respiration chambers",
+          "es": "Cámaras de respiración de suelo",
+          "fr": "Chambres de respiration du sol"
+        }
+      }
+    ]
   },
   {
     "org": "Instituto de Ecología y Biodiversidad (IEB Chile)",
@@ -268,9 +353,9 @@
       "fr": "Acquisition, traitement et gestion des données de respiration du sol, de biométéorologie et de covariance des turbulences de tours à haute fréquence dans le cadre du FONDECYT 1211652, sur les effets des changements climatiques sur la productivité et l'évapotranspiration des forêts tempérées du Chili."
     },
     "highlights": {
-      "en": "Grew to manage six eddy covariance stations, including the Senda Darwin forest and peatland in Chiloé and the Alerce Costero station.\nFirst in Chile to submit station data to AmeriFlux and the PhenoCam Network.\nBuilt statistical and machine learning models of ecosystem fluxes, leading to a Biogeosciences (2024) article as second author.\nCalibrated and repaired field instruments, including IRGASON calibrations and bringing a lightning-struck tower back online.\nContributed to ChileFlux, the network of Chilean flux stations.",
-      "es": "Llegué a gestionar seis estaciones de covarianza turbulenta, entre ellas el bosque y la turbera de Senda Darwin en Chiloé y la estación Alerce Costero.\nPrimero en Chile en enviar datos de estaciones a AmeriFlux y a la red PhenoCam.\nConstruí modelos estadísticos y de aprendizaje automático de flujos ecosistémicos, que llevaron a un artículo en Biogeosciences (2024) como segundo autor.\nCalibré y reparé instrumentos de terreno, incluidas calibraciones de IRGASON y la recuperación de una torre alcanzada por un rayo.\nContribuí a ChileFlux, la red de estaciones de flujo de Chile.",
-      "fr": "Responsabilité étendue à six stations de covariance des turbulences, dont la forêt et la tourbière de Senda Darwin à Chiloé et la station Alerce Costero.\nPremier au Chili à soumettre des données de stations à AmeriFlux et au réseau PhenoCam.\nModèles statistiques et d'apprentissage automatique des flux écosystémiques, menant à un article dans Biogeosciences (2024) comme deuxième auteur.\nÉtalonnage et réparation d'instruments de terrain, dont des étalonnages d'IRGASON et la remise en service d'une tour frappée par la foudre.\nContribution à ChileFlux, le réseau chilien de stations de flux."
+      "en": "Managed six eddy covariance stations with soil respiration chambers: Senda Darwin forest (CL-SDF) and peatland (CL-SDP) in Chiloé, Alerce Costero (CL-ACF), and the Omora Park forest and peatland in Puerto Williams; also maintained the Fray Jorge shrubland station (CL-FJS).\nFirst in Chile to submit station data to AmeriFlux and the PhenoCam Network, and contributor to ChileFlux.\nBuilt statistical and machine learning models of ecosystem fluxes, leading to a Biogeosciences (2024) article as second author.\nCalibrated and repaired field instruments, from IRGASON and soil chamber maintenance to bringing a lightning-struck tower back online.",
+      "es": "Gestioné seis estaciones de covarianza turbulenta con cámaras de respiración de suelo: el bosque (CL-SDF) y la turbera (CL-SDP) de Senda Darwin en Chiloé, Alerce Costero (CL-ACF) y el bosque y la turbera del Parque Omora en Puerto Williams; además mantuve la estación del matorral de Fray Jorge (CL-FJS).\nPrimero en Chile en enviar datos de estaciones a AmeriFlux y a la red PhenoCam, y colaborador de ChileFlux.\nConstruí modelos estadísticos y de aprendizaje automático de flujos ecosistémicos, que llevaron a un artículo en Biogeosciences (2024) como segundo autor.\nCalibré y reparé instrumentos de terreno, desde la mantención de IRGASON y cámaras de suelo hasta recuperar una torre alcanzada por un rayo.",
+      "fr": "Gestion de six stations de covariance avec chambres de respiration du sol : la forêt (CL-SDF) et la tourbière (CL-SDP) de Senda Darwin à Chiloé, Alerce Costero (CL-ACF), ainsi que la forêt et la tourbière du parc Omora à Puerto Williams; entretien de la station de la brousse de Fray Jorge (CL-FJS).\nPremier au Chili à soumettre des données de stations à AmeriFlux et au réseau PhenoCam, et contributeur à ChileFlux.\nModèles statistiques et d'apprentissage automatique des flux écosystémiques, menant à un article dans Biogeosciences (2024) comme deuxième auteur.\nÉtalonnage et réparation d'instruments, de l'entretien d'IRGASON et de chambres de sol à la remise en service d'une tour frappée par la foudre."
     },
     "tags": [
       "AmeriFlux",
@@ -278,7 +363,62 @@
       "Machine learning",
       "Soil respiration"
     ],
-    "media": []
+    "media": [
+      {
+        "file": "media/images/senda-darwin-forest-3.jpg",
+        "url": "",
+        "caption": {
+          "en": "Senda Darwin forest station, Chiloé",
+          "es": "Estación del bosque de Senda Darwin, Chiloé",
+          "fr": "Station de la forêt de Senda Darwin, Chiloé"
+        }
+      },
+      {
+        "file": "media/images/alerce-costero-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "Tower work at Alerce Costero",
+          "es": "Trabajo en la torre de Alerce Costero",
+          "fr": "Travail sur la tour d'Alerce Costero"
+        }
+      },
+      {
+        "file": "media/images/soil-chambers-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "Soil chamber maintenance",
+          "es": "Mantención de cámaras de suelo",
+          "fr": "Entretien des chambres de sol"
+        }
+      },
+      {
+        "file": "media/images/soil-chambers-3.jpg",
+        "url": "",
+        "caption": {
+          "en": "Inside a soil respiration multiplexer",
+          "es": "Interior de un multiplexor de respiración de suelo",
+          "fr": "Intérieur d'un multiplexeur de respiration du sol"
+        }
+      },
+      {
+        "file": "media/images/soil-chambers-6.jpg",
+        "url": "",
+        "caption": {
+          "en": "Repairing a soil chamber",
+          "es": "Reparando una cámara de suelo",
+          "fr": "Réparation d'une chambre de sol"
+        }
+      },
+      {
+        "file": "media/images/lecs-lab-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "The LECS lab",
+          "es": "El laboratorio LECS",
+          "fr": "Le laboratoire LECS"
+        }
+      }
+    ]
   },
   {
     "org": "Universidad de Chile, Department of Geophysics",
@@ -352,9 +492,9 @@
     "url": "",
     "logo": "",
     "summary": {
-      "en": "Prepared the logistics and installed two meteorological stations and two CARAGA dust collectors at the Cerro Dominador solar complex and the ALMA observatory (FONDECYT 1181139, Dr. Nicolás Huneeus).",
-      "es": "Preparé la logística e instalé dos estaciones meteorológicas y dos colectores de polvo CARAGA en el complejo solar Cerro Dominador y el observatorio ALMA (FONDECYT 1181139, Dr. Nicolás Huneeus).",
-      "fr": "Préparation de la logistique et installation de deux stations météorologiques et de deux collecteurs de poussière CARAGA au complexe solaire Cerro Dominador et à l'observatoire ALMA (FONDECYT 1181139, Nicolás Huneeus)."
+      "en": "As research assistant to Dr. Nicolás Huneeus (FONDECYT 1181139), supported the logistics and the installation of two meteorological stations and two CARAGA dust collectors at the Cerro Dominador solar complex and the ALMA observatory.",
+      "es": "Como asistente de investigación del Dr. Nicolás Huneeus (FONDECYT 1181139), apoyé la logística y la instalación de dos estaciones meteorológicas y dos colectores de polvo CARAGA en el complejo solar Cerro Dominador y el observatorio ALMA.",
+      "fr": "Comme assistant de recherche de Nicolás Huneeus (FONDECYT 1181139), soutien à la logistique et à l'installation de deux stations météorologiques et de deux collecteurs de poussière CARAGA au complexe solaire Cerro Dominador et à l'observatoire ALMA."
     },
     "highlights": {
       "en": "The project studies the transport of mineral dust in northern Chile and its deposition on the Andean cryosphere, including its effect on solar energy production.",
@@ -366,7 +506,26 @@
       "Meteorology",
       "Dust"
     ],
-    "media": []
+    "media": [
+      {
+        "file": "media/images/alma-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "ALMA station",
+          "es": "Estación de ALMA",
+          "fr": "Station d'ALMA"
+        }
+      },
+      {
+        "file": "media/images/cerro-dominador-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "Cerro Dominador station",
+          "es": "Estación de Cerro Dominador",
+          "fr": "Station de Cerro Dominador"
+        }
+      }
+    ]
   },
   {
     "org": "Universidad de Chile, Montessus de Ballore Library",
@@ -466,16 +625,44 @@
       "fr": "Installation de stations de covariance des turbulences pour des groupes de recherche et des entreprises partout au Chili."
     },
     "highlights": {
-      "en": "A LI-COR station in a remote Patagonian forest for The Real Eco State, reached by plane, 4x4 and boat.\nA Campbell Scientific station in a high-Andean wetland (vega) for CEA, Centro de Ecología Aplicada.\nAn urban station in Santiago for a PhD project at the Pontificia Universidad Católica de Chile.\nA station over a vineyard, and a surface renewal station for INIA Intihuasi.",
-      "es": "Una estación LI-COR en un bosque remoto de la Patagonia para The Real Eco State, con acceso en avión, 4x4 y bote.\nUna estación Campbell Scientific en una vega altoandina para el CEA, Centro de Ecología Aplicada.\nUna estación urbana en Santiago para un doctorado de la Pontificia Universidad Católica de Chile.\nUna estación sobre un viñedo y una estación de renovación superficial para INIA Intihuasi.",
-      "fr": "Une station LI-COR dans une forêt isolée de Patagonie pour The Real Eco State, accessible en avion, en 4x4 et en bateau.\nUne station Campbell Scientific dans une vega des hautes Andes pour le CEA, Centro de Ecología Aplicada.\nUne station urbaine à Santiago pour un doctorat de la Pontificia Universidad Católica de Chile.\nUne station au-dessus d'un vignoble et une station de renouvellement de surface pour INIA Intihuasi."
+      "en": "The Evergreen Forest Puyuhuapi 1 tower for Carbon Real (LI-COR), in a remote forest reached by plane, 4x4 and boat (January 2024).\nA Campbell Scientific station in a high-Andean wetland (vega) for CEA, Centro de Ecología Aplicada (November 2023).\nAn eddy covariance station over a vineyard (July 2023) and a surface renewal station (April 2023) for INIA Intihuasi.\nAn urban station in Santiago for a PhD project at the Pontificia Universidad Católica de Chile.",
+      "es": "La torre Bosque Siempreverde Puyuhuapi 1 para Carbon Real (LI-COR), en un bosque remoto con acceso en avión, 4x4 y bote (enero de 2024).\nUna estación Campbell Scientific en una vega altoandina para el CEA, Centro de Ecología Aplicada (noviembre de 2023).\nUna estación de covarianza turbulenta sobre un viñedo (julio de 2023) y una estación de renovación superficial (abril de 2023) para INIA Intihuasi.\nUna estación urbana en Santiago para un doctorado de la Pontificia Universidad Católica de Chile.",
+      "fr": "La tour Evergreen Forest Puyuhuapi 1 pour Carbon Real (LI-COR), dans une forêt isolée accessible en avion, en 4x4 et en bateau (janvier 2024).\nUne station Campbell Scientific dans une vega des hautes Andes pour le CEA, Centro de Ecología Aplicada (novembre 2023).\nUne station de covariance au-dessus d'un vignoble (juillet 2023) et une station de renouvellement de surface (avril 2023) pour l'INIA Intihuasi.\nUne station urbaine à Santiago pour un doctorat de la Pontificia Universidad Católica de Chile."
     },
     "tags": [
       "Installation",
       "LI-COR",
       "Campbell Scientific"
     ],
-    "media": []
+    "media": [
+      {
+        "file": "media/images/me-7.jpg",
+        "url": "",
+        "caption": {
+          "en": "Puyuhuapi tower for Carbon Real",
+          "es": "Torre de Puyuhuapi para Carbon Real",
+          "fr": "Tour de Puyuhuapi pour Carbon Real"
+        }
+      },
+      {
+        "file": "media/images/cea-vega-6.jpg",
+        "url": "",
+        "caption": {
+          "en": "CEA station in a high-Andean vega",
+          "es": "Estación del CEA en una vega altoandina",
+          "fr": "Station du CEA dans une vega des hautes Andes"
+        }
+      },
+      {
+        "file": "media/images/inia-ec-5.jpg",
+        "url": "",
+        "caption": {
+          "en": "INIA vineyard tower",
+          "es": "Torre del viñedo de INIA",
+          "fr": "Tour du vignoble de l'INIA"
+        }
+      }
+    ]
   },
   {
     "org": "Universidad de Chile",

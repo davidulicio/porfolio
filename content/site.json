@@ -1,9 +1,9 @@
 {
   "name": "David Ulises Trejo Cancino",
   "headline": {
-    "en": "Environmental monitoring and eddy covariance specialist",
-    "es": "Especialista en monitoreo ambiental y covarianza turbulenta",
-    "fr": "Spécialiste en suivi environnemental et en covariance des turbulences"
+    "en": "Environmental Monitoring and Eddy Covariance Specialist",
+    "es": "Especialista en Monitoreo Ambiental y Covarianza Turbulenta",
+    "fr": "Spécialiste en Suivi Environnemental et Covariance des Turbulences"
   },
   "tagline": {
     "en": "I build, power and keep alive the flux towers that measure how wetlands and forests breathe carbon, from the peatlands of Cape Horn, Chile, to the marshes of Lac Saint-Pierre in Quebec, Canada.",
@@ -12,7 +12,7 @@
   },
   "location": "Montreal, QC, Canada",
   "email": "trejo_cancino.david_ulises@uqam.ca",
-  "photo": "",
+  "photo": "media/images/me-2.jpg",
   "hero_image": "media/images/uqam-2-1.jpg",
   "cv_file": "media/docs/David_Trejo_Cancino_CV.pdf",
   "about": {
