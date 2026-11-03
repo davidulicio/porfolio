@@ -8,6 +8,7 @@
     },
     "date": "2026-08",
     "site": "UQAM_5",
+    "short": "UQAM_5 · Saint-François-du-Lac",
     "region": "Saint-François-du-Lac, Quebec, Canada",
     "lat": 46.0886,
     "lon": -72.9174,
@@ -19,9 +20,9 @@
       "power"
     ],
     "involvement": {
-      "en": "Installation, operation and maintenance",
-      "es": "Instalación, operación y mantenimiento",
-      "fr": "Installation, exploitation et entretien"
+      "en": "Installation (with the CARBONIQUE team), operation and maintenance",
+      "es": "Instalación (con el equipo de CARBONIQUE), operación y mantenimiento",
+      "fr": "Installation (avec l'équipe CARBONIQUE), exploitation et entretien"
     },
     "network_id": "AmeriFlux CA-CQ5",
     "summary": {
@@ -92,6 +93,7 @@
     },
     "date": "2026-01",
     "site": "UQAM_4",
+    "short": "UQAM_4 · Saint-Rémi",
     "region": "Saint-Rémi, Quebec, Canada",
     "lat": 45.2459,
     "lon": -73.6823,
@@ -103,9 +105,9 @@
       "power"
     ],
     "involvement": {
-      "en": "Installation, operation and maintenance",
-      "es": "Instalación, operación y mantenimiento",
-      "fr": "Installation, exploitation et entretien"
+      "en": "Installation (with the CARBONIQUE team), operation and maintenance",
+      "es": "Instalación (con el equipo de CARBONIQUE), operación y mantenimiento",
+      "fr": "Installation (avec l'équipe CARBONIQUE), exploitation et entretien"
     },
     "network_id": "AmeriFlux CA-CQ4",
     "summary": {
@@ -179,6 +181,7 @@
     },
     "date": "2025-07",
     "site": "MCGILL_1",
+    "short": "MCGILL_1 · Lac Saint-Pierre",
     "region": "Baie-du-Febvre, Quebec, Canada",
     "lat": 46.1488,
     "lon": -72.7268,
@@ -190,9 +193,9 @@
       "power"
     ],
     "involvement": {
-      "en": "Installation (with Sara Knox's McGill team), operation, maintenance and solar power structure",
-      "es": "Instalación (con el equipo de Sara Knox, McGill), operación, mantenimiento y estructura solar",
-      "fr": "Installation (avec l'équipe de Sara Knox, McGill), exploitation, entretien et structure solaire"
+      "en": "Installation (with Sara Knox's McGill team and the CARBONIQUE team), operation, maintenance and solar power structure",
+      "es": "Instalación (con el equipo de Sara Knox, McGill, y el equipo de CARBONIQUE), operación, mantenimiento y estructura solar",
+      "fr": "Installation (avec l'équipe de Sara Knox, McGill, et l'équipe CARBONIQUE), exploitation, entretien et structure solaire"
     },
     "network_id": "AmeriFlux CA-CQ9",
     "summary": {
@@ -259,6 +262,7 @@
     },
     "date": "2025-04",
     "site": "UQAM_2",
+    "short": "UQAM_2 · Lac-à-la-Tortue",
     "region": "Notre-Dame-du-Mont-Carmel, Quebec, Canada",
     "lat": 46.5316,
     "lon": -72.645,
@@ -270,9 +274,9 @@
       "power"
     ],
     "involvement": {
-      "en": "Installation, operation and maintenance",
-      "es": "Instalación, operación y mantenimiento",
-      "fr": "Installation, exploitation et entretien"
+      "en": "Installation (with the CARBONIQUE team), operation and maintenance",
+      "es": "Instalación (con el equipo de CARBONIQUE), operación y mantenimiento",
+      "fr": "Installation (avec l'équipe CARBONIQUE), exploitation et entretien"
     },
     "network_id": "AmeriFlux CA-CQ2",
     "summary": {
@@ -360,6 +364,7 @@
     },
     "date": "2025-04",
     "site": "UQAM_3",
+    "short": "UQAM_3 · Lac-à-la-Tortue",
     "region": "Notre-Dame-du-Mont-Carmel, Quebec, Canada",
     "lat": 46.528,
     "lon": -72.6462,
@@ -371,9 +376,9 @@
       "power"
     ],
     "involvement": {
-      "en": "Installation, operation and maintenance",
-      "es": "Instalación, operación y mantenimiento",
-      "fr": "Installation, exploitation et entretien"
+      "en": "Installation (with the CARBONIQUE team), operation and maintenance",
+      "es": "Instalación (con el equipo de CARBONIQUE), operación y mantenimiento",
+      "fr": "Installation (avec l'équipe CARBONIQUE), exploitation et entretien"
     },
     "network_id": "AmeriFlux CA-CQ3",
     "summary": {
@@ -453,6 +458,7 @@
     },
     "date": "2024-07",
     "site": "UQAM_1",
+    "short": "UQAM_1 · Lac Saint-Pierre",
     "region": "Baie-du-Febvre, Quebec, Canada",
     "lat": 46.1645,
     "lon": -72.6851,
@@ -463,9 +469,9 @@
       "radiation"
     ],
     "involvement": {
-      "en": "Installation (with Olaf Kolle), operation and maintenance",
-      "es": "Instalación (con Olaf Kolle), operación y mantenimiento",
-      "fr": "Installation (avec Olaf Kolle), exploitation et entretien"
+      "en": "Installation (with Olaf Kolle and the CARBONIQUE team), operation and maintenance",
+      "es": "Instalación (con Olaf Kolle y el equipo de CARBONIQUE), operación y mantenimiento",
+      "fr": "Installation (avec Olaf Kolle et l'équipe CARBONIQUE), exploitation et entretien"
     },
     "network_id": "AmeriFlux CA-CQ1",
     "summary": {
@@ -539,6 +545,7 @@
     },
     "date": "2023-06",
     "site": "Estación Palqui",
+    "short": "INIA Palqui",
     "region": "Palqui, Coquimbo Region, Chile",
     "approximate": false,
     "types": [
@@ -600,6 +607,7 @@
     },
     "date": "2020-10",
     "site": "ALMA observatory",
+    "short": "ALMA",
     "region": "Antofagasta Region, Chile",
     "lat": -23.03,
     "lon": -67.75,
@@ -651,7 +659,7 @@
         }
       }
     ],
-    "role_type": "installed"
+    "role_type": "assisted"
   },
   {
     "slug": "cerro-dominador-dust-station-2020",
@@ -662,6 +670,7 @@
     },
     "date": "2020-10",
     "site": "Cerro Dominador solar complex",
+    "short": "Cerro Dominador",
     "region": "Antofagasta Region, Chile",
     "lat": -22.78,
     "lon": -69.48,
@@ -713,7 +722,7 @@
         }
       }
     ],
-    "role_type": "installed"
+    "role_type": "assisted"
   },
   {
     "slug": "santiago-urban-ec-2024",
@@ -724,6 +733,7 @@
     },
     "date": "2024-02",
     "site": "Vitacura, Santiago",
+    "short": "Santiago",
     "region": "Vitacura, Santiago, Chile",
     "lat": -33.39,
     "lon": -70.58,
@@ -784,6 +794,7 @@
     },
     "date": "2023-11",
     "site": "High-Andean vega",
+    "short": "CEA",
     "region": "O'Higgins Region, Chile",
     "types": [
       "eddy-covariance"
@@ -871,6 +882,7 @@
     },
     "date": "2024-01",
     "site": "Evergreen Forest Puyuhuapi 1",
+    "short": "Puyuhuapi",
     "region": "Puyuhuapi, Aysén Region, Chile",
     "lat": -44.8002,
     "lon": -72.8256,
@@ -960,6 +972,7 @@
     },
     "date": "2023-07",
     "site": "Estación Vicuña",
+    "short": "INIA Vicuña",
     "region": "Vicuña, Coquimbo Region, Chile",
     "types": [
       "eddy-covariance",
@@ -1076,6 +1089,7 @@
     },
     "date": "2022-05",
     "site": "Parque Omora",
+    "short": "Omora · CL-OPP",
     "region": "Puerto Williams, Magallanes, Chile",
     "lat": -54.9394,
     "lon": -67.6418,
@@ -1176,6 +1190,7 @@
     },
     "date": "2022-05",
     "site": "Parque Omora",
+    "short": "Omora · CL-PWF",
     "region": "Puerto Williams, Magallanes, Chile",
     "lat": -54.9446,
     "lon": -67.6521,
@@ -1279,6 +1294,7 @@
     },
     "date": "2023-06",
     "site": "Fray Jorge National Park",
+    "short": "Fray Jorge · CL-FJS",
     "region": "Coquimbo Region, Chile",
     "lat": -30.657,
     "lon": -71.665,
@@ -1340,6 +1356,7 @@
     },
     "date": "2021-07",
     "site": "Senda Darwin Biological Station",
+    "short": "Senda Darwin · CL-SDF",
     "region": "Chiloé, Los Lagos, Chile",
     "lat": -41.883,
     "lon": -73.676,
@@ -1440,6 +1457,7 @@
     },
     "date": "2021-07",
     "site": "Senda Darwin Biological Station",
+    "short": "Senda Darwin · CL-SDP",
     "region": "Chiloé, Los Lagos, Chile",
     "lat": -41.879,
     "lon": -73.666,
@@ -1498,6 +1516,7 @@
     },
     "date": "2021-07",
     "site": "Alerce Costero National Park",
+    "short": "Alerce Costero · CL-ACF",
     "region": "Los Ríos Region, Chile",
     "lat": -40.1726,
     "lon": -73.4439,

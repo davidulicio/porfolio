@@ -4,6 +4,8 @@ export const LANGS = ['en', 'es', 'fr'];
 
 export const UI = {
   en: {
+    'rec.title': 'Station record', 'rec.installed': 'Installed', 'rec.managed': 'Managed and maintained, installed by others',
+    'rec.note': 'Select a station to see its details.', 'country.canada': 'Canada', 'country.chile': 'Chile',
     'nav.field': 'Field work', 'field.sub': 'Smaller jobs between the big installations: maintenance, calibrations, repairs, troubleshooting and days in the field.',
     'gcat.installation': 'Installation', 'gcat.maintenance': 'Maintenance', 'gcat.calibration': 'Calibration', 'gcat.cleaning': 'Cleaning',
     'gcat.repairs': 'Repairs', 'gcat.troubleshooting': 'Troubleshooting', 'gcat.power': 'Power', 'gcat.fieldwork': 'Fieldwork',
@@ -37,6 +39,8 @@ export const UI = {
     'media.video': 'Video', 'media.pdf': 'PDF', 'media.link': 'Link'
   },
   es: {
+    'rec.title': 'Registro de estaciones', 'rec.installed': 'Instaladas', 'rec.managed': 'Gestionadas y mantenidas, instaladas por otros',
+    'rec.note': 'Elige una estación para ver sus detalles.', 'country.canada': 'Canadá', 'country.chile': 'Chile',
     'nav.field': 'Terreno', 'field.sub': 'Trabajos más pequeños entre las grandes instalaciones: mantenciones, calibraciones, reparaciones, diagnóstico de fallas y días en terreno.',
     'gcat.installation': 'Instalación', 'gcat.maintenance': 'Mantención', 'gcat.calibration': 'Calibración', 'gcat.cleaning': 'Limpieza',
     'gcat.repairs': 'Reparaciones', 'gcat.troubleshooting': 'Diagnóstico de fallas', 'gcat.power': 'Energía', 'gcat.fieldwork': 'Terreno',
@@ -70,6 +74,8 @@ export const UI = {
     'media.video': 'Video', 'media.pdf': 'PDF', 'media.link': 'Enlace'
   },
   fr: {
+    'rec.title': 'Bilan des stations', 'rec.installed': 'Installées', 'rec.managed': "Gérées et entretenues, installées par d'autres",
+    'rec.note': 'Choisissez une station pour voir ses détails.', 'country.canada': 'Canada', 'country.chile': 'Chili',
     'nav.field': 'Terrain', 'field.sub': "Les plus petits travaux entre les grandes installations : entretien, étalonnages, réparations, dépannage et journées sur le terrain.",
     'gcat.installation': 'Installation', 'gcat.maintenance': 'Entretien', 'gcat.calibration': 'Étalonnage', 'gcat.cleaning': 'Nettoyage',
     'gcat.repairs': 'Réparations', 'gcat.troubleshooting': 'Dépannage', 'gcat.power': 'Alimentation', 'gcat.fieldwork': 'Terrain',

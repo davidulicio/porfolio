@@ -207,7 +207,24 @@ p { margin: 0 0 1em; }
 .portrait .initials { font: 600 72px/1 var(--serif); color: rgba(255, 248, 236, .9); }
 .portrait svg { position: absolute; inset: 0; width: 100%; height: 100%; opacity: .25; }
 .portrait svg path { fill: none; stroke: #f3e8d2; stroke-width: 1; }
-.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 12px; }
+.stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.record { margin-top: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; }
+.record h3 { font-size: 18px; margin-bottom: 12px; }
+.rec-group + .rec-group { margin-top: 16px; padding-top: 14px; border-top: 1px dashed var(--line); }
+.rec-h { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 14px; margin: 0 0 8px; }
+.rec-h .pin { width: 13px; height: 13px; flex: none; border-width: 2px; box-shadow: none; }
+.rec-h .pin.managed { border-width: 3px; }
+.rec-h .n { margin-left: auto; font: 600 18px/1 var(--serif); color: var(--moss); }
+.rec-country { font-size: 11.5px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 10px 0 6px; }
+.rec-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.rec-chip {
+  font-size: 12.5px; font-weight: 500; padding: 5px 10px; border-radius: 999px; cursor: pointer; color: var(--ink-soft);
+  background: color-mix(in srgb, var(--moss) 8%, transparent); border: 1px solid color-mix(in srgb, var(--moss) 18%, transparent);
+  transition: background .2s, border-color .2s, color .2s;
+}
+.rec-chip:hover, .rec-chip:focus-visible { background: var(--moss); border-color: var(--moss); color: #f6f1e7; }
+:root[data-theme="dark"] .rec-chip:hover { color: #12160f; }
+.rec-note { font-size: 12.5px; color: var(--muted); margin: 14px 0 0; }
 .stat { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 16px; }
 .stat b { display: block; font: 600 32px/1 var(--serif); color: var(--moss); margin-bottom: 6px; }
 .stat span { font-size: 13px; color: var(--muted); line-height: 1.35; display: block; }
@@ -524,6 +541,7 @@ dialog::backdrop { background: rgba(14, 18, 12, .62); backdrop-filter: blur(4px)
 @media (max-width: 860px) {
   .about-grid { grid-template-columns: 1fr; }
   .about-side { display: grid; grid-template-columns: 160px 1fr; gap: 16px; align-items: start; }
+  .record { grid-column: 1 / -1; margin-top: 0; }
   .portrait { margin: 0; }
   .portrait .initials { font-size: 48px; }
 }

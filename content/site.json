@@ -31,19 +31,29 @@
       }
     },
     {
+      "value": "15",
+      "count": "installed",
+      "label": {
+        "en": "stations installed in Canada and Chile",
+        "es": "estaciones instaladas en Canadá y Chile",
+        "fr": "stations installées au Canada et au Chili"
+      }
+    },
+    {
+      "value": "4",
+      "count": "managed",
+      "label": {
+        "en": "more stations managed and maintained",
+        "es": "estaciones adicionales gestionadas y mantenidas",
+        "fr": "stations de plus gérées et entretenues"
+      }
+    },
+    {
       "value": "2",
       "label": {
         "en": "countries, 45° of latitude apart",
         "es": "países, a 45° de latitud",
         "fr": "pays, à 45° de latitude"
-      }
-    },
-    {
-      "value": "6",
-      "label": {
-        "en": "CARBONIQUE towers running",
-        "es": "torres CARBONIQUE operando",
-        "fr": "tours CARBONIQUE en service"
       }
     }
   ],

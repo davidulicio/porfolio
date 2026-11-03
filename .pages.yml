@@ -104,6 +104,17 @@ content:
         fields:
           - name: value
             type: string
+          - name: count
+            label: Count automatically from the installations (optional, overrides the value)
+            type: select
+            options:
+              values:
+                - name: installed
+                  label: Stations I installed
+                - name: managed
+                  label: Stations I manage (installed by others)
+                - name: all
+                  label: All stations
           - name: label
             component: i18nString
       - name: skills
@@ -209,6 +220,9 @@ content:
         type: string
       - name: site
         label: Site name
+        type: string
+      - name: short
+        label: Short name (for the station record under the portrait, e.g. UQAM_1 · Lac Saint-Pierre)
         type: string
       - name: region
         label: Region / country

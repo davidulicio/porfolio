@@ -158,7 +158,11 @@ function renderAbout(site) {
     const ini = (site.name || 'DT').split(/\s+/).filter(Boolean); const initials = (ini[0]?.[0] || '') + (ini[2]?.[0] || ini[1]?.[0] || '');
     portrait.innerHTML = `${art('portrait-' + site.name, 'other').replace(/<g transform[\s\S]*?<\/g>/, '')}<span class="initials" style="position:relative">${esc(initials)}</span>`;
   }
-  $('#stats').innerHTML = (site.stats || []).map(s => `<div class="stat"><b>${esc(s.value)}</b><span>${esc(tx(s.label))}</span></div>`).join('');
+  const inst = state.data?.installations || [];
+  const roleOf = x => (x.role_type === 'managed' ? 'managed' : 'installed');
+  const counted = { installed: inst.filter(x => roleOf(x) === 'installed').length, managed: inst.filter(x => roleOf(x) === 'managed').length, all: inst.length };
+  $('#stats').innerHTML = (site.stats || []).map(s => `<div class="stat"><b>${esc(s.count && inst.length ? String(counted[s.count] ?? s.value) : s.value)}</b><span>${esc(tx(s.label))}</span></div>`).join('');
+  renderRecord(inst, roleOf);
   $('#skills').innerHTML = (site.skills || []).map(g => `<div class="skill-group"><h3>${esc(tx(g.group))}</h3>
     <ul class="chips">${(Array.isArray(g.items) ? g.items : tx(g.items).split('\n')).map(i => String(i).trim()).filter(Boolean).map(i => `<li class="chip">${esc(i)}</li>`).join('')}</ul></div>`).join('');
   const langs = site.languages || [];
@@ -167,6 +171,27 @@ function renderAbout(site) {
 
 /* ----------------------------------------------------------- experience */
 const VISIBLE_ROLES = 8;
+// Station record under the portrait: what I installed (by country) and what I manage.
+function renderRecord(inst, roleOf) {
+  const box = $('#record'); if (!box) return;
+  if (!inst.length) { box.hidden = true; return; }
+  box.hidden = false;
+  const sorted = [...inst].sort((a, b) => String(b.date).localeCompare(String(a.date)));
+  const chip = x => `<button class="rec-chip" data-open="${esc(x.slug)}" title="${esc(tx(x.title))}">${esc(x.short || x.site || tx(x.title))}</button>`;
+  const country = x => (x.region || '').split(',').pop().trim();
+  const installed = sorted.filter(x => roleOf(x) === 'installed');
+  const managed = sorted.filter(x => roleOf(x) === 'managed');
+  const countries = [...new Set(installed.map(country))];
+  const cname = c => { const k = 'country.' + c.toLowerCase(); const v = t(k); return v === k ? c : v; };
+  box.innerHTML = `<h3>${esc(t('rec.title'))}</h3>
+    <div class="rec-group"><p class="rec-h"><span class="pin installed"></span>${esc(t('rec.installed'))} <span class="n">${installed.length}</span></p>
+      ${countries.map(c => `<p class="rec-country">${esc(cname(c))}</p><div class="rec-chips">${installed.filter(x => country(x) === c).map(chip).join('')}</div>`).join('')}
+    </div>
+    ${managed.length ? `<div class="rec-group"><p class="rec-h"><span class="pin managed"></span>${esc(t('rec.managed'))} <span class="n">${managed.length}</span></p>
+      <div class="rec-chips">${managed.map(chip).join('')}</div></div>` : ''}
+    <p class="rec-note">${esc(t('rec.note'))}</p>`;
+}
+
 function renderExperience(jobs) {
   const sorted = [...jobs].sort((a, b) => (b.end ? 0 : 1) - (a.end ? 0 : 1) || String(b.start).localeCompare(String(a.start)));
   const tl = $('#timeline');
