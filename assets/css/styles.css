@@ -213,7 +213,7 @@ p { margin: 0 0 1em; }
 .rec-group + .rec-group { margin-top: 16px; padding-top: 14px; border-top: 1px dashed var(--line); }
 .rec-h { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 14px; margin: 0 0 8px; }
 .rec-h .pin { width: 13px; height: 13px; flex: none; border-width: 2px; box-shadow: none; }
-.rec-h .pin.managed { border-width: 3px; }
+.rec-h .pin.managed, .rec-h .pin.assisted { border-width: 3px; }
 .rec-h .n { margin-left: auto; font: 600 18px/1 var(--serif); color: var(--moss); }
 .rec-country { font-size: 11.5px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 10px 0 6px; }
 .rec-chips { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -331,6 +331,9 @@ p { margin: 0 0 1em; }
 .pin.managed { background: #fff8ee; border: 4px solid var(--moss); }
 .pin.approx { background: transparent; border: 2px dashed var(--clay); box-shadow: none; }
 .pin.managed.approx { border-color: var(--moss); }
+.pin.assisted { background: #fff8ee; border: 4px solid var(--clay); }
+:root[data-theme="dark"] .pin.assisted { background: var(--surface); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .pin.assisted { background: var(--surface); } }
 .pin-wrap:hover .pin, .pin-wrap.hot .pin { transform: scale(1.35); }
 .cluster-wrap { background: none; border: 0; }
 .cluster, .cluster-dot {
@@ -351,7 +354,7 @@ p { margin: 0 0 1em; }
 .map-legend div { display: flex; align-items: center; gap: 8px; }
 .map-legend .pin { width: 14px; height: 14px; flex: none; transition: none; }
 .map-legend .pin.installed { border-width: 2px; }
-.map-legend .pin.managed { border-width: 3px; }
+.map-legend .pin.managed, .map-legend .pin.assisted { border-width: 3px; }
 .map-legend .cluster-dot { flex: none; }
 .role-badge {
   display: inline-flex; align-items: center; gap: 6px; font-size: 11.5px; font-weight: 700; letter-spacing: .04em;
@@ -362,6 +365,8 @@ p { margin: 0 0 1em; }
 .role-badge.installed::before { background: var(--clay); }
 .role-badge.managed { background: color-mix(in srgb, var(--moss) 14%, transparent); color: color-mix(in srgb, var(--moss) 85%, var(--ink)); }
 .role-badge.managed::before { border: 2px solid var(--moss); width: 4px; height: 4px; }
+.role-badge.assisted { background: color-mix(in srgb, var(--peat) 12%, transparent); color: color-mix(in srgb, var(--peat) 85%, var(--ink)); }
+.role-badge.assisted::before { border: 2px solid var(--clay); width: 4px; height: 4px; }
 .fact .role-badge { margin-bottom: 6px; }
 .leaflet-popup-content .role-badge { margin-top: 6px; }
 .leaflet-popup-content-wrapper { border-radius: 12px; background: var(--surface); color: var(--ink); box-shadow: var(--shadow-lg); }

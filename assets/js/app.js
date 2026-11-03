@@ -22,6 +22,8 @@ function pickLang() {
 }
 const t = (key, vars = {}) => (UI[state.lang][key] ?? UI.en[key] ?? key).replace(/\{(\w+)\}/g, (_, k) => vars[k] ?? '');
 // Pick the visitor's language from a {en, es, fr} object, falling back to English.
+const ROLES = ['installed', 'managed', 'assisted'];
+const roleOf = x => (ROLES.includes(x.role_type) ? x.role_type : 'installed');
 const tx = (o) => (o == null ? '' : typeof o === 'string' ? o : (o[state.lang] || o.en || ''));
 
 // Resolve a media path from the CMS ("media/x.jpg" or "/media/x.jpg") relative to the site.
@@ -159,10 +161,9 @@ function renderAbout(site) {
     portrait.innerHTML = `${art('portrait-' + site.name, 'other').replace(/<g transform[\s\S]*?<\/g>/, '')}<span class="initials" style="position:relative">${esc(initials)}</span>`;
   }
   const inst = state.data?.installations || [];
-  const roleOf = x => (x.role_type === 'managed' ? 'managed' : 'installed');
-  const counted = { installed: inst.filter(x => roleOf(x) === 'installed').length, managed: inst.filter(x => roleOf(x) === 'managed').length, all: inst.length };
+  const counted = { all: inst.length }; ROLES.forEach(r => (counted[r] = inst.filter(x => roleOf(x) === r).length));
   $('#stats').innerHTML = (site.stats || []).map(s => `<div class="stat"><b>${esc(s.count && inst.length ? String(counted[s.count] ?? s.value) : s.value)}</b><span>${esc(tx(s.label))}</span></div>`).join('');
-  renderRecord(inst, roleOf);
+  renderRecord(inst);
   $('#skills').innerHTML = (site.skills || []).map(g => `<div class="skill-group"><h3>${esc(tx(g.group))}</h3>
     <ul class="chips">${(Array.isArray(g.items) ? g.items : tx(g.items).split('\n')).map(i => String(i).trim()).filter(Boolean).map(i => `<li class="chip">${esc(i)}</li>`).join('')}</ul></div>`).join('');
   const langs = site.languages || [];
@@ -172,7 +173,7 @@ function renderAbout(site) {
 /* ----------------------------------------------------------- experience */
 const VISIBLE_ROLES = 8;
 // Station record under the portrait: what I installed (by country) and what I manage.
-function renderRecord(inst, roleOf) {
+function renderRecord(inst) {
   const box = $('#record'); if (!box) return;
   if (!inst.length) { box.hidden = true; return; }
   box.hidden = false;
@@ -181,6 +182,7 @@ function renderRecord(inst, roleOf) {
   const country = x => (x.region || '').split(',').pop().trim();
   const installed = sorted.filter(x => roleOf(x) === 'installed');
   const managed = sorted.filter(x => roleOf(x) === 'managed');
+  const assisted = sorted.filter(x => roleOf(x) === 'assisted');
   const countries = [...new Set(installed.map(country))];
   const cname = c => { const k = 'country.' + c.toLowerCase(); const v = t(k); return v === k ? c : v; };
   box.innerHTML = `<h3>${esc(t('rec.title'))}</h3>
@@ -189,6 +191,8 @@ function renderRecord(inst, roleOf) {
     </div>
     ${managed.length ? `<div class="rec-group"><p class="rec-h"><span class="pin managed"></span>${esc(t('rec.managed'))} <span class="n">${managed.length}</span></p>
       <div class="rec-chips">${managed.map(chip).join('')}</div></div>` : ''}
+    ${assisted.length ? `<div class="rec-group"><p class="rec-h"><span class="pin assisted"></span>${esc(t('rec.assisted'))} <span class="n">${assisted.length}</span></p>
+      <div class="rec-chips">${assisted.map(chip).join('')}</div></div>` : ''}
     <p class="rec-note">${esc(t('rec.note'))}</p>`;
 }
 
@@ -244,7 +248,7 @@ function renderInstallations() {
         <div class="card-meta"><span class="when">${esc(fmtMonth(x.date))}</span><span class="where">${esc(x.region || '')}</span></div>
         <h3>${esc(tx(x.title))}</h3>
         <p>${esc(tx(x.summary))}</p>
-        <div class="card-foot"><span class="role-badge ${x.role_type === 'managed' ? 'managed' : 'installed'}">${esc(t('role.' + (x.role_type === 'managed' ? 'managed' : 'installed')))}</span>${x.network_id ? `<span class="chip">${esc(x.network_id)}</span>` : ''}${media.length ? `<span class="count-media">▣ ${esc(t('inst.media', { n: media.length }))}</span>` : ''}</div>
+        <div class="card-foot"><span class="role-badge ${roleOf(x)}">${esc(t('role.' + roleOf(x)))}</span>${x.network_id ? `<span class="chip">${esc(x.network_id)}</span>` : ''}${media.length ? `<span class="count-media">▣ ${esc(t('inst.media', { n: media.length }))}</span>` : ''}</div>
       </div></button>`;
   }).join('') : `<p class="empty">${esc(t('inst.none'))}</p>`;
   updateMarkers();
@@ -264,7 +268,7 @@ function openInstallation(slug, push = true) {
         ${media.length ? `<h4 style="margin:22px 0 4px;font-size:17px">${esc(t('inst.gallery'))}</h4>${thumbsHTML(media, group)}` : ''}
       </div>
       <aside class="facts">
-        ${tx(x.involvement) ? `<div class="fact"><span>${esc(t('inst.role'))}</span><span class="role-badge ${x.role_type === 'managed' ? 'managed' : 'installed'}">${esc(t('role.' + (x.role_type === 'managed' ? 'managed' : 'installed')))}</span><br>${esc(tx(x.involvement))}</div>` : ''}
+        ${tx(x.involvement) ? `<div class="fact"><span>${esc(t('inst.role'))}</span><span class="role-badge ${roleOf(x)}">${esc(t('role.' + roleOf(x)))}</span><br>${esc(tx(x.involvement))}</div>` : ''}
         <div class="fact"><span>${esc(t('inst.location'))}</span>${esc(x.region || '')}${coords ? `<br><small style="color:var(--muted)">${esc(coords)}</small>` : ''}</div>
         ${x.network_id ? `<div class="fact"><span>${esc(t('inst.network'))}</span>${esc(x.network_id)}</div>` : ''}
         ${(x.equipment || []).length ? `<div class="fact"><span>${esc(t('inst.equipment'))}</span><ul class="equip">${x.equipment.map(e => `<li>${esc(e)}</li>`).join('')}</ul></div>` : ''}
@@ -321,6 +325,7 @@ function updateLegend() {
     const d = L.DomUtil.create('div', 'map-legend');
     d.innerHTML = `<div><span class="pin installed"></span>${esc(t('legend.installed'))}</div>
       <div><span class="pin managed"></span>${esc(t('legend.managed'))}</div>
+      ${state.data.installations.some(x => roleOf(x) === 'assisted') ? `<div><span class="pin assisted"></span>${esc(t('legend.assisted'))}</div>` : ''}
       <div><span class="pin installed approx"></span>${esc(t('legend.approx'))}</div>
       <div><span class="cluster-dot">3</span>${esc(t('legend.cluster'))}</div>`;
     L.DomEvent.disableClickPropagation(d); return d;
@@ -337,7 +342,7 @@ function updateMarkers(fit = true) {
   }) : L.layerGroup();
   const pts = [];
   instVisible().filter(x => x.lat != null && x.lon != null).forEach(x => {
-    const role = x.role_type === 'managed' ? 'managed' : 'installed';
+    const role = roleOf(x);
     const icon = L.divIcon({ className: 'pin-wrap', html: `<div class="pin ${role} ${x.approximate ? 'approx' : ''}"></div>`, iconSize: [18, 18], iconAnchor: [9, 9] });
     const m = L.marker([x.lat, x.lon], { icon, title: tx(x.title), keyboard: true });
     m.bindPopup(`<b>${esc(tx(x.title))}</b><span style="color:var(--muted)">${esc(fmtMonth(x.date))} · ${esc(x.region || '')}</span><br><span class="role-badge ${role}">${esc(t('role.' + role))}</span><br><button data-open="${esc(x.slug)}">${esc(t('inst.details'))}</button>`);

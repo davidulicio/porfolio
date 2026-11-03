@@ -267,6 +267,8 @@ content:
               label: Installed (and run)
             - name: managed
               label: Managed / maintained only
+            - name: assisted
+              label: Supported the installation (assistant)
       - name: involvement
         label: My role at this installation
         component: i18nString
