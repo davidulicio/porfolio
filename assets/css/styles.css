@@ -530,7 +530,7 @@ dialog::backdrop { background: rgba(14, 18, 12, .62); backdrop-filter: blur(4px)
 .lightbox { width: 100vw; height: 100vh; max-width: none; max-height: none; background: rgba(10, 12, 9, .94); color: #fff; }
 .lightbox[open] { display: grid; grid-template-columns: 64px 1fr 64px; align-items: center; animation: fade .25s ease; }
 @keyframes fade { from { opacity: 0; } }
-.lb-stage { margin: 0; display: grid; place-items: center; gap: 12px; height: 100vh; padding: 56px 0 24px; }
+.lb-stage { grid-column: 2; min-width: 0; margin: 0; display: grid; place-items: center; gap: 12px; height: 100vh; height: 100dvh; padding: 56px 0 24px; }
 #lbMedia { display: grid; place-items: center; width: 100%; height: calc(100vh - 140px); overflow: hidden; }
 #lbMedia img, #lbMedia video { max-width: min(100%, calc(100vw - 150px)); max-height: calc(100vh - 140px); width: auto; height: auto; object-fit: contain; border-radius: 8px; }
 @media (max-width: 720px) { #lbMedia img, #lbMedia video { max-width: calc(100vw - 24px); } }
@@ -540,7 +540,15 @@ dialog::backdrop { background: rgba(14, 18, 12, .62); backdrop-filter: blur(4px)
 .lb-close { position: fixed; top: 14px; right: 14px; color: #fff; background: rgba(255,255,255,.12); }
 .lb-nav { justify-self: center; color: #fff; background: rgba(255,255,255,.1); width: 48px; height: 48px; }
 .lb-nav[hidden] { visibility: hidden; display: grid; }
-@media (max-width: 720px) { .lightbox[open] { grid-template-columns: 0 1fr 0; } .lb-nav { position: fixed; bottom: 18px; } .lb-nav.prev { left: 18px; } .lb-nav.next { right: 18px; } }
+@media (max-width: 720px) {
+  .lightbox { height: 100dvh; }
+  .lightbox[open] { grid-template-columns: minmax(0, 1fr); }
+  .lb-stage { grid-column: 1; grid-row: 1; padding: 64px 12px 96px; gap: 10px; }
+  #lbMedia { height: calc(100dvh - 200px); }
+  #lbMedia img, #lbMedia video { max-height: calc(100dvh - 200px); }
+  .lb-stage figcaption { font-size: 13px; line-height: 1.35; max-width: 32ch; }
+  .lb-nav { position: fixed; bottom: 22px; } .lb-nav.prev { left: 18px; } .lb-nav.next { right: 18px; }
+}
 
 /* --------------------------------------------------------- responsive ---- */
 @media (max-width: 860px) {
