@@ -1,0 +1,442 @@
+[
+  {
+    "file": "media/images/field/field-2026-10-105.jpg",
+    "date": "2026-10",
+    "category": "maintenance",
+    "place": "Saint-François-du-Lac, Quebec, Canada",
+    "caption": {
+      "en": "Maintenance visit at UQAM_5",
+      "es": "Visita de mantenimiento en UQAM_5",
+      "fr": "Visite d'entretien à UQAM_5"
+    }
+  },
+  {
+    "file": "media/images/field/field-2026-10-106.jpg",
+    "date": "2026-10",
+    "category": "fieldwork",
+    "place": "Saint-François-du-Lac, Quebec, Canada",
+    "caption": {
+      "en": "The UQAM_5 eddy covariance boom",
+      "es": "El brazo de covarianza turbulenta de UQAM_5",
+      "fr": "Le bras de covariance d'UQAM_5"
+    }
+  },
+  {
+    "file": "media/images/field/field-2026-10-103.jpg",
+    "date": "2026-10",
+    "category": "maintenance",
+    "place": "Lac Saint-Pierre, Quebec, Canada",
+    "caption": {
+      "en": "Autumn visit to the floating MCGILL_1 platform",
+      "es": "Visita de otoño a la plataforma flotante MCGILL_1",
+      "fr": "Visite d'automne à la plateforme flottante MCGILL_1"
+    }
+  },
+  {
+    "file": "media/images/field/field-2026-10-104.jpg",
+    "date": "2026-10",
+    "category": "power",
+    "place": "Lac Saint-Pierre, Quebec, Canada",
+    "caption": {
+      "en": "Solar battery box at MCGILL_1",
+      "es": "Caja de baterías solares en MCGILL_1",
+      "fr": "Coffre de batteries solaires à MCGILL_1"
+    }
+  },
+  {
+    "file": "media/images/field/field-2026-09-122.jpg",
+    "date": "2026-09",
+    "category": "fieldwork",
+    "place": "Saint-Rémi, Quebec, Canada",
+    "caption": {
+      "en": "The UQAM_4 rover tripod on its trailer",
+      "es": "El trípode móvil de UQAM_4 sobre su remolque",
+      "fr": "Le trépied mobile d'UQAM_4 sur sa remorque"
+    }
+  },
+  {
+    "file": "media/images/field/field-2026-08-121.jpg",
+    "date": "2026-08",
+    "category": "power",
+    "place": "Lac-à-la-Tortue, Quebec, Canada",
+    "caption": {
+      "en": "Battery bank of the off-grid UQAM_2 station",
+      "es": "Banco de baterías de la estación autónoma UQAM_2",
+      "fr": "Banc de batteries de la station autonome UQAM_2"
+    }
+  },
+  {
+    "file": "media/images/field/field-2026-08-117.jpg",
+    "date": "2026-08",
+    "category": "maintenance",
+    "place": "Saint-François-du-Lac, Quebec, Canada",
+    "caption": {
+      "en": "Opening the UQAM_5 enclosure above the marsh",
+      "es": "Abriendo el gabinete de UQAM_5 sobre la marisma",
+      "fr": "Ouverture du boîtier d'UQAM_5 au-dessus du marais"
+    }
+  },
+  {
+    "file": "media/images/field/field-2026-06-116.jpg",
+    "date": "2026-06",
+    "category": "installation",
+    "place": "Baie-du-Febvre, Quebec, Canada",
+    "caption": {
+      "en": "New OTT Pluvio2 weighing rain gauge at UQAM_1",
+      "es": "Nuevo pluviómetro de pesada OTT Pluvio2 en UQAM_1",
+      "fr": "Nouveau pluviomètre à pesée OTT Pluvio2 à UQAM_1"
+    }
+  },
+  {
+    "file": "media/images/field/field-2026-06-115.jpg",
+    "date": "2026-06",
+    "category": "troubleshooting",
+    "place": "Lac-à-la-Tortue, Quebec, Canada",
+    "caption": {
+      "en": "Datalogger enclosure at UQAM_3",
+      "es": "Gabinete del datalogger en UQAM_3",
+      "fr": "Boîtier de l'enregistreur à UQAM_3"
+    }
+  },
+  {
+    "file": "media/images/field/field-2026-06-113.jpg",
+    "date": "2026-06",
+    "category": "installation",
+    "place": "Montreal, Quebec, Canada",
+    "caption": {
+      "en": "Wiring a new enclosure in the lab",
+      "es": "Cableando un nuevo gabinete en el laboratorio",
+      "fr": "Câblage d'un nouveau boîtier au laboratoire"
+    }
+  },
+  {
+    "file": "media/images/field/field-2026-05-107.jpg",
+    "date": "2026-05",
+    "category": "fieldwork",
+    "place": "Lac Saint-Pierre, Quebec, Canada",
+    "caption": {
+      "en": "The MCGILL_1 floating tower in the restored marsh",
+      "es": "La torre flotante MCGILL_1 en la marisma restaurada",
+      "fr": "La tour flottante MCGILL_1 dans le marais restauré"
+    }
+  },
+  {
+    "file": "media/images/field/field-2026-05-111.jpg",
+    "date": "2026-05",
+    "category": "installation",
+    "place": "Baie-du-Febvre, Quebec, Canada",
+    "caption": {
+      "en": "Installing a soil sensor at UQAM_1",
+      "es": "Instalando un sensor de suelo en UQAM_1",
+      "fr": "Installation d'une sonde de sol à UQAM_1"
+    }
+  },
+  {
+    "file": "media/images/field/field-2023-08-009.jpg",
+    "date": "2023-08",
+    "category": "installation",
+    "place": "Chile",
+    "caption": {
+      "en": "Building a CO2/H2O profile system",
+      "es": "Armando un sistema de perfil de CO2/H2O",
+      "fr": "Montage d'un système de profil CO2/H2O"
+    }
+  },
+  {
+    "file": "media/images/field/field-2023-08-010.jpg",
+    "date": "2023-08",
+    "category": "installation",
+    "place": "Chile",
+    "caption": {
+      "en": "Profile system valves and logger",
+      "es": "Válvulas y logger del sistema de perfil",
+      "fr": "Vannes et enregistreur du système de profil"
+    }
+  },
+  {
+    "file": "media/images/field/field-2023-08-006.jpg",
+    "date": "2023-08",
+    "category": "calibration",
+    "place": "Chile",
+    "caption": {
+      "en": "Calibrating a closed-path gas analyzer",
+      "es": "Calibrando un analizador de gases de camino cerrado",
+      "fr": "Étalonnage d'un analyseur de gaz à chemin fermé"
+    }
+  },
+  {
+    "file": "media/images/field/field-2023-08-007.jpg",
+    "date": "2023-08",
+    "category": "calibration",
+    "place": "Chile",
+    "caption": {
+      "en": "Zero and span checks in the analyzer software",
+      "es": "Revisión de cero y span en el software del analizador",
+      "fr": "Vérification du zéro et de l'étendue dans le logiciel de l'analyseur"
+    }
+  },
+  {
+    "file": "media/images/field/field-2023-08-008.jpg",
+    "date": "2023-08",
+    "category": "calibration",
+    "place": "Chile",
+    "caption": {
+      "en": "Bench calibration with a reference gas source",
+      "es": "Calibración en mesa con una fuente de gas de referencia",
+      "fr": "Étalonnage sur banc avec une source de gaz de référence"
+    }
+  },
+  {
+    "file": "media/images/field/field-2023-08-012.jpg",
+    "date": "2023-08",
+    "category": "repairs",
+    "place": "Chile",
+    "caption": {
+      "en": "Repairing radiation sensors",
+      "es": "Reparando sensores de radiación",
+      "fr": "Réparation de capteurs de rayonnement"
+    }
+  },
+  {
+    "file": "media/images/field/field-2023-08-016.jpg",
+    "date": "2023-08",
+    "category": "troubleshooting",
+    "place": "Chile",
+    "caption": {
+      "en": "Troubleshooting a station at the tower base",
+      "es": "Diagnosticando una estación en la base de la torre",
+      "fr": "Dépannage d'une station au pied de la tour"
+    }
+  },
+  {
+    "file": "media/images/field/field-2023-07-020.jpg",
+    "date": "2023-07",
+    "category": "cleaning",
+    "place": "Chile",
+    "caption": {
+      "en": "Cleaning the optical windows of an EC155",
+      "es": "Limpiando las ventanas ópticas de un EC155",
+      "fr": "Nettoyage des fenêtres optiques d'un EC155"
+    }
+  },
+  {
+    "file": "media/images/field/field-2023-07-022.jpg",
+    "date": "2023-07",
+    "category": "cleaning",
+    "place": "Chile",
+    "caption": {
+      "en": "EC155 sample cell, ready for cleaning",
+      "es": "Celda de muestra de un EC155, lista para limpiar",
+      "fr": "Cellule d'échantillon d'un EC155, prête au nettoyage"
+    }
+  },
+  {
+    "file": "media/images/field/field-2023-06-099.jpg",
+    "date": "2023-06",
+    "category": "repairs",
+    "place": "Chile",
+    "caption": {
+      "en": "Board-level repair of an instrument",
+      "es": "Reparación a nivel de placa de un instrumento",
+      "fr": "Réparation d'un instrument au niveau de la carte"
+    }
+  },
+  {
+    "file": "media/images/field/field-2023-05-094.jpg",
+    "date": "2023-05",
+    "category": "troubleshooting",
+    "place": "Chile",
+    "caption": {
+      "en": "Checking a connector pin by pin",
+      "es": "Revisando un conector pin por pin",
+      "fr": "Vérification d'un connecteur broche par broche"
+    }
+  },
+  {
+    "file": "media/images/field/field-2023-04-086.jpg",
+    "date": "2023-04",
+    "category": "cleaning",
+    "place": "Chile",
+    "caption": {
+      "en": "Servicing an IRGASON",
+      "es": "Mantención de un IRGASON",
+      "fr": "Entretien d'un IRGASON"
+    }
+  },
+  {
+    "file": "media/images/field/field-2023-01-080.jpg",
+    "date": "2023-01",
+    "category": "power",
+    "place": "Chile",
+    "caption": {
+      "en": "Power panel with a solar charge controller",
+      "es": "Tablero de energía con controlador de carga solar",
+      "fr": "Tableau d'alimentation avec régulateur de charge solaire"
+    }
+  },
+  {
+    "file": "media/images/field/field-2022-12-078.jpg",
+    "date": "2022-12",
+    "category": "fieldwork",
+    "place": "Chile",
+    "caption": {
+      "en": "Soil chamber collars across field plots",
+      "es": "Collares de cámaras de suelo en parcelas experimentales",
+      "fr": "Colliers de chambres de sol dans des parcelles expérimentales"
+    }
+  },
+  {
+    "file": "media/images/field/field-2022-10-074.jpg",
+    "date": "2022-10",
+    "category": "calibration",
+    "place": "Chile",
+    "caption": {
+      "en": "A photoacoustic field gas monitor",
+      "es": "Un monitor de gases fotoacústico de terreno",
+      "fr": "Un moniteur de gaz photoacoustique de terrain"
+    }
+  },
+  {
+    "file": "media/images/field/field-2022-09-073.jpg",
+    "date": "2022-09",
+    "category": "calibration",
+    "place": "Chile",
+    "caption": {
+      "en": "Calibration gas cylinders",
+      "es": "Cilindros de gas de calibración",
+      "fr": "Bouteilles de gaz d'étalonnage"
+    }
+  },
+  {
+    "file": "media/images/field/field-2022-08-063.jpg",
+    "date": "2022-08",
+    "category": "fieldwork",
+    "place": "Chile",
+    "caption": {
+      "en": "Working at height above the forest canopy",
+      "es": "Trabajo en altura sobre el dosel del bosque",
+      "fr": "Travail en hauteur au-dessus du couvert forestier"
+    }
+  },
+  {
+    "file": "media/images/field/field-2022-08-068.jpg",
+    "date": "2022-08",
+    "category": "fieldwork",
+    "place": "Chile",
+    "caption": {
+      "en": "Looking down from the top of a forest tower",
+      "es": "Mirando hacia abajo desde lo alto de una torre en el bosque",
+      "fr": "Vue plongeante depuis le sommet d'une tour en forêt"
+    }
+  },
+  {
+    "file": "media/images/field/field-2022-08-067.jpg",
+    "date": "2022-08",
+    "category": "maintenance",
+    "place": "Chile",
+    "caption": {
+      "en": "An EC155 analyzer above the canopy",
+      "es": "Un analizador EC155 sobre el dosel",
+      "fr": "Un analyseur EC155 au-dessus du couvert"
+    }
+  },
+  {
+    "file": "media/images/field/field-2022-05-102.jpg",
+    "date": "2022-05",
+    "category": "installation",
+    "place": "Puerto Williams, Chile",
+    "caption": {
+      "en": "Installing the Omora peatland station",
+      "es": "Instalando la estación de la turbera de Omora",
+      "fr": "Installation de la station de la tourbière d'Omora"
+    }
+  },
+  {
+    "file": "media/images/field/field-2022-05-058.jpg",
+    "date": "2022-05",
+    "category": "installation",
+    "place": "Chile",
+    "caption": {
+      "en": "Unpacking new eddy covariance equipment",
+      "es": "Desempacando equipos nuevos de covarianza turbulenta",
+      "fr": "Déballage de nouvel équipement de covariance"
+    }
+  },
+  {
+    "file": "media/images/field/field-2022-03-057.jpg",
+    "date": "2022-03",
+    "category": "fieldwork",
+    "place": "Chile",
+    "caption": {
+      "en": "A flux tower in a temperate forest",
+      "es": "Una torre de flujo en un bosque templado",
+      "fr": "Une tour de flux dans une forêt tempérée"
+    }
+  },
+  {
+    "file": "media/images/field/field-2022-01-053.jpg",
+    "date": "2022-01",
+    "category": "power",
+    "place": "Chile",
+    "caption": {
+      "en": "Solar power for a forest station",
+      "es": "Energía solar para una estación en el bosque",
+      "fr": "Alimentation solaire d'une station en forêt"
+    }
+  },
+  {
+    "file": "media/images/field/field-2022-01-045.jpg",
+    "date": "2022-01",
+    "category": "fieldwork",
+    "place": "Chile",
+    "caption": {
+      "en": "A stem flux collar on a tree",
+      "es": "Un collar para flujos de tallo en un árbol",
+      "fr": "Un collier de flux de tronc sur un arbre"
+    }
+  },
+  {
+    "file": "media/images/field/field-2021-09-035.jpg",
+    "date": "2021-09",
+    "category": "fieldwork",
+    "place": "Chile",
+    "caption": {
+      "en": "Soil respiration survey in a vineyard",
+      "es": "Medición de respiración de suelo en un viñedo",
+      "fr": "Mesures de respiration du sol dans un vignoble"
+    }
+  },
+  {
+    "file": "media/images/field/field-2021-09-037.jpg",
+    "date": "2021-09",
+    "category": "fieldwork",
+    "place": "Chile",
+    "caption": {
+      "en": "Portable soil chamber between the vines",
+      "es": "Cámara de suelo portátil entre las parras",
+      "fr": "Chambre de sol portable entre les vignes"
+    }
+  },
+  {
+    "file": "media/images/field/field-2021-08-031.jpg",
+    "date": "2021-08",
+    "category": "repairs",
+    "place": "Chile",
+    "caption": {
+      "en": "Replacing the drive motor of a soil chamber",
+      "es": "Reemplazando el motor de una cámara de suelo",
+      "fr": "Remplacement du moteur d'une chambre de sol"
+    }
+  },
+  {
+    "file": "media/images/field/field-2021-08-027.jpg",
+    "date": "2021-08",
+    "category": "fieldwork",
+    "place": "Chile",
+    "caption": {
+      "en": "Preparing instruments at the field station",
+      "es": "Preparando instrumentos en la estación de terreno",
+      "fr": "Préparation des instruments à la station de terrain"
+    }
+  }
+]

@@ -84,7 +84,10 @@ content:
         label: Portrait photo
         type: image
       - name: hero_image
-        label: Hero background photo (optional)
+        label: Hero background photo (wide, about 2400 px)
+        type: image
+      - name: hero_image_mobile
+        label: Hero photo for phones (optional, about 1280 px)
         type: image
       - name: cv_file
         label: CV (PDF)
@@ -241,6 +244,15 @@ content:
               label: Surface renewal
             - name: other
               label: Other
+      - name: role_type
+        label: Map legend (did I install it, or manage it?)
+        type: select
+        options:
+          values:
+            - name: installed
+              label: Installed (and run)
+            - name: managed
+              label: Managed / maintained only
       - name: involvement
         label: My role at this installation
         component: i18nString
@@ -333,6 +345,47 @@ content:
         component: i18nText
       - name: media
         component: mediaItem
+
+  - name: gallery
+    label: Field work (smaller jobs gallery)
+    type: file
+    path: content/gallery.json
+    format: json
+    list: true
+    fields:
+      - name: file
+        label: Photo
+        type: image
+        required: true
+      - name: date
+        label: Date (YYYY-MM)
+        type: string
+      - name: category
+        label: Kind of work
+        type: select
+        options:
+          values:
+            - name: installation
+              label: Installation
+            - name: maintenance
+              label: Maintenance
+            - name: calibration
+              label: Calibration
+            - name: cleaning
+              label: Cleaning
+            - name: repairs
+              label: Repairs
+            - name: troubleshooting
+              label: Troubleshooting
+            - name: power
+              label: Power
+            - name: fieldwork
+              label: Fieldwork
+      - name: place
+        label: Place
+        type: string
+      - name: caption
+        component: i18nString
 
   - name: news
     label: Updates (posts and news)

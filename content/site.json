@@ -13,7 +13,8 @@
   "location": "Montreal, QC, Canada",
   "email": "trejo_cancino.david_ulises@uqam.ca",
   "photo": "media/images/me-2.jpg",
-  "hero_image": "media/images/uqam-2-1.jpg",
+  "hero_image": "media/images/hero-uqam-2.jpg",
+  "hero_image_mobile": "media/images/hero-uqam-2-m.jpg",
   "cv_file": "media/docs/David_Trejo_Cancino_CV.pdf",
   "about": {
     "en": "I am a geophysicist from the Universidad de Chile working at the intersection of field instrumentation, data and ecosystem science. Today I lead the technical operations of CARBONIQUE, a multi-institutional program measuring the carbon balance of southern Quebec wetlands, as a Research Support Professional at UQAM (C-PALEO lab, GEOTOP).\n\nMy work covers the full measurement chain: designing and installing eddy covariance towers, writing the datalogger programs that run them, building off-grid power systems that survive Quebec winters, diagnosing failing sensors, and turning raw 20 Hz data into clean, documented fluxes for networks such as AmeriFlux and the PhenoCam Network.\n\nBefore Canada, I spent years in Chile managing eddy covariance, soil respiration and meteorological stations from Chiloé to Cape Horn, and researching what drives precipitation in western Patagonia. I enjoy problems that mix hardware, code and ecology, and I build small tools whenever they make field work faster or safer.",

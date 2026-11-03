@@ -6,13 +6,14 @@ Personal portfolio of David Ulises Trejo Cancino, an environmental monitoring an
 
 The site is available in **English, Spanish and French**.
 
-![Preview of the site](media/images/uqam-2-1.jpg)
+![Preview of the site](media/images/hero-uqam-2.jpg)
 
 ## What's on the site
 
 - **About:** background, skills and languages.
 - **Experience:** every role, newest first. Each card expands to show details, photos and tags.
-- **Installations:** towers and stations on an interactive map, with filters by type. Each installation has its own page with equipment, photos and videos, and a shareable link (for example `#installation/uqam-3-forested-bog-2025`).
+- **Installations:** towers and stations on an interactive map, with filters by type. Pins show whether I installed a station or manage and maintain it, and nearby sites group into numbered clusters that split apart as you zoom in. Each installation has its own page with equipment, photos and videos, and a shareable link (for example `#installation/uqam-3-forested-bog-2025`).
+- **Field work:** a photo gallery of the smaller jobs (maintenance, calibrations, cleaning, repairs, troubleshooting and fieldwork), filterable by kind of work.
 - **Updates:** field news, posts and press coverage.
 - **Projects:** featured software, plus a list of my other public GitHub repositories that updates automatically.
 - **Academic contributions:** peer-reviewed articles, datasets and conference talks and posters, with DOIs.
@@ -23,7 +24,7 @@ It's a static site with no build step and no framework:
 
 - plain **HTML, CSS and JavaScript** (ES modules)
 - content stored as **JSON** files in `content/`, rendered in the browser
-- **[Leaflet](https://leafletjs.com/)** for the map, bundled in `assets/vendor/`, with **OpenStreetMap** tiles
+- **[Leaflet](https://leafletjs.com/)** and **[Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster)** for the map, bundled in `assets/vendor/`, with **OpenStreetMap** tiles
 - an earthy light theme with an automatic **dark mode**
 - a responsive layout, lazy-loaded images and reduced motion for visitors who ask for it
 - structured data (schema.org `Person`) so search engines and AI tools can read the profile
@@ -35,7 +36,8 @@ assets/css/styles.css       styles and theme
 assets/js/app.js            rendering, map, lightbox, language switch
 assets/js/i18n.js           interface text in EN / ES / FR
 assets/vendor/leaflet/      map library
-content/*.json              site content (profile, experience, installations, updates, academic, projects)
+assets/vendor/markercluster/ map clustering plugin
+content/*.json              site content (profile, experience, installations, field work gallery, updates, academic, projects)
 media/                      photos, videos and documents
 .pages.yml                  editing forms for Pages CMS
 ```
@@ -75,4 +77,4 @@ GitHub Pages republishes the site about a minute after each commit.
 
 - **Code** (HTML, CSS, JavaScript and configuration): MIT License, see [LICENSE](LICENSE). You're welcome to reuse it as a template for your own portfolio.
 - **Content** (texts, photos, videos, CV and other documents in `content/` and `media/`): © David Ulises Trejo Cancino, all rights reserved. Please ask before reusing it.
-- Third-party: Leaflet (BSD-2-Clause, see `assets/vendor/leaflet/LICENSE`), map data © OpenStreetMap contributors, and the Fraunces and Inter fonts (SIL Open Font License, via Google Fonts).
+- Third-party: Leaflet (BSD-2-Clause, see `assets/vendor/leaflet/LICENSE`), Leaflet.markercluster (MIT, see `assets/vendor/markercluster/MIT-LICENCE.txt`), map data © OpenStreetMap contributors, and the Fraunces and Inter fonts (SIL Open Font License, via Google Fonts).

@@ -17,9 +17,9 @@
       "fr": "Je dirige les opérations techniques de CARBONIQUE, un réseau de flux de GES qui étudie le bilan de carbone des milieux humides naturels et perturbés du sud du Québec, avec l'UQAM, McGill, l'Université de Montréal, l'Université Laval et l'UQTR."
     },
     "highlights": {
-      "en": "Co-led the installation of the network's first eddy covariance tower (UQAM_1, Lac Saint-Pierre, Quebec, Canada, July 2024) and the deployment of the following towers in bogs, marshes and drained peatlands.\nDevelop and maintain a single version-controlled CRBasic program for the Campbell Scientific CR1000X dataloggers, with per-site configuration, sensor power switching and automatic low-voltage protection.\nDesign and maintain off-grid power: solar arrays, battery banks and an EFOY methanol fuel cell read over Modbus TCP, plus ballasted solar structures for protected sites.\nPreventive and corrective maintenance and root-cause diagnosis on LI-COR gas analyzers, sonic anemometers, radiometers and precipitation gauges.\nStandardize field protocols and maintain per-site QA/QC configurations in the CANFLUX Biomet.net data pipeline.\nSupervise and mentor junior technicians and interns, manage inventory and procurement, and design 3D-printed field parts such as soil collars for GHG chambers.",
-      "es": "Codirigí la instalación de la primera torre de covarianza turbulenta de la red (UQAM_1, lago Saint-Pierre, Quebec, Canadá, julio de 2024) y el despliegue de las torres siguientes en turberas, marismas y turberas drenadas.\nDesarrollo y mantengo un único programa CRBasic con control de versiones para los dataloggers Campbell Scientific CR1000X, con configuración por sitio, encendido de sensores y protección automática por bajo voltaje.\nDiseño y mantengo sistemas de energía autónomos: paneles solares, bancos de baterías y una celda de combustible de metanol EFOY leída por Modbus TCP, además de estructuras solares lastradas para sitios protegidos.\nMantenimiento preventivo y correctivo, y diagnóstico de causa raíz en analizadores de gases LI-COR, anemómetros sónicos, radiómetros y pluviómetros.\nEstandarizo los protocolos de terreno y mantengo la configuración QA/QC de cada sitio en el flujo de datos Biomet.net de CANFLUX.\nSuperviso y formo a técnicos y practicantes, gestiono inventario y compras, y diseño piezas impresas en 3D como collares de suelo para cámaras de GEI.",
-      "fr": "Codirection de l'installation de la première tour de covariance des turbulences du réseau (UQAM_1, lac Saint-Pierre, Québec, Canada, juillet 2024), puis du déploiement des tours suivantes dans des tourbières, des marais et des tourbières drainées.\nDéveloppement et maintien d'un programme CRBasic unique, versionné, pour les enregistreurs Campbell Scientific CR1000X, avec configuration par site, commande de l'alimentation des capteurs et protection automatique contre la basse tension.\nConception et entretien de l'alimentation autonome : panneaux solaires, bancs de batteries et pile à combustible au méthanol EFOY lue par Modbus TCP, ainsi que des structures solaires lestées pour les sites protégés.\nEntretien préventif et correctif, et diagnostic des causes profondes sur les analyseurs de gaz LI-COR, les anémomètres soniques, les radiomètres et les pluviomètres.\nNormalisation des protocoles de terrain et maintien des configurations AQ/CQ de chaque site dans la chaîne de traitement Biomet.net de CANFLUX.\nSupervision et encadrement des techniciens et stagiaires, gestion de l'inventaire et des achats, et conception de pièces imprimées en 3D, comme des colliers de sol pour chambres à GES."
+      "en": "Installed the network's towers and lead all field visits: from the first eddy covariance tower (UQAM_1, Lac Saint-Pierre, Quebec, Canada, July 2024, with Olaf Kolle) to the following ones in bogs, marshes and drained peatlands.\nDevelop and maintain a single version-controlled CRBasic program for the Campbell Scientific CR1000X dataloggers, with per-site configuration, sensor power switching and automatic low-voltage protection.\nDesign and maintain off-grid power: solar arrays, battery banks and an EFOY methanol fuel cell read over Modbus TCP, plus ballasted solar structures for protected sites.\nPreventive and corrective maintenance and root-cause diagnosis on LI-COR gas analyzers, sonic anemometers, radiometers and precipitation gauges.\nStandardize field protocols and maintain per-site QA/QC configurations in the CANFLUX Biomet.net data pipeline.\nSupervise and mentor junior technicians and interns, manage inventory and procurement, and design 3D-printed field parts such as soil collars for GHG chambers.",
+      "es": "Instalé las torres de la red y lidero todas las visitas a terreno: desde la primera torre de covarianza turbulenta (UQAM_1, lago Saint-Pierre, Quebec, Canadá, julio de 2024, con Olaf Kolle) hasta las siguientes en turberas, marismas y turberas drenadas.\nDesarrollo y mantengo un único programa CRBasic con control de versiones para los dataloggers Campbell Scientific CR1000X, con configuración por sitio, encendido de sensores y protección automática por bajo voltaje.\nDiseño y mantengo sistemas de energía autónomos: paneles solares, bancos de baterías y una celda de combustible de metanol EFOY leída por Modbus TCP, además de estructuras solares lastradas para sitios protegidos.\nMantenimiento preventivo y correctivo, y diagnóstico de causa raíz en analizadores de gases LI-COR, anemómetros sónicos, radiómetros y pluviómetros.\nEstandarizo los protocolos de terreno y mantengo la configuración QA/QC de cada sitio en el flujo de datos Biomet.net de CANFLUX.\nSuperviso y formo a técnicos y practicantes, gestiono inventario y compras, y diseño piezas impresas en 3D como collares de suelo para cámaras de GEI.",
+      "fr": "Installation des tours du réseau et direction de toutes les visites de terrain : de la première tour de covariance (UQAM_1, lac Saint-Pierre, Québec, Canada, juillet 2024, avec Olaf Kolle) aux suivantes dans des tourbières, des marais et des tourbières drainées.\nDéveloppement et maintien d'un programme CRBasic unique, versionné, pour les enregistreurs Campbell Scientific CR1000X, avec configuration par site, commande de l'alimentation des capteurs et protection automatique contre la basse tension.\nConception et entretien de l'alimentation autonome : panneaux solaires, bancs de batteries et pile à combustible au méthanol EFOY lue par Modbus TCP, ainsi que des structures solaires lestées pour les sites protégés.\nEntretien préventif et correctif, et diagnostic des causes profondes sur les analyseurs de gaz LI-COR, les anémomètres soniques, les radiomètres et les pluviomètres.\nNormalisation des protocoles de terrain et maintien des configurations AQ/CQ de chaque site dans la chaîne de traitement Biomet.net de CANFLUX.\nSupervision et encadrement des techniciens et stagiaires, gestion de l'inventaire et des achats, et conception de pièces imprimées en 3D, comme des colliers de sol pour chambres à GES."
     },
     "tags": [
       "Eddy covariance",
@@ -148,9 +148,9 @@
     "url": "",
     "logo": "",
     "summary": {
-      "en": "Installed a surface renewal station (April 2023) and an eddy covariance station over a vineyard (July 2023) to study evapotranspiration and carbon exchange in agriculture.",
-      "es": "Instalé una estación de renovación superficial (abril de 2023) y una estación de covarianza turbulenta sobre un viñedo (julio de 2023) para estudiar la evapotranspiración y el intercambio de carbono en la agricultura.",
-      "fr": "Installation d'une station de renouvellement de surface (avril 2023) et d'une station de covariance au-dessus d'un vignoble (juillet 2023) pour étudier l'évapotranspiration et les échanges de carbone en agriculture."
+      "en": "Installed a surface renewal station over mandarins in Palqui (June 2023) and an eddy covariance station over table grapes in Vicuña (July 2023) to study evapotranspiration and carbon exchange in agriculture.",
+      "es": "Instalé una estación de renovación superficial sobre mandarinos en Palqui (junio de 2023) y una estación de covarianza turbulenta sobre uva de mesa en Vicuña (julio de 2023) para estudiar la evapotranspiración y el intercambio de carbono en la agricultura.",
+      "fr": "Installation d'une station de renouvellement de surface au-dessus de mandariniers à Palqui (juin 2023) et d'une station de covariance au-dessus de raisins de table à Vicuña (juillet 2023) pour étudier l'évapotranspiration et les échanges de carbone en agriculture."
     },
     "highlights": {
       "en": "Wrote the CR1000X datalogger programs and installed the sensors in the field.",
@@ -164,21 +164,21 @@
     ],
     "media": [
       {
-        "file": "media/images/inia-ec-9.jpg",
+        "file": "media/images/inia-sr-1.jpg",
         "url": "",
         "caption": {
-          "en": "On the INIA vineyard tower",
-          "es": "En la torre del viñedo de INIA",
-          "fr": "Sur la tour du vignoble de l'INIA"
+          "en": "Palqui surface renewal station",
+          "es": "Estación de renovación superficial de Palqui",
+          "fr": "Station de renouvellement de surface de Palqui"
         }
       },
       {
-        "file": "media/images/inia-ec-5.jpg",
+        "file": "media/images/inia-ec-9.jpg",
         "url": "",
         "caption": {
-          "en": "The finished tower",
-          "es": "La torre terminada",
-          "fr": "La tour terminée"
+          "en": "On the Vicuña tower",
+          "es": "En la torre de Vicuña",
+          "fr": "Sur la tour de Vicuña"
         }
       }
     ]
@@ -625,9 +625,9 @@
       "fr": "Installation de stations de covariance des turbulences pour des groupes de recherche et des entreprises partout au Chili."
     },
     "highlights": {
-      "en": "The Evergreen Forest Puyuhuapi 1 tower for Carbon Real (LI-COR), in a remote forest reached by plane, 4x4 and boat (January 2024).\nA Campbell Scientific station in a high-Andean wetland (vega) for CEA, Centro de Ecología Aplicada (November 2023).\nAn eddy covariance station over a vineyard (July 2023) and a surface renewal station (April 2023) for INIA Intihuasi.\nAn urban station in Santiago for a PhD project at the Pontificia Universidad Católica de Chile.",
-      "es": "La torre Bosque Siempreverde Puyuhuapi 1 para Carbon Real (LI-COR), en un bosque remoto con acceso en avión, 4x4 y bote (enero de 2024).\nUna estación Campbell Scientific en una vega altoandina para el CEA, Centro de Ecología Aplicada (noviembre de 2023).\nUna estación de covarianza turbulenta sobre un viñedo (julio de 2023) y una estación de renovación superficial (abril de 2023) para INIA Intihuasi.\nUna estación urbana en Santiago para un doctorado de la Pontificia Universidad Católica de Chile.",
-      "fr": "La tour Evergreen Forest Puyuhuapi 1 pour Carbon Real (LI-COR), dans une forêt isolée accessible en avion, en 4x4 et en bateau (janvier 2024).\nUne station Campbell Scientific dans une vega des hautes Andes pour le CEA, Centro de Ecología Aplicada (novembre 2023).\nUne station de covariance au-dessus d'un vignoble (juillet 2023) et une station de renouvellement de surface (avril 2023) pour l'INIA Intihuasi.\nUne station urbaine à Santiago pour un doctorat de la Pontificia Universidad Católica de Chile."
+      "en": "The Evergreen Forest Puyuhuapi 1 tower for Carbon Real (LI-COR), in a remote forest reached by plane, 4x4 and boat (January 2024).\nA Campbell Scientific station in a high-Andean wetland (vega) for CEA, Centro de Ecología Aplicada (November 2023).\nFor INIA Intihuasi: an eddy covariance station over table grapes in Vicuña (July 2023) and a surface renewal station over mandarins in Palqui (June 2023).\nAn urban station in Vitacura, Santiago, for a PhD project at the Pontificia Universidad Católica de Chile.",
+      "es": "La torre Bosque Siempreverde Puyuhuapi 1 para Carbon Real (LI-COR), en un bosque remoto con acceso en avión, 4x4 y bote (enero de 2024).\nUna estación Campbell Scientific en una vega altoandina para el CEA, Centro de Ecología Aplicada (noviembre de 2023).\nPara INIA Intihuasi: una estación de covarianza turbulenta sobre uva de mesa en Vicuña (julio de 2023) y una estación de renovación superficial sobre mandarinos en Palqui (junio de 2023).\nUna estación urbana en Vitacura, Santiago, para un doctorado de la Pontificia Universidad Católica de Chile.",
+      "fr": "La tour Evergreen Forest Puyuhuapi 1 pour Carbon Real (LI-COR), dans une forêt isolée accessible en avion, en 4x4 et en bateau (janvier 2024).\nUne station Campbell Scientific dans une vega des hautes Andes pour le CEA, Centro de Ecología Aplicada (novembre 2023).\nPour l'INIA Intihuasi : une station de covariance au-dessus de raisins de table à Vicuña (juillet 2023) et une station de renouvellement de surface au-dessus de mandariniers à Palqui (juin 2023).\nUne station urbaine à Vitacura (Santiago) pour un doctorat de la Pontificia Universidad Católica de Chile."
     },
     "tags": [
       "Installation",

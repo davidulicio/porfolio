@@ -19,9 +19,9 @@
       "power"
     ],
     "involvement": {
-      "en": "Installation and operation (CARBONIQUE technical lead)",
-      "es": "Instalación y operación (responsable técnico de CARBONIQUE)",
-      "fr": "Installation et exploitation (responsable technique de CARBONIQUE)"
+      "en": "Installation, operation and maintenance",
+      "es": "Instalación, operación y mantenimiento",
+      "fr": "Installation, exploitation et entretien"
     },
     "network_id": "AmeriFlux CA-CQ5",
     "summary": {
@@ -59,9 +59,18 @@
         "url": "https://www.linkedin.com/feed/update/urn:li:activity:7494102331588771842/"
       }
     ],
-    "cover": "media/images/uqam-5-1.jpg",
+    "cover": "media/images/uqam-5-2.jpg",
     "featured": true,
     "media": [
+      {
+        "file": "media/images/uqam-5-2.jpg",
+        "url": "",
+        "caption": {
+          "en": "UQAM_5 on its raised platform in autumn",
+          "es": "UQAM_5 sobre su plataforma elevada en otoño",
+          "fr": "UQAM_5 sur sa plateforme surélevée à l'automne"
+        }
+      },
       {
         "file": "media/images/uqam-5-1.jpg",
         "url": "",
@@ -71,7 +80,8 @@
           "fr": "La station UQAM_5 sur sa plateforme surélevée"
         }
       }
-    ]
+    ],
+    "role_type": "installed"
   },
   {
     "slug": "uqam-4-saint-remi-2026",
@@ -93,9 +103,9 @@
       "power"
     ],
     "involvement": {
-      "en": "Installation and operation (CARBONIQUE technical lead)",
-      "es": "Instalación y operación (responsable técnico de CARBONIQUE)",
-      "fr": "Installation et exploitation (responsable technique de CARBONIQUE)"
+      "en": "Installation, operation and maintenance",
+      "es": "Instalación, operación y mantenimiento",
+      "fr": "Installation, exploitation et entretien"
     },
     "network_id": "AmeriFlux CA-CQ4",
     "summary": {
@@ -157,7 +167,8 @@
           "fr": "Trépied mobile solaire sur sa remorque"
         }
       }
-    ]
+    ],
+    "role_type": "installed"
   },
   {
     "slug": "mcgill-1-restored-marsh-2025",
@@ -179,9 +190,9 @@
       "power"
     ],
     "involvement": {
-      "en": "Installation with Sara Knox's McGill EcoFlux team; operation, maintenance and solar power structure",
-      "es": "Instalación con el equipo EcoFlux de Sara Knox (McGill); operación, mantenimiento y estructura solar",
-      "fr": "Installation avec l'équipe EcoFlux de Sara Knox (McGill); exploitation, entretien et structure solaire"
+      "en": "Installation (with Sara Knox's McGill team), operation, maintenance and solar power structure",
+      "es": "Instalación (con el equipo de Sara Knox, McGill), operación, mantenimiento y estructura solar",
+      "fr": "Installation (avec l'équipe de Sara Knox, McGill), exploitation, entretien et structure solaire"
     },
     "network_id": "AmeriFlux CA-CQ9",
     "summary": {
@@ -236,7 +247,8 @@
           "fr": "Vidéo : installation de la tour flottante dans le marais restauré (laboratoire C-Paleo)"
         }
       }
-    ]
+    ],
+    "role_type": "installed"
   },
   {
     "slug": "uqam-2-open-bog-2025",
@@ -258,9 +270,9 @@
       "power"
     ],
     "involvement": {
-      "en": "Installation with Olaf Kolle and the CARBONIQUE team; operation since",
-      "es": "Instalación con Olaf Kolle y el equipo CARBONIQUE; operación desde entonces",
-      "fr": "Installation avec Olaf Kolle et l'équipe CARBONIQUE, puis exploitation"
+      "en": "Installation, operation and maintenance",
+      "es": "Instalación, operación y mantenimiento",
+      "fr": "Installation, exploitation et entretien"
     },
     "network_id": "AmeriFlux CA-CQ2",
     "summary": {
@@ -297,9 +309,18 @@
         "url": "https://www.linkedin.com/feed/update/urn:li:activity:7323144895827746816/"
       }
     ],
-    "cover": "media/images/uqam-2-1.jpg",
+    "cover": "media/images/uqam-2-2.jpg",
     "featured": true,
     "media": [
+      {
+        "file": "media/images/uqam-2-2.jpg",
+        "url": "",
+        "caption": {
+          "en": "UQAM_2 in autumn",
+          "es": "UQAM_2 en otoño",
+          "fr": "UQAM_2 à l'automne"
+        }
+      },
       {
         "file": "media/images/uqam-2-1.jpg",
         "url": "",
@@ -327,7 +348,8 @@
           "fr": "Avec l'équipe CARBONIQUE à Lac-à-la-Tortue"
         }
       }
-    ]
+    ],
+    "role_type": "installed"
   },
   {
     "slug": "uqam-3-forested-bog-2025",
@@ -349,9 +371,9 @@
       "power"
     ],
     "involvement": {
-      "en": "Installation with Olaf Kolle and the CARBONIQUE team; operation since",
-      "es": "Instalación con Olaf Kolle y el equipo CARBONIQUE; operación desde entonces",
-      "fr": "Installation avec Olaf Kolle et l'équipe CARBONIQUE, puis exploitation"
+      "en": "Installation, operation and maintenance",
+      "es": "Instalación, operación y mantenimiento",
+      "fr": "Installation, exploitation et entretien"
     },
     "network_id": "AmeriFlux CA-CQ3",
     "summary": {
@@ -419,7 +441,8 @@
           "fr": "Vidéo : installation des tours de Lac-à-la-Tortue (par Léonie Perrier)"
         }
       }
-    ]
+    ],
+    "role_type": "installed"
   },
   {
     "slug": "uqam-1-lac-saint-pierre-2024",
@@ -440,9 +463,9 @@
       "radiation"
     ],
     "involvement": {
-      "en": "Co-led the installation with Olaf Kolle; operation since",
-      "es": "Codirigí la instalación con Olaf Kolle; operación desde entonces",
-      "fr": "Codirection de l'installation avec Olaf Kolle, puis exploitation"
+      "en": "Installation (with Olaf Kolle), operation and maintenance",
+      "es": "Instalación (con Olaf Kolle), operación y mantenimiento",
+      "fr": "Installation (avec Olaf Kolle), exploitation et entretien"
     },
     "network_id": "AmeriFlux CA-CQ1",
     "summary": {
@@ -504,84 +527,69 @@
           "fr": "Avec Olaf Kolle à UQAM_1 pendant l'installation"
         }
       }
-    ]
+    ],
+    "role_type": "installed"
   },
   {
     "slug": "inia-surface-renewal-2023",
     "title": {
-      "en": "Surface renewal station, INIA Intihuasi",
-      "es": "Estación de renovación superficial, INIA Intihuasi",
-      "fr": "Station de renouvellement de surface, INIA Intihuasi"
+      "en": "Palqui station: surface renewal over mandarins, INIA Intihuasi",
+      "es": "Estación Palqui: renovación superficial sobre mandarinos, INIA Intihuasi",
+      "fr": "Station Palqui : renouvellement de surface au-dessus de mandariniers, INIA Intihuasi"
     },
-    "date": "2023-04",
-    "site": "INIA Intihuasi",
-    "region": "Coquimbo Region, Chile",
+    "date": "2023-06",
+    "site": "Estación Palqui",
+    "region": "Palqui, Coquimbo Region, Chile",
     "approximate": false,
     "types": [
       "surface-renewal",
       "meteorology"
     ],
     "involvement": {
-      "en": "Programming and installation",
-      "es": "Programación e instalación",
-      "fr": "Programmation et installation"
+      "en": "Installation, then management, data processing and maintenance",
+      "es": "Instalación y luego gestión, procesamiento de datos y mantenimiento",
+      "fr": "Installation, puis gestion, traitement des données et entretien"
     },
     "network_id": "",
     "summary": {
-      "en": "A surface renewal station measuring sensible heat over a clementine orchard to estimate evapotranspiration from the energy balance.",
-      "es": "Una estación de renovación superficial que mide el calor sensible sobre un huerto de clementinas para estimar la evapotranspiración a partir del balance de energía.",
-      "fr": "Une station de renouvellement de surface qui mesure la chaleur sensible au-dessus d'un verger de clémentiniers pour estimer l'évapotranspiration à partir du bilan d'énergie."
+      "en": "A surface renewal station measuring sensible heat over a mandarin orchard to estimate evapotranspiration (H2O) from the energy balance.",
+      "es": "Una estación de renovación superficial que mide el calor sensible sobre un huerto de mandarinos para estimar la evapotranspiración (H2O) a partir del balance de energía.",
+      "fr": "Une station de renouvellement de surface qui mesure la chaleur sensible au-dessus d'un verger de mandariniers pour estimer l'évapotranspiration (H2O) à partir du bilan d'énergie."
     },
     "description": {
-      "en": "Sensible heat is measured directly and latent heat (evapotranspiration) is closed from the energy balance. In July 2023 I also installed an eddy covariance station for INIA.",
-      "es": "El calor sensible se mide directamente y el calor latente (evapotranspiración) se obtiene cerrando el balance de energía. En julio de 2023 también instalé una estación de covarianza turbulenta para INIA.",
-      "fr": "La chaleur sensible est mesurée directement et la chaleur latente (évapotranspiration) est déduite du bilan d'énergie. En juillet 2023, j'ai aussi installé une station de covariance pour l'INIA."
+      "en": "Sensible heat is measured directly and latent heat (evapotranspiration) is closed from the energy balance. In July 2023 I also installed an eddy covariance station for INIA in Vicuña.",
+      "es": "El calor sensible se mide directamente y el calor latente (evapotranspiración) se obtiene cerrando el balance de energía. En julio de 2023 también instalé una estación de covarianza turbulenta para INIA en Vicuña.",
+      "fr": "La chaleur sensible est mesurée directement et la chaleur latente (évapotranspiration) est déduite du bilan d'énergie. En juillet 2023, j'ai aussi installé une station de covariance pour l'INIA à Vicuña."
     },
     "equipment": [
       "Campbell Scientific CR1000X"
     ],
     "links": [],
-    "cover": "",
+    "cover": "media/images/inia-sr-1.jpg",
     "featured": false,
-    "media": []
-  },
-  {
-    "slug": "chiloe-wind-sentry-2022",
-    "title": {
-      "en": "Wind Sentry anemometer, Chiloé",
-      "es": "Anemómetro Wind Sentry, Chiloé",
-      "fr": "Anémomètre Wind Sentry, Chiloé"
-    },
-    "date": "2022-01",
-    "site": "Chiloé",
-    "region": "Chiloé Province, Los Lagos, Chile",
-    "approximate": false,
-    "types": [
-      "meteorology"
+    "media": [
+      {
+        "file": "media/images/inia-sr-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "Installing the station in the mandarin orchard",
+          "es": "Instalando la estación en el huerto de mandarinos",
+          "fr": "Installation de la station dans le verger de mandariniers"
+        }
+      },
+      {
+        "file": "media/images/inia-sr-2.jpg",
+        "url": "",
+        "caption": {
+          "en": "Sensors between the trees",
+          "es": "Sensores entre los árboles",
+          "fr": "Capteurs entre les arbres"
+        }
+      }
     ],
-    "involvement": {
-      "en": "Consulting and installation",
-      "es": "Asesoría e instalación",
-      "fr": "Conseil et installation"
-    },
-    "network_id": "",
-    "summary": {
-      "en": "Advisory on meteorological instruments and installation of an R.M. Young 03002 Wind Sentry.",
-      "es": "Asesoría en instrumentos meteorológicos e instalación de un R.M. Young 03002 Wind Sentry.",
-      "fr": "Conseils sur les instruments météorologiques et installation d'un R.M. Young 03002 Wind Sentry."
-    },
-    "description": {
-      "en": "",
-      "es": "",
-      "fr": ""
-    },
-    "equipment": [
-      "R.M. Young 03002 Wind Sentry"
-    ],
-    "links": [],
-    "cover": "",
-    "featured": false,
-    "media": []
+    "role_type": "installed",
+    "lat": -30.76028,
+    "lon": -70.99705
   },
   {
     "slug": "alma-dust-station-2020",
@@ -642,7 +650,8 @@
           "fr": "Station météo et collecteur de poussière CARAGA"
         }
       }
-    ]
+    ],
+    "role_type": "installed"
   },
   {
     "slug": "cerro-dominador-dust-station-2020",
@@ -703,7 +712,8 @@
           "fr": "Station météo et collecteur de poussière CARAGA"
         }
       }
-    ]
+    ],
+    "role_type": "installed"
   },
   {
     "slug": "santiago-urban-ec-2024",
@@ -712,19 +722,19 @@
       "es": "Estación urbana de covarianza turbulenta en Santiago",
       "fr": "Station urbaine de covariance des turbulences à Santiago"
     },
-    "date": "2024",
-    "site": "Santiago",
-    "region": "Santiago, Chile",
-    "lat": -33.45,
-    "lon": -70.66,
+    "date": "2024-02",
+    "site": "Vitacura, Santiago",
+    "region": "Vitacura, Santiago, Chile",
+    "lat": -33.39,
+    "lon": -70.58,
     "approximate": true,
     "types": [
       "eddy-covariance"
     ],
     "involvement": {
-      "en": "Installation and analysis support",
-      "es": "Instalación y apoyo al análisis",
-      "fr": "Installation et soutien à l'analyse"
+      "en": "Installation, then management, data processing and maintenance",
+      "es": "Instalación y luego gestión, procesamiento de datos y mantenimiento",
+      "fr": "Installation, puis gestion, traitement des données et entretien"
     },
     "network_id": "",
     "summary": {
@@ -741,9 +751,29 @@
       "Eddy covariance system"
     ],
     "links": [],
-    "cover": "",
+    "cover": "media/images/santiago-1.jpg",
     "featured": false,
-    "media": []
+    "media": [
+      {
+        "file": "media/images/santiago-1.jpg",
+        "url": "",
+        "caption": {
+          "en": "The rooftop station at sunset",
+          "es": "La estación en la azotea al atardecer",
+          "fr": "La station sur le toit au coucher du soleil"
+        }
+      },
+      {
+        "file": "media/images/santiago-2.jpg",
+        "url": "",
+        "caption": {
+          "en": "Installing the station on the rooftop",
+          "es": "Instalando la estación en la azotea",
+          "fr": "Installation de la station sur le toit"
+        }
+      }
+    ],
+    "role_type": "installed"
   },
   {
     "slug": "andes-vega-ec-2023",
@@ -753,16 +783,16 @@
       "fr": "Station de covariance dans une vega des hautes Andes"
     },
     "date": "2023-11",
-    "site": "Andes",
-    "region": "Andes, Chile",
+    "site": "High-Andean vega",
+    "region": "O'Higgins Region, Chile",
     "types": [
       "eddy-covariance"
     ],
     "approximate": false,
     "involvement": {
-      "en": "Installation for CEA (Centro de Ecología Aplicada)",
-      "es": "Instalación para el CEA (Centro de Ecología Aplicada)",
-      "fr": "Installation pour le CEA (Centro de Ecología Aplicada)"
+      "en": "Installation, then management, data processing and maintenance",
+      "es": "Instalación y luego gestión, procesamiento de datos y mantenimiento",
+      "fr": "Installation, puis gestion, traitement des données et entretien"
     },
     "network_id": "",
     "summary": {
@@ -827,7 +857,10 @@
           "fr": "La vallée autour du site"
         }
       }
-    ]
+    ],
+    "role_type": "installed",
+    "lat": -34.171663,
+    "lon": -69.961527
   },
   {
     "slug": "puyuhuapi-forest-2024",
@@ -847,9 +880,9 @@
       "meteorology"
     ],
     "involvement": {
-      "en": "Installation",
-      "es": "Instalación",
-      "fr": "Installation"
+      "en": "Installation, then management, data processing and maintenance",
+      "es": "Instalación y luego gestión, procesamiento de datos y mantenimiento",
+      "fr": "Installation, puis gestion, traitement des données et entretien"
     },
     "network_id": "",
     "summary": {
@@ -915,38 +948,39 @@
           "fr": "Boîtier terminé au pied de la tour"
         }
       }
-    ]
+    ],
+    "role_type": "installed"
   },
   {
     "slug": "inia-ec-vineyard-2023",
     "title": {
-      "en": "Eddy covariance station over a vineyard, INIA Intihuasi",
-      "es": "Estación de covarianza turbulenta sobre un viñedo, INIA Intihuasi",
-      "fr": "Station de covariance au-dessus d'un vignoble, INIA Intihuasi"
+      "en": "Vicuña station: eddy covariance over table grapes, INIA Intihuasi",
+      "es": "Estación Vicuña: covarianza turbulenta sobre uva de mesa, INIA Intihuasi",
+      "fr": "Station Vicuña : covariance au-dessus de raisins de table, INIA Intihuasi"
     },
     "date": "2023-07",
-    "site": "INIA Intihuasi",
-    "region": "Chile",
+    "site": "Estación Vicuña",
+    "region": "Vicuña, Coquimbo Region, Chile",
     "types": [
       "eddy-covariance",
       "meteorology"
     ],
     "approximate": false,
     "involvement": {
-      "en": "Installation",
-      "es": "Instalación",
-      "fr": "Installation"
+      "en": "Installation, then management, data processing and maintenance",
+      "es": "Instalación y luego gestión, procesamiento de datos y mantenimiento",
+      "fr": "Installation, puis gestion, traitement des données et entretien"
     },
     "network_id": "",
     "summary": {
-      "en": "CO2 and H2O fluxes plus soil and weather variables over a vineyard, to study productivity, respiration and evapotranspiration for better water management.",
-      "es": "Flujos de CO2 y H2O, más variables de suelo y clima, sobre un viñedo, para estudiar productividad, respiración y evapotranspiración y mejorar el manejo del agua.",
-      "fr": "Flux de CO2 et de H2O, ainsi que variables du sol et météo, au-dessus d'un vignoble, pour étudier la productivité, la respiration et l'évapotranspiration et mieux gérer l'eau."
+      "en": "CO2 and H2O fluxes plus soil and weather variables over a table grape vineyard, to study productivity, respiration and evapotranspiration for better water management.",
+      "es": "Flujos de CO2 y H2O, más variables de suelo y clima, sobre un parronal de uva de mesa, para estudiar productividad, respiración y evapotranspiración y mejorar el manejo del agua.",
+      "fr": "Flux de CO2 et de H2O, ainsi que variables du sol et météo, au-dessus d'un vignoble de raisins de table, pour étudier la productivité, la respiration et l'évapotranspiration et mieux gérer l'eau."
     },
     "description": {
-      "en": "Installed in July 2023 on a scaffolding tower, separate from the surface renewal station I set up for INIA in April 2023.",
-      "es": "Instalada en julio de 2023 sobre una torre de andamio, aparte de la estación de renovación superficial que instalé para INIA en abril de 2023.",
-      "fr": "Installée en juillet 2023 sur une tour d'échafaudage, en plus de la station de renouvellement de surface installée pour l'INIA en avril 2023."
+      "en": "Installed in July 2023 on a scaffolding tower in the Elqui Valley, in addition to the surface renewal station I set up for INIA in Palqui.",
+      "es": "Instalada en julio de 2023 sobre una torre de andamio en el valle de Elqui, además de la estación de renovación superficial que instalé para INIA en Palqui.",
+      "fr": "Installée en juillet 2023 sur une tour d'échafaudage dans la vallée d'Elqui, en plus de la station de renouvellement de surface installée pour l'INIA à Palqui."
     },
     "equipment": [
       "LI-COR and Campbell Scientific eddy covariance system",
@@ -1009,8 +1043,29 @@
           "es": "Brazo de instrumentos",
           "fr": "Bras d'instruments"
         }
+      },
+      {
+        "file": "media/images/inia-ec-11.jpg",
+        "url": "",
+        "caption": {
+          "en": "Station electronics on the tower",
+          "es": "Electrónica de la estación en la torre",
+          "fr": "Électronique de la station sur la tour"
+        }
+      },
+      {
+        "file": "media/images/inia-ec-12.jpg",
+        "url": "",
+        "caption": {
+          "en": "The tower among the vines",
+          "es": "La torre entre las parras",
+          "fr": "La tour au milieu des vignes"
+        }
       }
-    ]
+    ],
+    "role_type": "installed",
+    "lat": -30.03927,
+    "lon": -70.68801
   },
   {
     "slug": "omora-peatland-2022",
@@ -1032,9 +1087,9 @@
       "radiation"
     ],
     "involvement": {
-      "en": "Installation (field technician), then data management",
-      "es": "Instalación (técnico de terreno) y luego gestión de datos",
-      "fr": "Installation (technicien de terrain), puis gestion des données"
+      "en": "Installation, then management, data processing and maintenance",
+      "es": "Instalación y luego gestión, procesamiento de datos y mantenimiento",
+      "fr": "Installation, puis gestion, traitement des données et entretien"
     },
     "network_id": "AmeriFlux CL-OPP",
     "summary": {
@@ -1109,7 +1164,8 @@
           "fr": "Configuration du système la nuit"
         }
       }
-    ]
+    ],
+    "role_type": "installed"
   },
   {
     "slug": "omora-forest-2022",
@@ -1131,9 +1187,9 @@
       "radiation"
     ],
     "involvement": {
-      "en": "Installation (field technician), then data management",
-      "es": "Instalación (técnico de terreno) y luego gestión de datos",
-      "fr": "Installation (technicien de terrain), puis gestion des données"
+      "en": "Installation, then management, data processing and maintenance",
+      "es": "Instalación y luego gestión, procesamiento de datos y mantenimiento",
+      "fr": "Installation, puis gestion, traitement des données et entretien"
     },
     "network_id": "ChileFlux CL-PWF",
     "summary": {
@@ -1211,7 +1267,8 @@
           "fr": "Forêts miniatures du cap Horn"
         }
       }
-    ]
+    ],
+    "role_type": "installed"
   },
   {
     "slug": "fray-jorge-shrubland",
@@ -1232,9 +1289,9 @@
       "radiation"
     ],
     "involvement": {
-      "en": "Maintenance",
-      "es": "Mantenimiento",
-      "fr": "Entretien"
+      "en": "Management, data processing and maintenance",
+      "es": "Gestión, procesamiento de datos y mantenimiento",
+      "fr": "Gestion, traitement des données et entretien"
     },
     "network_id": "AmeriFlux CL-FJS",
     "summary": {
@@ -1271,7 +1328,8 @@
           "fr": "Entretien à la tour de Fray Jorge"
         }
       }
-    ]
+    ],
+    "role_type": "managed"
   },
   {
     "slug": "senda-darwin-forest",
@@ -1293,9 +1351,9 @@
       "radiation"
     ],
     "involvement": {
-      "en": "Station management: data, maintenance and soil respiration chambers (LECS, Universidad de Chile)",
-      "es": "Gestión de la estación: datos, mantenimiento y cámaras de respiración de suelo (LECS, Universidad de Chile)",
-      "fr": "Gestion de la station : données, entretien et chambres de respiration du sol (LECS, Universidad de Chile)"
+      "en": "Management, data processing and maintenance (LECS, Universidad de Chile)",
+      "es": "Gestión, procesamiento de datos y mantenimiento (LECS, Universidad de Chile)",
+      "fr": "Gestion, traitement des données et entretien (LECS, Universidad de Chile)"
     },
     "network_id": "AmeriFlux CL-SDF",
     "summary": {
@@ -1370,7 +1428,8 @@
           "fr": "Fermeture d'une chambre"
         }
       }
-    ]
+    ],
+    "role_type": "managed"
   },
   {
     "slug": "senda-darwin-peatland",
@@ -1392,9 +1451,9 @@
       "radiation"
     ],
     "involvement": {
-      "en": "Station management: data, maintenance and soil respiration chambers (LECS, Universidad de Chile)",
-      "es": "Gestión de la estación: datos, mantenimiento y cámaras de respiración de suelo (LECS, Universidad de Chile)",
-      "fr": "Gestion de la station : données, entretien et chambres de respiration du sol (LECS, Universidad de Chile)"
+      "en": "Management, data processing and maintenance (LECS, Universidad de Chile)",
+      "es": "Gestión, procesamiento de datos y mantenimiento (LECS, Universidad de Chile)",
+      "fr": "Gestion, traitement des données et entretien (LECS, Universidad de Chile)"
     },
     "network_id": "ChileFlux CL-SDP",
     "summary": {
@@ -1427,7 +1486,8 @@
           "fr": "Capteurs de covariance au-dessus de la tourbière"
         }
       }
-    ]
+    ],
+    "role_type": "managed"
   },
   {
     "slug": "alerce-costero-forest",
@@ -1449,9 +1509,9 @@
       "radiation"
     ],
     "involvement": {
-      "en": "Station management: data, maintenance and soil respiration chambers (LECS, Universidad de Chile)",
-      "es": "Gestión de la estación: datos, mantenimiento y cámaras de respiración de suelo (LECS, Universidad de Chile)",
-      "fr": "Gestion de la station : données, entretien et chambres de respiration du sol (LECS, Universidad de Chile)"
+      "en": "Management, data processing and maintenance (LECS, Universidad de Chile)",
+      "es": "Gestión, procesamiento de datos y mantenimiento (LECS, Universidad de Chile)",
+      "fr": "Gestion, traitement des données et entretien (LECS, Universidad de Chile)"
     },
     "network_id": "ChileFlux CL-ACF",
     "summary": {
@@ -1519,7 +1579,26 @@
           "es": "Analizador EC155 y anemómetro sónico",
           "fr": "Analyseur EC155 et anémomètre sonique"
         }
+      },
+      {
+        "file": "media/images/alerce-costero-7.jpg",
+        "url": "",
+        "caption": {
+          "en": "The alerce forest tower",
+          "es": "La torre del bosque de alerce",
+          "fr": "La tour de la forêt d'alerces"
+        }
+      },
+      {
+        "file": "media/images/alerce-costero-6.jpg",
+        "url": "",
+        "caption": {
+          "en": "Tower base with the CPEC200 pump module",
+          "es": "Base de la torre con el módulo de bombeo CPEC200",
+          "fr": "Pied de la tour avec le module de pompage CPEC200"
+        }
       }
-    ]
+    ],
+    "role_type": "managed"
   }
 ]

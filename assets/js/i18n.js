@@ -4,11 +4,16 @@ export const LANGS = ['en', 'es', 'fr'];
 
 export const UI = {
   en: {
+    'nav.field': 'Field work', 'field.sub': 'Smaller jobs between the big installations: maintenance, calibrations, repairs, troubleshooting and days in the field.',
+    'gcat.installation': 'Installation', 'gcat.maintenance': 'Maintenance', 'gcat.calibration': 'Calibration', 'gcat.cleaning': 'Cleaning',
+    'gcat.repairs': 'Repairs', 'gcat.troubleshooting': 'Troubleshooting', 'gcat.power': 'Power', 'gcat.fieldwork': 'Fieldwork',
+    'legend.installed': 'Installed and run', 'legend.managed': 'Managed and maintained', 'legend.approx': 'Approximate location', 'legend.cluster': 'Several sites, zoom in',
+    'role.installed': 'Installed', 'role.managed': 'Managed', 'inst.tapmap': 'Tap the map to move it',
     'nav.news': 'Updates', 'news.sub': 'Field news and posts, newest first.', 'news.read': 'Read the post', 'news.source': 'Read more', 'news.inst': 'See the installation',
     'acad1.article': 'Article', 'acad1.dataset': 'Dataset', 'acad1.conference': 'Conference', 'acad1.thesis': 'Thesis', 'acad1.other': 'Other',
     skip: 'Skip to content',
     'nav.about': 'About', 'nav.experience': 'Experience', 'nav.installations': 'Installations',
-    'nav.projects': 'Projects', 'nav.academic': 'Academic contributions', 'nav.contact': 'Contact',
+    'nav.projects': 'Projects', 'nav.academic': 'Academic', 'acad.title': 'Academic contributions', 'nav.contact': 'Contact',
     'hero.explore': 'Explore installations', 'hero.cv': 'Download CV',
     'about.languages': 'Languages',
     'exp.sub': 'Every role, newest first. Open any card for the details.',
@@ -32,11 +37,16 @@ export const UI = {
     'media.video': 'Video', 'media.pdf': 'PDF', 'media.link': 'Link'
   },
   es: {
+    'nav.field': 'Terreno', 'field.sub': 'Trabajos más pequeños entre las grandes instalaciones: mantenciones, calibraciones, reparaciones, diagnóstico de fallas y días en terreno.',
+    'gcat.installation': 'Instalación', 'gcat.maintenance': 'Mantención', 'gcat.calibration': 'Calibración', 'gcat.cleaning': 'Limpieza',
+    'gcat.repairs': 'Reparaciones', 'gcat.troubleshooting': 'Diagnóstico de fallas', 'gcat.power': 'Energía', 'gcat.fieldwork': 'Terreno',
+    'legend.installed': 'Instalada y operada', 'legend.managed': 'Gestionada y mantenida', 'legend.approx': 'Ubicación aproximada', 'legend.cluster': 'Varios sitios, acerca el mapa',
+    'role.installed': 'Instalada', 'role.managed': 'Gestionada', 'inst.tapmap': 'Toca el mapa para moverlo',
     'nav.news': 'Novedades', 'news.sub': 'Noticias de terreno y publicaciones, de la más reciente a la más antigua.', 'news.read': 'Leer la publicación', 'news.source': 'Leer más', 'news.inst': 'Ver la instalación',
     'acad1.article': 'Artículo', 'acad1.dataset': 'Datos', 'acad1.conference': 'Congreso', 'acad1.thesis': 'Tesis', 'acad1.other': 'Otro',
     skip: 'Ir al contenido',
     'nav.about': 'Sobre mí', 'nav.experience': 'Experiencia', 'nav.installations': 'Instalaciones',
-    'nav.projects': 'Proyectos', 'nav.academic': 'Contribuciones académicas', 'nav.contact': 'Contacto',
+    'nav.projects': 'Proyectos', 'nav.academic': 'Académico', 'acad.title': 'Contribuciones académicas', 'nav.contact': 'Contacto',
     'hero.explore': 'Ver instalaciones', 'hero.cv': 'Descargar CV',
     'about.languages': 'Idiomas',
     'exp.sub': 'Todos mis cargos, del más reciente al más antiguo. Abre cualquier tarjeta para ver los detalles.',
@@ -60,11 +70,16 @@ export const UI = {
     'media.video': 'Video', 'media.pdf': 'PDF', 'media.link': 'Enlace'
   },
   fr: {
+    'nav.field': 'Terrain', 'field.sub': "Les plus petits travaux entre les grandes installations : entretien, étalonnages, réparations, dépannage et journées sur le terrain.",
+    'gcat.installation': 'Installation', 'gcat.maintenance': 'Entretien', 'gcat.calibration': 'Étalonnage', 'gcat.cleaning': 'Nettoyage',
+    'gcat.repairs': 'Réparations', 'gcat.troubleshooting': 'Dépannage', 'gcat.power': 'Alimentation', 'gcat.fieldwork': 'Terrain',
+    'legend.installed': 'Installée et exploitée', 'legend.managed': 'Gérée et entretenue', 'legend.approx': 'Emplacement approximatif', 'legend.cluster': 'Plusieurs sites, zoomez',
+    'role.installed': 'Installée', 'role.managed': 'Gérée', 'inst.tapmap': 'Touchez la carte pour la déplacer',
     'nav.news': 'Actualités', 'news.sub': 'Nouvelles du terrain et publications, de la plus récente à la plus ancienne.', 'news.read': 'Lire la publication', 'news.source': 'En savoir plus', 'news.inst': "Voir l'installation",
     'acad1.article': 'Article', 'acad1.dataset': 'Données', 'acad1.conference': 'Conférence', 'acad1.thesis': 'Thèse', 'acad1.other': 'Autre',
     skip: 'Aller au contenu',
     'nav.about': 'À propos', 'nav.experience': 'Expérience', 'nav.installations': 'Installations',
-    'nav.projects': 'Projets', 'nav.academic': 'Contributions scientifiques', 'nav.contact': 'Contact',
+    'nav.projects': 'Projets', 'nav.academic': 'Publications', 'acad.title': 'Contributions scientifiques', 'nav.contact': 'Contact',
     'hero.explore': 'Voir les installations', 'hero.cv': 'Télécharger le CV',
     'about.languages': 'Langues',
     'exp.sub': 'Tous mes postes, du plus récent au plus ancien. Ouvrez une carte pour voir les détails.',

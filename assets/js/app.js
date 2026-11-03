@@ -32,7 +32,7 @@ function asset(p) {
 }
 
 /* ------------------------------------------------------------ data load */
-const FILES = ['site', 'experience', 'installations', 'news', 'academic', 'projects'];
+const FILES = ['site', 'experience', 'installations', 'gallery', 'news', 'academic', 'projects'];
 async function load() {
   const res = await Promise.all(FILES.map(f => fetch(`content/${f}.json`, { cache: 'no-cache' })
     .then(r => (r.ok ? r.json() : null)).catch(() => null)));
@@ -140,11 +140,12 @@ function renderHero(site) {
   $('#heroLocation').textContent = site.location || '';
   const cv = $('#cvBtn'); if (site.cv_file) cv.href = asset(site.cv_file); else cv.hidden = true;
   const bg = $('#heroBg');
-  if (site.hero_image && !bg.dataset.src) {
-    bg.dataset.src = site.hero_image;
+  const heroSrc = (matchMedia('(max-width: 760px)').matches && site.hero_image_mobile) ? site.hero_image_mobile : site.hero_image;
+  if (heroSrc && bg.dataset.src !== heroSrc) {
+    bg.dataset.src = heroSrc;
     const img = new Image(); img.decoding = 'async';
-    img.onload = () => { bg.style.backgroundImage = `url("${asset(site.hero_image)}")`; bg.classList.add('loaded'); };
-    img.src = asset(site.hero_image);
+    img.onload = () => { bg.style.backgroundImage = `url("${asset(heroSrc)}")`; bg.classList.add('loaded'); };
+    img.src = asset(heroSrc);
   }
 }
 
@@ -218,7 +219,7 @@ function renderInstallations() {
         <div class="card-meta"><span class="when">${esc(fmtMonth(x.date))}</span><span class="where">${esc(x.region || '')}</span></div>
         <h3>${esc(tx(x.title))}</h3>
         <p>${esc(tx(x.summary))}</p>
-        <div class="card-foot">${x.network_id ? `<span class="chip">${esc(x.network_id)}</span>` : ''}${media.length ? `<span class="count-media">▣ ${esc(t('inst.media', { n: media.length }))}</span>` : ''}</div>
+        <div class="card-foot"><span class="role-badge ${x.role_type === 'managed' ? 'managed' : 'installed'}">${esc(t('role.' + (x.role_type === 'managed' ? 'managed' : 'installed')))}</span>${x.network_id ? `<span class="chip">${esc(x.network_id)}</span>` : ''}${media.length ? `<span class="count-media">▣ ${esc(t('inst.media', { n: media.length }))}</span>` : ''}</div>
       </div></button>`;
   }).join('') : `<p class="empty">${esc(t('inst.none'))}</p>`;
   updateMarkers();
@@ -238,7 +239,7 @@ function openInstallation(slug, push = true) {
         ${media.length ? `<h4 style="margin:22px 0 4px;font-size:17px">${esc(t('inst.gallery'))}</h4>${thumbsHTML(media, group)}` : ''}
       </div>
       <aside class="facts">
-        ${tx(x.involvement) ? `<div class="fact"><span>${esc(t('inst.role'))}</span>${esc(tx(x.involvement))}</div>` : ''}
+        ${tx(x.involvement) ? `<div class="fact"><span>${esc(t('inst.role'))}</span><span class="role-badge ${x.role_type === 'managed' ? 'managed' : 'installed'}">${esc(t('role.' + (x.role_type === 'managed' ? 'managed' : 'installed')))}</span><br>${esc(tx(x.involvement))}</div>` : ''}
         <div class="fact"><span>${esc(t('inst.location'))}</span>${esc(x.region || '')}${coords ? `<br><small style="color:var(--muted)">${esc(coords)}</small>` : ''}</div>
         ${x.network_id ? `<div class="fact"><span>${esc(t('inst.network'))}</span>${esc(x.network_id)}</div>` : ''}
         ${(x.equipment || []).length ? `<div class="fact"><span>${esc(t('inst.equipment'))}</span><ul class="equip">${x.equipment.map(e => `<li>${esc(e)}</li>`).join('')}</ul></div>` : ''}
@@ -257,8 +258,14 @@ function loadLeaflet() {
   leafletPromise ||= new Promise((res, rej) => {
     const css = document.createElement('link'); css.rel = 'stylesheet';
     css.href = 'assets/vendor/leaflet/leaflet.css'; document.head.append(css);
+    const mc = document.createElement('link'); mc.rel = 'stylesheet';
+    mc.href = 'assets/vendor/markercluster/MarkerCluster.css'; document.head.append(mc);
     const s = document.createElement('script'); s.src = 'assets/vendor/leaflet/leaflet.js';
-    s.onload = () => res(window.L); s.onerror = rej; document.head.append(s);
+    s.onload = () => {
+      const c = document.createElement('script'); c.src = 'assets/vendor/markercluster/leaflet.markercluster.js';
+      c.onload = () => res(window.L); c.onerror = () => res(window.L); document.head.append(c);
+    };
+    s.onerror = rej; document.head.append(s);
   });
   return leafletPromise;
 }
@@ -270,31 +277,81 @@ async function initMap() {
       maxZoom: 17, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map);
     map.on('focus', () => map.scrollWheelZoom.enable()); map.on('blur', () => map.scrollWheelZoom.disable());
+    // On touch screens one finger scrolls the page; a tap on the map unlocks panning.
+    if (matchMedia('(pointer: coarse)').matches) {
+      map.dragging.disable(); state.mapLocked = true;
+      map.once('click', () => { map.dragging.enable(); state.mapLocked = false; updateHint(); });
+    }
     state.map = map; updateMarkers(true);
   } catch {
     $('#map').innerHTML = `<div class="map-fallback">${esc(t('inst.nomap'))}</div>`; $('#map').classList.add('failed');
   }
 }
+function updateHint() { $('#mapHint').textContent = state.mapLocked ? t('inst.tapmap') : ''; }
+function updateLegend() {
+  const L = window.L; const map = state.map; if (!L || !map) return;
+  if (state.legend) state.legend.remove();
+  const legend = L.control({ position: 'bottomright' });
+  legend.onAdd = () => {
+    const d = L.DomUtil.create('div', 'map-legend');
+    d.innerHTML = `<div><span class="pin installed"></span>${esc(t('legend.installed'))}</div>
+      <div><span class="pin managed"></span>${esc(t('legend.managed'))}</div>
+      <div><span class="pin installed approx"></span>${esc(t('legend.approx'))}</div>
+      <div><span class="cluster-dot">3</span>${esc(t('legend.cluster'))}</div>`;
+    L.DomEvent.disableClickPropagation(d); return d;
+  };
+  legend.addTo(map); state.legend = legend;
+}
 function updateMarkers(fit = true) {
   const L = window.L; const map = state.map; if (!L || !map) return;
+  if (state.cluster) { state.cluster.remove(); state.cluster = null; }
   Object.values(state.markers).forEach(m => m.remove()); state.markers = {};
+  const layer = L.markerClusterGroup ? L.markerClusterGroup({
+    maxClusterRadius: 44, showCoverageOnHover: false, spiderfyOnMaxZoom: true, zoomToBoundsOnClick: true,
+    iconCreateFunction: c => L.divIcon({ className: 'cluster-wrap', html: `<span class="cluster">${c.getChildCount()}</span>`, iconSize: [36, 36], iconAnchor: [18, 18] })
+  }) : L.layerGroup();
   const pts = [];
   instVisible().filter(x => x.lat != null && x.lon != null).forEach(x => {
-    const icon = L.divIcon({ className: 'pin-wrap', html: `<div class="pin ${x.approximate ? 'approx' : ''}"></div>`, iconSize: [18, 18], iconAnchor: [9, 9] });
-    const m = L.marker([x.lat, x.lon], { icon, title: tx(x.title), keyboard: true }).addTo(map);
-    m.bindPopup(`<b>${esc(tx(x.title))}</b><span style="color:var(--muted)">${esc(fmtMonth(x.date))} · ${esc(x.region || '')}</span><br><button data-open="${esc(x.slug)}">${esc(t('inst.details'))}</button>`);
-    state.markers[x.slug] = m; pts.push([x.lat, x.lon]);
+    const role = x.role_type === 'managed' ? 'managed' : 'installed';
+    const icon = L.divIcon({ className: 'pin-wrap', html: `<div class="pin ${role} ${x.approximate ? 'approx' : ''}"></div>`, iconSize: [18, 18], iconAnchor: [9, 9] });
+    const m = L.marker([x.lat, x.lon], { icon, title: tx(x.title), keyboard: true });
+    m.bindPopup(`<b>${esc(tx(x.title))}</b><span style="color:var(--muted)">${esc(fmtMonth(x.date))} · ${esc(x.region || '')}</span><br><span class="role-badge ${role}">${esc(t('role.' + role))}</span><br><button data-open="${esc(x.slug)}">${esc(t('inst.details'))}</button>`);
+    layer.addLayer(m); state.markers[x.slug] = m; pts.push([x.lat, x.lon]);
   });
-  const hasApprox = instVisible().some(x => x.approximate && x.lat != null);
-  $('#mapHint').textContent = hasApprox ? t('inst.approx') : '';
+  layer.addTo(map); state.cluster = layer;
+  updateLegend(); updateHint();
   if (fit && pts.length) map.fitBounds(pts, { padding: [40, 40], maxZoom: 9, animate: !reduceMotion });
 }
 function showOnMap(slug) {
   $('#modal').close();
-  const go = () => { const m = state.markers[slug]; if (!m) return; state.map.flyTo(m.getLatLng(), 12, { duration: reduceMotion ? 0 : 1.2 }); setTimeout(() => m.openPopup(), reduceMotion ? 0 : 1200); };
+  const go = () => {
+    const m = state.markers[slug]; if (!m) return;
+    if (state.cluster && state.cluster.zoomToShowLayer) state.cluster.zoomToShowLayer(m, () => { state.map.setView(m.getLatLng(), Math.max(state.map.getZoom(), 12)); m.openPopup(); });
+    else { state.map.flyTo(m.getLatLng(), 12, { duration: reduceMotion ? 0 : 1.2 }); setTimeout(() => m.openPopup(), reduceMotion ? 0 : 1200); }
+  };
   $('#map').scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'center' });
   if (!state.markers[slug]) { state.instFilter = 'all'; renderInstFilters(); renderInstallations(); }
   if (state.map) go(); else initMap().then(go);
+}
+
+/* ------------------------------------------------------------- gallery */
+const GCATS = ['installation', 'maintenance', 'calibration', 'cleaning', 'repairs', 'troubleshooting', 'power', 'fieldwork'];
+function renderGallery(items) {
+  const sec = $('#field'); if (!items || !items.length) { sec.hidden = true; return; }
+  sec.hidden = false;
+  const list = [...items].sort((a, b) => String(b.date).localeCompare(String(a.date)));
+  const counts = {}; list.forEach(x => (counts[x.category] = (counts[x.category] || 0) + 1));
+  const cats = GCATS.filter(c => counts[c]).concat(Object.keys(counts).filter(c => !GCATS.includes(c)));
+  const f = state.galleryFilter || 'all';
+  $('#fieldFilters').innerHTML = [`<button class="filter" data-g="all" aria-pressed="${f === 'all'}">${esc(t('inst.all'))} <span class="count">${list.length}</span></button>`]
+    .concat(cats.map(c => `<button class="filter" data-g="${esc(c)}" aria-pressed="${f === c}">${esc(t('gcat.' + c))} <span class="count">${counts[c]}</span></button>`)).join('');
+  const shown = list.filter(x => f === 'all' || x.category === f);
+  const media = shown.map(x => ({ kind: kindOf(x.file || x.url || ''), src: asset(x.file || x.url), caption: [tx(x.caption), x.place, fmtMonth(x.date)].filter(Boolean).join(' · ') }));
+  mediaGroups.set('field', media);
+  $('#fieldGrid').innerHTML = shown.map((x, i) => `<button class="shot" data-group="field" data-i="${i}" aria-label="${esc(tx(x.caption))}">
+      <img src="${esc(asset(x.file))}" alt="${esc(tx(x.caption))}" loading="lazy" decoding="async">
+      <span class="shot-cap"><b>${esc(tx(x.caption))}</b><small>${esc([x.place, fmtMonth(x.date)].filter(Boolean).join(' · '))}</small></span>
+    </button>`).join('');
 }
 
 /* -------------------------------------------------------------- updates */
@@ -469,12 +526,13 @@ function bind() {
       card.dataset.open = open; head.setAttribute('aria-expanded', open);
       head.querySelector('.lbl').textContent = open ? t('exp.less') : t('exp.details'); return;
     }
-    const th = e.target.closest('.thumb');
+    const th = e.target.closest('.thumb, .shot');
     if (th) { e.stopPropagation(); openLightbox(mediaGroups.get(th.dataset.group) || [], +th.dataset.i); return; }
     const card = e.target.closest('.card[data-slug]'); if (card) { openInstallation(card.dataset.slug); return; }
     const pop = e.target.closest('[data-open]'); if (pop) { openInstallation(pop.dataset.open); return; }
     const mapBtn = e.target.closest('[data-map]'); if (mapBtn) { showOnMap(mapBtn.dataset.map); return; }
-    const f = e.target.closest('.filter'); if (f) { state.instFilter = f.dataset.f; renderInstFilters(); renderInstallations(); return; }
+    const gf = e.target.closest('.filter[data-g]'); if (gf) { state.galleryFilter = gf.dataset.g; renderGallery(state.data.gallery); return; }
+    const f = e.target.closest('.filter[data-f]'); if (f) { state.instFilter = f.dataset.f; renderInstFilters(); renderInstallations(); return; }
     const tab = e.target.closest('.tab'); if (tab) { state.acadTab = tab.dataset.tab; renderAcademic(state.data.academic); return; }
     if (e.target.closest('[data-close]')) { e.target.closest('dialog').close(); return; }
   });
@@ -508,7 +566,7 @@ function setLang(lang) {
 function renderAll() {
   const d = state.data; mediaGroups.clear();
   renderHero(d.site); renderAbout(d.site); renderExperience(d.experience);
-  renderInstFilters(); renderInstallations(); renderNews(d.news); renderProjects(d.projects); renderRepos(d.site);
+  renderInstFilters(); renderInstallations(); renderGallery(d.gallery); renderNews(d.news); renderProjects(d.projects); renderRepos(d.site);
   renderAcademic(d.academic); renderContact(d.site); observeReveals();
   if ($('#modal').open) { const m = location.hash.match(/^#installation\/([\w-]+)/); if (m) openInstallation(m[1], false); }
 }

@@ -9,12 +9,13 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="David Ulises Trejo Cancino · Portfolio">
   <meta property="og:description" content="Eddy covariance flux towers, environmental instrumentation and ecosystem carbon research in Canada and Chile.">
-  <meta property="og:image" content="media/images/uqam-2-1.jpg">
+  <meta property="og:image" content="media/images/hero-uqam-2.jpg">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap">
-  <link rel="preload" as="image" href="media/images/uqam-2-1.jpg">
+  <link rel="preload" as="image" href="media/images/hero-uqam-2-m.jpg" media="(max-width: 760px)">
+  <link rel="preload" as="image" href="media/images/hero-uqam-2.jpg" media="(min-width: 761px)">
   <link rel="stylesheet" href="assets/css/styles.css">
   <script>
     // Apply the saved theme before first paint to avoid a flash.
@@ -48,6 +49,7 @@
       <a href="#about" data-i18n="nav.about">About</a>
       <a href="#experience" data-i18n="nav.experience">Experience</a>
       <a href="#installations" data-i18n="nav.installations">Installations</a>
+      <a href="#field" data-i18n="nav.field">Field work</a>
       <a href="#updates" data-i18n="nav.news">Updates</a>
       <a href="#projects" data-i18n="nav.projects">Projects</a>
       <a href="#academic" data-i18n="nav.academic">Academic</a>
@@ -128,10 +130,22 @@
       </div>
     </section>
 
-    <section class="section alt" id="updates">
+    <section class="section alt" id="field">
       <div class="wrap">
         <header class="section-head reveal">
           <p class="kicker">04</p>
+          <h2 data-i18n="nav.field">Field work</h2>
+          <p class="section-sub" data-i18n="field.sub">Smaller jobs between the big installations: maintenance, calibrations, repairs, troubleshooting and days in the field.</p>
+        </header>
+        <div class="filters reveal" id="fieldFilters" role="toolbar"></div>
+        <div class="shots" id="fieldGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="updates">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="kicker">05</p>
           <h2 data-i18n="nav.news">Updates</h2>
           <p class="section-sub" data-i18n="news.sub">Field news and posts, newest first.</p>
         </header>
@@ -139,10 +153,10 @@
       </div>
     </section>
 
-    <section class="section" id="projects">
+    <section class="section alt" id="projects">
       <div class="wrap">
         <header class="section-head reveal">
-          <p class="kicker">05</p>
+          <p class="kicker">06</p>
           <h2 data-i18n="nav.projects">Projects</h2>
           <p class="section-sub" data-i18n="proj.sub">Software I build to make field work faster, safer and better documented.</p>
         </header>
@@ -154,11 +168,11 @@
       </div>
     </section>
 
-    <section class="section alt" id="academic">
+    <section class="section" id="academic">
       <div class="wrap">
         <header class="section-head reveal">
-          <p class="kicker">06</p>
-          <h2 data-i18n="nav.academic">Academic contributions</h2>
+          <p class="kicker">07</p>
+          <h2 data-i18n="acad.title">Academic contributions</h2>
         </header>
         <div class="tabs reveal" id="acadTabs" role="tablist"></div>
         <ol class="pubs" id="pubs"></ol>
@@ -167,7 +181,7 @@
 
     <section class="section contact" id="contact">
       <div class="wrap reveal">
-        <p class="kicker">07</p>
+        <p class="kicker">08</p>
         <h2 data-i18n="contact.title">Let's talk</h2>
         <p class="section-sub" data-i18n="contact.sub">Open to collaborations in environmental monitoring, flux networks and climate data.</p>
         <a class="email" id="email" href="#"></a>
